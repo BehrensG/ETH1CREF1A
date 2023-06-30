@@ -90,6 +90,23 @@
     )
   )
 
+  (sheet (at 44.45 43.815) (size 26.67 26.035) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 33714a51-881b-4b10-9a64-bf80408073c4)
+    (property "Sheetname" "Current Source" (at 44.45 43.1034 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Current_Source.kicad_sch" (at 44.45 70.4346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "ETH1CREF1A"
+        (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95" (page "11"))
+      )
+    )
+  )
+
   (sheet (at 153.67 98.425) (size 87.63 28.575) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))

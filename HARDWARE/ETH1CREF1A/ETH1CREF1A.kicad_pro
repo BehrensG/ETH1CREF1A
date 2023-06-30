@@ -362,6 +362,10 @@
     [
       "2dec562b-bf90-4748-bf0c-0c9213a8713f",
       "Isolation"
+    ],
+    [
+      "33714a51-881b-4b10-9a64-bf80408073c4",
+      "Current Source"
     ]
   ],
   "text_variables": {}
