@@ -344,93 +344,6 @@
         )
       )
     )
-    (symbol "Device:VoltageDivider_CenterPin3" (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "RN" (at -4.445 0 90)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "VoltageDivider_CenterPin3" (at -2.54 0 90)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 12.065 0 90)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 5.08 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "R network voltage divider" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Voltage divider, center on pin 3" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "R?Array?SIP* SOT?23" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "VoltageDivider_CenterPin3_0_1"
-        (rectangle (start -1.27 -3.81) (end 1.27 3.81)
-          (stroke (width 0.254) (type default))
-          (fill (type background))
-        )
-        (rectangle (start -0.508 -3.3782) (end 0.508 -0.8382)
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (rectangle (start -0.508 3.3782) (end 0.508 0.8382)
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 -5.08)
-            (xy 0 -3.429)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 0.889)
-            (xy 0 -0.889)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 5.08)
-            (xy 0 3.3782)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.27 0)
-            (xy 0 0)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (circle (center 0 0.0254) (radius 0.254)
-          (stroke (width 0) (type default))
-          (fill (type outline))
-        )
-      )
-      (symbol "VoltageDivider_CenterPin3_1_1"
-        (pin passive line (at 0 6.35 270) (length 2.54)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -6.35 90) (length 2.54)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 3.81 0 180) (length 2.54)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
     (symbol "ETH1CREF1A:+15VF" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)) hide)
@@ -696,138 +609,6 @@
         )
       )
     )
-    (symbol "power:+10V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "+10V" (at 0 3.556 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "global power" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"+10V\"" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "+10V_0_1"
-        (polyline
-          (pts
-            (xy -0.762 1.27)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 2.54)
-            (xy 0.762 1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "+10V_1_1"
-        (pin power_in line (at 0 0 90) (length 0) hide
-          (name "+10V" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "power:-10V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (at 0 2.54 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "-10V" (at 0 3.81 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "global power" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"-10V\"" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "-10V_0_0"
-        (pin power_in line (at 0 0 90) (length 0) hide
-          (name "-10V" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-      (symbol "-10V_0_1"
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 1.27)
-            (xy 0.762 1.27)
-            (xy 0 2.54)
-            (xy -0.762 1.27)
-            (xy 0 1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type outline))
-        )
-      )
-    )
-    (symbol "power:PWR_FLAG" (power) (pin_numbers hide) (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "#FLG" (at 0 1.905 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "PWR_FLAG" (at 0 3.81 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "flag power" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Special symbol for telling ERC where power comes from" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "PWR_FLAG_0_0"
-        (pin power_out line (at 0 0 90) (length 0)
-          (name "pwr" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-      (symbol "PWR_FLAG_0_1"
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 1.27)
-            (xy -1.016 1.905)
-            (xy 0 2.54)
-            (xy 1.016 1.905)
-            (xy 0 1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-    )
   )
 
   (junction (at 194.31 78.74) (diameter 0) (color 0 0 0 0)
@@ -907,6 +688,9 @@
   )
   (junction (at 149.225 120.65) (diameter 0) (color 0 0 0 0)
     (uuid 9ce40653-8f5e-4daf-b384-8426603476bb)
+  )
+  (junction (at 114.3 55.245) (diameter 0) (color 0 0 0 0)
+    (uuid a3b099b9-305e-4395-abc8-8818ad6c479c)
   )
   (junction (at 193.675 73.66) (diameter 0) (color 0 0 0 0)
     (uuid af98b45b-ee43-4c92-ba05-4d4c1fb9ab44)
@@ -1098,7 +882,7 @@
     (stroke (width 0) (type default))
     (uuid 3bb2d426-0660-48f1-a0ab-97b2c9e00b8d)
   )
-  (wire (pts (xy 106.68 55.245) (xy 107.95 55.245))
+  (wire (pts (xy 104.775 55.245) (xy 105.41 55.245))
     (stroke (width 0) (type default))
     (uuid 3d78bb4b-d327-4504-98e2-1c629be55d3b)
   )
@@ -1174,6 +958,10 @@
     (stroke (width 0) (type default))
     (uuid 5ab2620d-4339-49e1-bc61-6f4295ab38b7)
   )
+  (wire (pts (xy 113.03 55.245) (xy 114.3 55.245))
+    (stroke (width 0) (type default))
+    (uuid 5cd09416-da91-4d42-b8b9-fe589a19667b)
+  )
   (wire (pts (xy 196.215 99.06) (xy 201.295 99.06))
     (stroke (width 0) (type default))
     (uuid 5ebc71c4-4434-40d3-afcc-7ca10856c55a)
@@ -1206,7 +994,7 @@
     (stroke (width 0) (type default))
     (uuid 647c2c87-318c-46ea-aeed-2ec667cf240c)
   )
-  (wire (pts (xy 114.3 51.435) (xy 114.3 43.18))
+  (wire (pts (xy 114.3 43.18) (xy 114.3 55.245))
     (stroke (width 0) (type default))
     (uuid 64ca02e3-22fe-42d8-98e8-eb88ce8f383b)
   )
@@ -1246,6 +1034,10 @@
     (stroke (width 0) (type default))
     (uuid 7a28f275-a164-4c71-806b-9ae59e0a3b0e)
   )
+  (wire (pts (xy 114.3 55.245) (xy 115.57 55.245))
+    (stroke (width 0) (type default))
+    (uuid 7be15c3f-5c75-4d8a-8dd1-0fa31c579ef1)
+  )
   (wire (pts (xy 28.575 151.765) (xy 28.575 156.21))
     (stroke (width 0) (type default))
     (uuid 7d8fc5c5-b89e-4dba-a348-673c4a6fa19f)
@@ -1253,6 +1045,10 @@
   (wire (pts (xy 193.675 52.07) (xy 200.66 52.07))
     (stroke (width 0) (type default))
     (uuid 7dd0ddda-b948-4e30-8b81-baf290da8fd8)
+  )
+  (wire (pts (xy 123.19 55.245) (xy 132.08 55.245))
+    (stroke (width 0) (type default))
+    (uuid 7f02f373-ccd2-4a93-8f45-3aa558d4ec59)
   )
   (wire (pts (xy 196.215 78.74) (xy 194.31 78.74))
     (stroke (width 0) (type default))
@@ -1482,10 +1278,6 @@
     (stroke (width 0) (type default))
     (uuid d3f17ccc-af15-4503-a9a1-22c20a49a2fa)
   )
-  (wire (pts (xy 120.65 55.245) (xy 132.08 55.245))
-    (stroke (width 0) (type default))
-    (uuid d427f14f-358f-4478-a0d3-43e588c49159)
-  )
   (wire (pts (xy 59.055 46.99) (xy 59.055 45.72))
     (stroke (width 0) (type default))
     (uuid d5766e0c-0bc9-4742-960e-7423309a502c)
@@ -1623,10 +1415,6 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 23e6c077-8016-4813-9d0c-f4fcb7936ea8)
   )
-  (text "10k/10k" (at 117.475 52.705 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 61a690d8-1c1a-41f7-a15e-9ebcc0f52d3e)
-  )
   (text "OPTION 1" (at 46.99 67.945 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 796f6890-c666-47a6-bbfd-d89139e06cf5)
@@ -1645,6 +1433,15 @@
     (uuid 3f221d29-8272-49ba-9e8a-35e5b02d0b62)
   )
 
+  (hierarchical_label "REF_+10V" (shape passive) (at 229.235 76.2 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid defc059a-92cf-4b2e-8ffd-47bf54bedc02)
+  )
+  (hierarchical_label "REF_-10V" (shape passive) (at 227.965 109.855 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid ea5a2dad-99a9-4d52-964d-d1c4f7041564)
+  )
+
   (symbol (lib_id "Device:C") (at 53.975 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0221daa9-f803-4160-86f8-d3de67b424fb)
@@ -1654,14 +1451,14 @@
     (property "Value" "100n" (at 57.785 85.09 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 54.9402 87.63 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 54.9402 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 53.975 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 94497a34-fbff-4c7a-b26b-02e34aaa3d3f))
-    (pin "2" (uuid c58ce0b4-68a1-4f6e-939b-e7a59f72471a))
+    (pin "1" (uuid 43fade50-3952-4573-9037-4ac74f50e159))
+    (pin "2" (uuid 4a76e0d0-6f6f-4a33-bf4b-11ee29bfe6c2))
     (instances
       (project "ETH1CREF1A"
         (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/ebac98f6-7cea-4b7b-a7eb-72e971f44089"
@@ -1683,14 +1480,14 @@
     (property "Value" "600" (at 106.68 181.61 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 106.68 186.563 90)
+    (property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (at 106.68 186.563 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 106.68 184.785 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 01eb4c29-4723-4c3d-bfa5-fb0aaa1ec571))
-    (pin "2" (uuid 755f31f6-515a-4b8e-85af-f69ce48ced26))
+    (pin "1" (uuid b68f5e61-8932-463f-a8c1-37ea9736b85c))
+    (pin "2" (uuid a46b8553-3fe2-47c8-a058-86647fe2c14e))
     (instances
       (project "ETH1CREF1A"
         (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/ebac98f6-7cea-4b7b-a7eb-72e971f44089"
@@ -1706,24 +1503,24 @@
   (symbol (lib_id "Device:R") (at 141.605 102.87 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 097282e3-9015-449c-beb7-3780e921d506)
-    (property "Reference" "R706" (at 144.145 101.6 0)
+    (property "Reference" "R708" (at 143.51 101.6 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "62" (at 144.145 104.14 0)
+    (property "Value" "7k5" (at 143.51 104.14 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 139.827 102.87 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 139.827 102.87 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 141.605 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 81b92680-b3ca-4d4e-936b-930efb0a3c38))
-    (pin "2" (uuid 3633f902-e6ea-4850-80d8-4783a91636e9))
+    (pin "1" (uuid 235eb9f2-4d42-414f-ada1-5ecc1fda3ce6))
+    (pin "2" (uuid 3769ebcb-553c-43f3-9c0a-9a0af702943f))
     (instances
       (project "ETH1CREF1A"
         (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/846bb202-5e4e-44fb-9116-3eb04dadebb8"
-          (reference "R706") (unit 1)
+          (reference "R708") (unit 1)
         )
       )
     )
@@ -1738,14 +1535,14 @@
     (property "Value" "10" (at 33.655 147.955 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 33.655 153.543 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 33.655 153.543 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 33.655 151.765 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 20bbf395-7ab7-493e-beda-82093c75ef73))
-    (pin "2" (uuid f5a819f3-4f56-4c88-a0c8-619bddc941b9))
+    (pin "1" (uuid 8b9c6842-ee19-4645-a64c-7c91c07af41d))
+    (pin "2" (uuid 12c576a7-f01d-4963-81b0-d0e88bee6ad7))
     (instances
       (project "ETH1CREF1A"
         (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/ebac98f6-7cea-4b7b-a7eb-72e971f44089"
@@ -1773,8 +1570,8 @@
     (property "Datasheet" "~" (at 59.055 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a4929f62-acaa-48eb-a9ce-45e8a05ed092))
-    (pin "2" (uuid 742515f1-a46b-4b9b-85fc-fd2303b49cbd))
+    (pin "1" (uuid 05547e27-23ae-45bd-a2dd-324e4c8f87d9))
+    (pin "2" (uuid e735a70d-9e6e-499d-9b1a-40ff560f1d05))
     (instances
       (project "ETH1CREF1A"
         (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/846bb202-5e4e-44fb-9116-3eb04dadebb8"
@@ -1799,7 +1596,7 @@
     (property "Datasheet" "" (at 27.94 156.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid bd222ca7-e4c4-470b-927f-67587be6a9f2))
+    (pin "1" (uuid 15dfd13d-9ff5-47be-9a26-6399d0adeab4))
     (instances
       (project "ETH1CREF1A"
         (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/ebac98f6-7cea-4b7b-a7eb-72e971f44089"
@@ -1827,7 +1624,7 @@
     (property "Datasheet" "" (at 123.825 165.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3454eaeb-771d-44dd-92a7-eb575d9f8675))
+    (pin "1" (uuid 54a166a3-2f0a-4387-825e-6458d553ca66))
     (instances
       (project "ETH1CREF1A"
         (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/ebac98f6-7cea-4b7b-a7eb-72e971f44089"
@@ -1843,7 +1640,7 @@
   (symbol (lib_id "Device:R") (at 203.2 88.9 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 10931ef1-564c-4805-b28f-a489f8e261ef)
-    (property "Reference" "R711" (at 203.2 83.82 90)
+    (property "Reference" "R713" (at 203.2 83.82 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "3k11/.1%" (at 203.2 86.36 90)
@@ -1855,12 +1652,12 @@
     (property "Datasheet" "~" (at 203.2 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 02f2256f-ab63-4ed9-b6d4-b218325643be))
-    (pin "2" (uuid ecc1b801-b28b-4f40-bf34-3704c37f99bc))
+    (pin "1" (uuid 6047dd06-bb36-4a92-8175-6a621ad9fcb2))
+    (pin "2" (uuid 0b81fdd2-826b-4753-addc-c727c09d84b3))
     (instances
       (project "ETH1CREF1A"
         (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/846bb202-5e4e-44fb-9116-3eb04dadebb8"
-          (reference "R711") (unit 1)
+          (reference "R713") (unit 1)
         )
       )
     )
@@ -1875,14 +1672,14 @@
     (property "Value" "600" (at 33.655 181.61 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 33.655 186.563 90)
+    (property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (at 33.655 186.563 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 33.655 184.785 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid efe1ae85-a3ed-4d57-86b5-ae2f87168760))
-    (pin "2" (uuid 9c2bfbe3-84fb-40a1-9be0-dae535efdbc1))
+    (pin "1" (uuid e81956b1-0464-45c1-9694-4f2bfa005a47))
+    (pin "2" (uuid 746e53b7-de03-46d7-92ac-3ac8a553bc7d))
     (instances
       (project "ETH1CREF1A"
         (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/ebac98f6-7cea-4b7b-a7eb-72e971f44089"
@@ -1904,14 +1701,14 @@
     (property "Value" "2u2" (at 56.515 41.91 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 53.6702 44.45 0)
+    (property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder" (at 53.6702 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 52.705 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 43432024-de64-4d76-9700-99addf2aad97))
-    (pin "2" (uuid bbb0654f-9e23-447e-9d7a-ee000245401c))
+    (pin "1" (uuid d08bee92-b848-4269-a3f6-7d551eebaa66))
+    (pin "2" (uuid e2bb1d37-0392-42ec-915a-b5d964a429c3))
     (instances
       (project "ETH1CREF1A"
         (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/846bb202-5e4e-44fb-9116-3eb04dadebb8"
@@ -1930,14 +1727,14 @@
     (property "Value" "10" (at 33.655 173.355 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 33.655 178.308 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 33.655 178.308 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 33.655 176.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5ad5e843-a9c1-4123-84be-d359976629e1))
-    (pin "2" (uuid f297bbf4-6b97-426a-902d-9877b93422aa))
+    (pin "1" (uuid fc5fdf76-5891-4ef9-82dd-6a4268ee8985))
+    (pin "2" (uuid cd070d9a-72ac-48cb-81b3-cbe7c9bf0551))
     (instances
       (project "ETH1CREF1A"
         (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/ebac98f6-7cea-4b7b-a7eb-72e971f44089"
@@ -1959,14 +1756,14 @@
     (property "Value" "0" (at 142.24 37.6936 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (at 142.24 38.862 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 142.24 38.862 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 142.24 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f59238eb-b23a-49e8-a61f-b67a2a96904a))
-    (pin "2" (uuid 24d325bf-e213-420b-9f0e-18e8f2fe3bb8))
+    (pin "1" (uuid 599148b4-d8c5-4e64-8484-fc9a95522ae2))
+    (pin "2" (uuid 29b5601b-0cb1-4439-8175-41d812503da6))
     (instances
       (project "ADC_Test"
         (path "/700b7e2e-569c-4a15-81a0-3588750b2d07/00000000-0000-0000-0000-00005fccc067"
@@ -1975,28 +1772,28 @@
       )
       (project "ETH1CREF1A"
         (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/846bb202-5e4e-44fb-9116-3eb04dadebb8"
-          (reference "R707") (unit 1)
+          (reference "R709") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "ADC_TEST:AGNDF") (at 106.68 55.245 270) (unit 1)
+  (symbol (lib_id "ADC_TEST:AGNDF") (at 104.775 55.245 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 18a48517-f648-4eae-84c9-2e2f350b9f83)
-    (property "Reference" "#PWR0523" (at 100.33 55.245 0)
+    (property "Reference" "#PWR0523" (at 98.425 55.245 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "AGNDF" (at 100.33 55.245 90)
+    (property "Value" "AGNDF" (at 98.425 55.245 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 106.68 55.245 0)
+    (property "Footprint" "" (at 104.775 55.245 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 106.68 55.245 0)
+    (property "Datasheet" "" (at 104.775 55.245 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 17fd642c-c019-47da-b85f-35e26fed20b9))
+    (pin "1" (uuid eb3ec2de-b8e4-4797-89c3-3b0f66f3e38f))
     (instances
       (project "ADC_Test"
         (path "/700b7e2e-569c-4a15-81a0-3588750b2d07/00000000-0000-0000-0000-00005fccc067"
@@ -2029,7 +1826,7 @@
     (property "Datasheet" "" (at 50.165 190.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 17c8db7f-7c8b-4daf-a614-aabaa8a158f2))
+    (pin "1" (uuid 84b96fc8-8ca3-45b1-b24f-bd444fab59f6))
     (instances
       (project "ETH1CREF1A"
         (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/ebac98f6-7cea-4b7b-a7eb-72e971f44089"
@@ -2048,54 +1845,27 @@
     (property "Reference" "U701" (at 205.105 120.015 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "AD8676" (at 205.105 117.475 0)
+    (property "Value" "AD8676BRZ" (at 205.105 117.475 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 203.835 113.665 0)
+    (property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (at 203.835 113.665 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 203.835 113.665 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 19e89118-c45a-4d43-ab1e-4898f53bc2fd))
-    (pin "2" (uuid 3c712ca4-42b9-4ea3-a2b2-11cb0187d1d3))
-    (pin "3" (uuid e2639d86-ff80-4144-935e-7b30430c502c))
-    (pin "5" (uuid 54ddef6e-07c6-4336-88b1-60896650f42d))
-    (pin "6" (uuid b6cdc6e5-3f0d-494b-a11a-66735a54d207))
-    (pin "7" (uuid 041f341d-8e34-4888-8cf0-f02be82cf429))
-    (pin "4" (uuid c51cee5a-ee89-4e86-8092-15b1406e8f26))
-    (pin "8" (uuid edb381c0-98fd-4746-b292-8ccc6ca2e3eb))
+    (pin "1" (uuid 4ebf94e0-4f15-48f1-9a31-92c578f44622))
+    (pin "2" (uuid 0e110e86-5e6b-4afa-aea1-894274c15532))
+    (pin "3" (uuid 3fb01946-7be1-449c-8f3a-362c7156fa73))
+    (pin "5" (uuid 6910d119-c8b2-4298-8770-a88ed9a37439))
+    (pin "6" (uuid 00ee67c7-b562-4e6e-bb0e-d09bf949b69f))
+    (pin "7" (uuid 11a71065-e562-4fa4-8e2c-f5b9427e7883))
+    (pin "4" (uuid 1245e217-9e2d-4b3d-bea3-b21c3303cf1d))
+    (pin "8" (uuid bb337e71-e896-40dc-8e3f-5499b1bb2327))
     (instances
       (project "ETH1CREF1A"
         (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/846bb202-5e4e-44fb-9116-3eb04dadebb8"
           (reference "U701") (unit 2)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:VoltageDivider_CenterPin3") (at 114.3 55.245 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 1a5a3c0a-fc7a-496a-b435-c86ead048225)
-    (property "Reference" "RN701" (at 114.3 58.42 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "MPM2002AT5" (at 114.3 60.96 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 114.3 43.18 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 114.3 50.165 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 04434988-ae43-431c-bea0-98230e2668a3))
-    (pin "2" (uuid e08f2d21-382a-405e-9cba-ea16efe21054))
-    (pin "3" (uuid dbb6251f-f521-4289-b2ab-d0b20158bc84))
-    (instances
-      (project "ETH1CREF1A"
-        (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/846bb202-5e4e-44fb-9116-3eb04dadebb8"
-          (reference "RN701") (unit 1)
         )
       )
     )
@@ -2110,14 +1880,14 @@
     (property "Value" "10" (at 106.68 173.355 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 106.68 178.308 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 106.68 178.308 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 106.68 176.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 48d37c9a-c599-4c24-ab11-b07b2d2c2aac))
-    (pin "2" (uuid 2ddbbdf8-ce53-4959-bef4-4fa1727f6a7c))
+    (pin "1" (uuid 48948a42-190e-49a1-8c65-d20ed61d1858))
+    (pin "2" (uuid ff6565e9-7d7a-4ff4-8ba0-c63511e1c3f3))
     (instances
       (project "ETH1CREF1A"
         (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/ebac98f6-7cea-4b7b-a7eb-72e971f44089"
@@ -2145,8 +1915,8 @@
     (property "Datasheet" "~" (at 66.675 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c7666805-7116-4b21-8a9f-e9046772314d))
-    (pin "2" (uuid 1c729304-4aad-45cf-ad2c-3fe3b73debc9))
+    (pin "1" (uuid d72d9e12-1e3b-4e2f-8315-152b90c34bd5))
+    (pin "2" (uuid ae399038-16ed-4361-ae75-8f12b357ac94))
     (instances
       (project "ETH1CREF1A"
         (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/ebac98f6-7cea-4b7b-a7eb-72e971f44089"
@@ -2174,7 +1944,7 @@
     (property "Datasheet" "" (at 76.2 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 72c29218-097d-4d38-b416-2cd538e576c1))
+    (pin "1" (uuid d246a075-e14a-481b-9b97-109b9cfce923))
     (instances
       (project "ADC_Test"
         (path "/700b7e2e-569c-4a15-81a0-3588750b2d07/00000000-0000-0000-0000-00005fccc067"
@@ -2198,23 +1968,23 @@
     (property "Reference" "U703" (at 123.19 30.48 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "AD8676" (at 123.19 33.02 0)
+    (property "Value" "AD8676BRZ" (at 123.19 33.02 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 121.92 36.83 0)
+    (property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (at 121.92 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 121.92 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 760fb052-e6ae-481e-8867-8c061493c4ec))
-    (pin "2" (uuid beb6992d-8b8d-4060-9810-93a73cd1d641))
-    (pin "3" (uuid 34044072-7219-49af-baf8-cb9e7619b49d))
-    (pin "5" (uuid 125d11eb-be07-4a57-a53f-6fda02732ee2))
-    (pin "6" (uuid b31a31fc-7bbe-4bec-bc98-03f6619db311))
-    (pin "7" (uuid 33f2bd6c-a9ee-42cd-b2f1-e0d52a4466b4))
-    (pin "4" (uuid db132125-550e-4508-b11f-0e97a53d5855))
-    (pin "8" (uuid fbda7a45-0397-48ff-9aaf-83cc0e48a1f4))
+    (pin "1" (uuid 49a68188-0b38-4ce4-937b-505617f17f64))
+    (pin "2" (uuid 1527c68e-c9f0-4683-8d25-9853a921c9c2))
+    (pin "3" (uuid 7bee6154-4faf-4460-b1f8-608d28ed6cf9))
+    (pin "5" (uuid afb57ed8-3478-4a54-962c-2a5392846bff))
+    (pin "6" (uuid f384332a-f88a-4fab-954a-c6a1d228a72b))
+    (pin "7" (uuid 846ae5ea-d53c-45c5-858b-5bdade139df1))
+    (pin "4" (uuid b3232ea9-33cb-4398-ae71-780d5332622c))
+    (pin "8" (uuid b87e53f5-8ef2-46be-b32b-87eed99b36b3))
     (instances
       (project "ETH1CREF1A"
         (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/846bb202-5e4e-44fb-9116-3eb04dadebb8"
@@ -2239,7 +2009,7 @@
     (property "Datasheet" "" (at 53.975 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b45dfe66-d705-4cab-bb5a-9aba730d9754))
+    (pin "1" (uuid 6df73ebe-347c-4b95-b6de-6684ad502984))
     (instances
       (project "ADC_Test"
         (path "/700b7e2e-569c-4a15-81a0-3588750b2d07/00000000-0000-0000-0000-00005fccc067"
@@ -2266,14 +2036,14 @@
     (property "Value" "100n" (at 120.65 186.69 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 117.8052 189.23 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 117.8052 189.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 116.84 185.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5810cce1-b68e-45db-a877-4f5e9d0cec81))
-    (pin "2" (uuid b9fde9a7-b77f-4662-99ce-2fbda717cf44))
+    (pin "1" (uuid f51671e1-120e-4d22-a8ce-134f7c6029ba))
+    (pin "2" (uuid a4c503c4-d949-40c9-966e-20880166d48e))
     (instances
       (project "ETH1CREF1A"
         (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/ebac98f6-7cea-4b7b-a7eb-72e971f44089"
@@ -2292,23 +2062,23 @@
     (property "Reference" "U701" (at 207.01 69.85 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "AD8676" (at 207.01 71.755 0)
+    (property "Value" "AD8676BRZ" (at 207.01 71.755 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 202.565 80.01 0)
+    (property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (at 202.565 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 202.565 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3467fcb5-ebd1-4ac2-985a-3936cd9999b8))
-    (pin "2" (uuid 143d9963-35c5-4774-ba04-aa3d9c08a31c))
-    (pin "3" (uuid 19f159c5-ce2f-4849-84f5-4899e4fd1812))
-    (pin "5" (uuid 669984bd-c210-474a-9126-0c097cce3e69))
-    (pin "6" (uuid 49bccd43-3a0e-4ca5-a481-71657e597669))
-    (pin "7" (uuid ecfe6291-e644-4220-80cf-804a3c7a1637))
-    (pin "4" (uuid c4226ff0-e5b0-459c-a7b4-11d363b1c5b7))
-    (pin "8" (uuid ff2511dd-915c-4c5a-a911-5a14be88f5bf))
+    (pin "1" (uuid 67c2972a-fc14-40a8-a023-bdfbc4c2c8d6))
+    (pin "2" (uuid b725b70e-37b7-4445-b87f-714233d4de0b))
+    (pin "3" (uuid 256d077d-2b87-428c-9a8a-23ebd4b5677d))
+    (pin "5" (uuid 7e5598a8-1f09-4aa0-baf1-f413ff73cc52))
+    (pin "6" (uuid 377a1864-e2d3-4194-a40e-b3cc4d000645))
+    (pin "7" (uuid 8f1b1a09-b832-4e7a-ad2a-d10d0a3a2f5d))
+    (pin "4" (uuid fba27ca1-9332-48c8-ab36-3009f951cb38))
+    (pin "8" (uuid 9338da1d-d109-49bb-adb7-f2cac9ee6188))
     (instances
       (project "ETH1CREF1A"
         (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/846bb202-5e4e-44fb-9116-3eb04dadebb8"
@@ -2327,43 +2097,18 @@
     (property "Value" "10p" (at 204.47 46.99 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 208.28 51.1048 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 208.28 51.1048 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 204.47 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid bae93f67-7277-411e-ad2a-a4dcf0a25e65))
-    (pin "2" (uuid 86f7fc55-6294-42eb-aba8-9174ea185ec5))
+    (pin "1" (uuid b6bef24d-31cf-4c20-bc46-4141fe3bdb4e))
+    (pin "2" (uuid 07920300-807a-47d4-b48a-8c430972462b))
     (instances
       (project "ETH1CREF1A"
         (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/846bb202-5e4e-44fb-9116-3eb04dadebb8"
           (reference "C715") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:-10V") (at 227.965 109.855 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 2ff284a8-026f-4c57-bf15-9aeb42401b1b)
-    (property "Reference" "#PWR0723" (at 230.505 109.855 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "-10V" (at 231.775 109.855 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "" (at 227.965 109.855 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 227.965 109.855 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid bd5b577f-2ab9-4e32-aa46-debd6f59cee1))
-    (instances
-      (project "ETH1CREF1A"
-        (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/846bb202-5e4e-44fb-9116-3eb04dadebb8"
-          (reference "#PWR0723") (unit 1)
         )
       )
     )
@@ -2384,7 +2129,7 @@
     (property "Datasheet" "" (at 149.225 121.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3b415970-87d6-4a26-a7ab-02e1e94742f4))
+    (pin "1" (uuid d005cacd-4baa-4cb8-b36e-f5a994e812b1))
     (instances
       (project "ADC_Test"
         (path "/700b7e2e-569c-4a15-81a0-3588750b2d07/00000000-0000-0000-0000-00005fccc067"
@@ -2405,10 +2150,10 @@
   (symbol (lib_id "Device:C") (at 56.515 185.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3f52f907-7359-481a-b1f9-4239de016077)
-    (property "Reference" "C905" (at 60.325 184.15 0)
+    (property "Reference" "C905" (at 59.69 184.15 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "22u/35V" (at 60.325 186.69 0)
+    (property "Value" "10u/35V" (at 59.69 186.69 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (at 57.4802 189.23 0)
@@ -2417,8 +2162,8 @@
     (property "Datasheet" "~" (at 56.515 185.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e2954673-312c-422f-a5e5-77ae30f144a3))
-    (pin "2" (uuid 28eea16a-9875-413f-92f2-47eccbe11926))
+    (pin "1" (uuid a1b38d62-565e-4ef0-a5f3-88c70ffd1a17))
+    (pin "2" (uuid db514c8f-62c5-4c80-b5b6-d9490129aa4e))
     (instances
       (project "ETH1CREF1A"
         (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/ebac98f6-7cea-4b7b-a7eb-72e971f44089"
@@ -2437,27 +2182,53 @@
     (property "Reference" "U701" (at 76.835 167.005 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "AD8676" (at 76.835 169.545 0)
+    (property "Value" "AD8676BRZ" (at 76.835 169.545 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 73.025 164.465 0)
+    (property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (at 73.025 164.465 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 73.025 164.465 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e860e4b9-f1d4-414f-ac9e-f6ea05b6b652))
-    (pin "2" (uuid f52cb536-a833-455c-915d-2802c587a78e))
-    (pin "3" (uuid 3f5f518c-a11e-4051-9967-5f7fbc992b23))
-    (pin "5" (uuid db6f2fab-1cda-4b8f-a2fa-76c496e2433e))
-    (pin "6" (uuid 70299097-ad68-45ef-b7ad-330858fdcbe1))
-    (pin "7" (uuid 5dd248ba-d652-4fee-8d8e-17a16701aa14))
-    (pin "4" (uuid b9d2bff4-bb55-4039-ae34-2960b953c345))
-    (pin "8" (uuid d32db969-75ec-4112-b0fc-1024fce6e9f3))
+    (pin "1" (uuid ffd7c1f9-257c-4103-b814-8f0cc37422fc))
+    (pin "2" (uuid 8ac237fb-ecd0-4972-840f-ee08cfd19355))
+    (pin "3" (uuid d32e952d-8d9d-41e4-bae4-91f608a277a1))
+    (pin "5" (uuid 8e4caf23-2950-462a-a2ca-387043a3d4f3))
+    (pin "6" (uuid 32ebb61f-d348-4476-ac1c-0321415f15b1))
+    (pin "7" (uuid 9f3b7509-0f39-4855-9d85-11a240d2bddf))
+    (pin "4" (uuid 5365bf44-09a0-48ab-b9a6-ab0b1f12fdb9))
+    (pin "8" (uuid ba6a7b4a-b62f-4219-932b-5b192cb7d9f8))
     (instances
       (project "ETH1CREF1A"
         (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/846bb202-5e4e-44fb-9116-3eb04dadebb8"
           (reference "U701") (unit 3)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R") (at 109.22 55.245 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 5361a909-0342-4e24-a634-f9dc63c4ab4b)
+    (property "Reference" "R706" (at 109.22 49.53 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "5k/.1%" (at 109.22 52.07 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 109.22 57.023 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 109.22 55.245 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 3e43b0eb-89d6-4150-b2c3-fc813e309ca5))
+    (pin "2" (uuid ecf692b6-9941-4630-bf3d-0f097e495dec))
+    (instances
+      (project "ETH1CREF1A"
+        (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/846bb202-5e4e-44fb-9116-3eb04dadebb8"
+          (reference "R706") (unit 1)
         )
       )
     )
@@ -2478,7 +2249,7 @@
     (property "Datasheet" "" (at 50.165 165.735 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 78fbbfe9-47ea-4a32-a224-aeda3ead4eb5))
+    (pin "1" (uuid d7d53d07-d6a8-40d7-824e-309b3b973780))
     (instances
       (project "ETH1CREF1A"
         (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/ebac98f6-7cea-4b7b-a7eb-72e971f44089"
@@ -2486,31 +2257,6 @@
         )
         (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/846bb202-5e4e-44fb-9116-3eb04dadebb8"
           (reference "#PWR0703") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:-10V") (at 168.91 189.865 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 5641a5ff-1c4c-4c26-8b05-17cd44099904)
-    (property "Reference" "#PWR0720" (at 168.91 187.325 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "-10V" (at 168.91 185.42 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 168.91 189.865 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 168.91 189.865 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid a16682c3-cbd1-44ca-b332-9a8352c4f6f7))
-    (instances
-      (project "ETH1CREF1A"
-        (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/846bb202-5e4e-44fb-9116-3eb04dadebb8"
-          (reference "#PWR0720") (unit 1)
         )
       )
     )
@@ -2531,7 +2277,7 @@
     (property "Datasheet" "" (at 136.525 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 887f8635-6c80-483f-90dc-96c99fc0cb87))
+    (pin "1" (uuid 27a7770c-e879-4183-895c-f06c98b7b4d1))
     (instances
       (project "ETH1CREF1A"
         (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/846bb202-5e4e-44fb-9116-3eb04dadebb8"
@@ -2556,7 +2302,7 @@
     (property "Datasheet" "" (at 100.965 180.975 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b4b91978-e0e5-416d-a0dc-80785fcf92ff))
+    (pin "1" (uuid 2866b64f-b877-4e0a-80f2-5a0175790f2c))
     (instances
       (project "ETH1CREF1A"
         (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/ebac98f6-7cea-4b7b-a7eb-72e971f44089"
@@ -2584,7 +2330,7 @@
     (property "Datasheet" "" (at 136.525 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6813e6d9-51dc-48f5-ad41-3ae336e101af))
+    (pin "1" (uuid 0fd59a35-e9bd-457c-82dd-188dbfab880c))
     (instances
       (project "ETH1CREF1A"
         (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/846bb202-5e4e-44fb-9116-3eb04dadebb8"
@@ -2609,7 +2355,7 @@
     (property "Datasheet" "" (at 141.605 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b55e8731-003f-4d2e-93f1-b2d86d0173ba))
+    (pin "1" (uuid d526dfa9-e7aa-4984-9608-102e6a4ea95d))
     (instances
       (project "ETH1CREF1A"
         (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/846bb202-5e4e-44fb-9116-3eb04dadebb8"
@@ -2634,7 +2380,7 @@
     (property "Datasheet" "" (at 86.36 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2c122c7a-dce3-41bb-a4c7-fb4cf0e188e3))
+    (pin "1" (uuid c8ce0725-24a1-44f3-9e51-8557935b54c0))
     (instances
       (project "ADC_Test"
         (path "/700b7e2e-569c-4a15-81a0-3588750b2d07/00000000-0000-0000-0000-00005fccc067"
@@ -2647,31 +2393,6 @@
       (project "ETH1CREF1A"
         (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/846bb202-5e4e-44fb-9116-3eb04dadebb8"
           (reference "#PWR0710") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:PWR_FLAG") (at 168.91 189.865 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 7fe62126-a84e-435f-9880-c80b8a5bd924)
-    (property "Reference" "#FLG0701" (at 168.91 191.77 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "PWR_FLAG" (at 168.91 194.945 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 168.91 189.865 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 168.91 189.865 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid f30cd77f-9a35-432b-a822-56050871d5f4))
-    (instances
-      (project "ETH1CREF1A"
-        (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/846bb202-5e4e-44fb-9116-3eb04dadebb8"
-          (reference "#FLG0701") (unit 1)
         )
       )
     )
@@ -2692,7 +2413,7 @@
     (property "Datasheet" "" (at 196.215 112.395 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8985f9d5-6da3-438b-9445-0d9a0894affc))
+    (pin "1" (uuid 3546a781-b0d9-4275-af9d-4cddd6801091))
     (instances
       (project "ADC_Test"
         (path "/700b7e2e-569c-4a15-81a0-3588750b2d07/00000000-0000-0000-0000-00005fccc067"
@@ -2704,7 +2425,7 @@
       )
       (project "ETH1CREF1A"
         (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/846bb202-5e4e-44fb-9116-3eb04dadebb8"
-          (reference "#PWR0722") (unit 1)
+          (reference "#PWR0721") (unit 1)
         )
       )
     )
@@ -2716,23 +2437,23 @@
     (property "Reference" "U702" (at 78.1559 30.48 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "MAX6350" (at 78.1559 33.02 0)
+    (property "Value" "MAX6350ESA+" (at 78.1559 33.02 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 106.68 52.07 0)
+    (property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (at 106.68 52.07 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/MAX6325-MAX6350.pdf" (at 78.74 50.8 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
-    (pin "1" (uuid 5bd8d4ce-487f-4d8f-93f3-96c481e456eb))
-    (pin "2" (uuid 581a2c2d-4aa9-4a69-8b7a-e1db5f7bf4ce))
-    (pin "3" (uuid 23601ff4-9c49-48ec-a8dc-cf5f86a0f290))
-    (pin "4" (uuid cc1d143e-6ea6-43b7-bb7c-fe26dfd53206))
-    (pin "5" (uuid 6d973751-8dc2-426f-9a53-607abd9ced70))
-    (pin "6" (uuid 1cbbeec8-f359-4a11-988b-f8f5b06b6919))
-    (pin "7" (uuid 8d05d98b-481f-4d88-b5de-55a219625846))
-    (pin "8" (uuid fe1450d5-73e8-4034-9c57-ce5bf2aa0be3))
+    (pin "1" (uuid faf78378-a462-404c-84d3-7490e878aed8))
+    (pin "2" (uuid c965b2b2-6b02-4d27-8b6e-843b0046af43))
+    (pin "3" (uuid 5af1e210-54b9-418c-ab09-6576faf96d5e))
+    (pin "4" (uuid 71c671f7-dd44-4eea-b3b4-dc37f06b52f8))
+    (pin "5" (uuid 5044cd18-4658-43de-b50f-7449c5a4051f))
+    (pin "6" (uuid 221c9a38-8c32-42c3-b5cc-d5d83fb9e29e))
+    (pin "7" (uuid ebd61f9e-ae93-4eae-86e3-69d90cccd746))
+    (pin "8" (uuid e75e6f71-79f5-4a6c-a706-aad9b496669a))
     (instances
       (project "ETH1CREF1A"
         (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/846bb202-5e4e-44fb-9116-3eb04dadebb8"
@@ -2745,20 +2466,20 @@
   (symbol (lib_id "Device:C") (at 56.515 160.655 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 86099b38-bf6c-43df-b9a8-7b733d3467c4)
-    (property "Reference" "C907" (at 60.325 159.385 0)
+    (property "Reference" "C907" (at 59.69 159.385 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "22u/35V" (at 60.325 161.925 0)
+    (property "Value" "10u/35V" (at 59.69 161.925 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 57.4802 164.465 0)
+    (property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder" (at 57.4802 164.465 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 56.515 160.655 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 99b68180-a5ec-47e7-89af-326b6735b916))
-    (pin "2" (uuid a0463514-9e45-4972-a450-0576bd20e5a5))
+    (pin "1" (uuid 0d60b1f9-1cb2-4930-a13b-2f676cdf8eb9))
+    (pin "2" (uuid ff147d06-bbc0-4285-b1c1-bec7198dbdda))
     (instances
       (project "ETH1CREF1A"
         (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/ebac98f6-7cea-4b7b-a7eb-72e971f44089"
@@ -2780,14 +2501,14 @@
     (property "Value" "100n" (at 161.036 115.443 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (at 159.0802 118.11 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 159.0802 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 158.115 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid de7299af-f07d-448d-9fcb-7e3f05ea06d4))
-    (pin "2" (uuid 036fb2ce-8eed-4e27-8b9a-8114b6ba83b4))
+    (pin "1" (uuid 0a6f8464-a3e6-4351-9d6e-883ba8245fdd))
+    (pin "2" (uuid 3474d57b-f908-49df-8859-fbca0ad87b2e))
     (instances
       (project "ADC_Test"
         (path "/700b7e2e-569c-4a15-81a0-3588750b2d07/00000000-0000-0000-0000-00005fccc067"
@@ -2811,14 +2532,14 @@
     (property "Value" "10" (at 107.315 147.32 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 107.315 152.908 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 107.315 152.908 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 107.315 151.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3eb42749-fd3d-48ae-823c-b77c786f06ac))
-    (pin "2" (uuid 19aa9d7f-5d6d-40ba-b3a3-60eb7009760c))
+    (pin "1" (uuid 2234cabf-d963-44ad-94b6-ade4dbcee6e1))
+    (pin "2" (uuid 1a0d8a6e-d463-4031-b93b-f53b1c922187))
     (instances
       (project "ETH1CREF1A"
         (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/ebac98f6-7cea-4b7b-a7eb-72e971f44089"
@@ -2840,14 +2561,14 @@
     (property "Value" "600" (at 33.655 156.845 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 33.655 161.798 90)
+    (property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (at 33.655 161.798 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 33.655 160.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 81f75597-d3af-4b1f-a380-c987d618f766))
-    (pin "2" (uuid ae10d896-a8dd-4528-ad52-8f3540ec2c6a))
+    (pin "1" (uuid 498bef8e-a5d3-4e4e-a1b9-1c84d86b0f69))
+    (pin "2" (uuid d730bb0a-ab9b-4701-9cc8-f1ec5b7d9f34))
     (instances
       (project "ETH1CREF1A"
         (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/ebac98f6-7cea-4b7b-a7eb-72e971f44089"
@@ -2869,14 +2590,14 @@
     (property "Value" "600" (at 107.315 156.21 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 107.315 161.163 90)
+    (property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (at 107.315 161.163 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 107.315 159.385 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c9b8873a-112d-4d00-b04a-7397991b566c))
-    (pin "2" (uuid 4ef4b782-3a55-42b3-90cc-2affb95e37b7))
+    (pin "1" (uuid 2ddeed3c-da31-4558-9d2e-0bbd4928a1e4))
+    (pin "2" (uuid 75e646e5-f3a0-4772-9861-387f294f42a1))
     (instances
       (project "ETH1CREF1A"
         (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/ebac98f6-7cea-4b7b-a7eb-72e971f44089"
@@ -2884,6 +2605,32 @@
         )
         (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/846bb202-5e4e-44fb-9116-3eb04dadebb8"
           (reference "FB704") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R") (at 119.38 55.245 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 9b5018fa-32a6-4157-9eb6-6d4f123d1207)
+    (property "Reference" "R707" (at 119.38 49.53 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "2k/.1%" (at 119.38 52.07 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 119.38 57.023 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 119.38 55.245 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 5981f492-b439-4b6a-9421-176e489daddf))
+    (pin "2" (uuid 00987335-ac8b-4624-92fd-43c1fcaf50ee))
+    (instances
+      (project "ETH1CREF1A"
+        (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/846bb202-5e4e-44fb-9116-3eb04dadebb8"
+          (reference "R707") (unit 1)
         )
       )
     )
@@ -2904,7 +2651,7 @@
     (property "Datasheet" "" (at 123.19 190.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1b2163d2-24f0-4526-a333-0e2fc861ad4d))
+    (pin "1" (uuid 56aafc42-3009-4f34-b49f-363ae91f40ec))
     (instances
       (project "ETH1CREF1A"
         (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/ebac98f6-7cea-4b7b-a7eb-72e971f44089"
@@ -2932,7 +2679,7 @@
     (property "Datasheet" "" (at 52.705 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 96646a37-a737-4a31-960c-287502b2cac8))
+    (pin "1" (uuid 87b89f99-6926-4eaf-be66-9e9dc9830f02))
     (instances
       (project "ETH1CREF1A"
         (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/846bb202-5e4e-44fb-9116-3eb04dadebb8"
@@ -2948,23 +2695,23 @@
     (property "Reference" "U703" (at 78.105 115.57 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "AD8676" (at 78.105 118.11 0)
+    (property "Value" "AD8676BRZ" (at 78.105 118.11 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 76.835 121.92 0)
+    (property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (at 76.835 121.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 76.835 121.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 135a24b5-5e33-4af3-a456-a7d771145286))
-    (pin "2" (uuid 044f9186-07b3-444a-911f-248011b1e08b))
-    (pin "3" (uuid d3afa74e-2550-4f8a-9a43-7c2b48c6d189))
-    (pin "5" (uuid faff862a-cd26-48d8-99c3-659c3f77e7f5))
-    (pin "6" (uuid 44e54f12-2297-4182-929f-0edb630cec9a))
-    (pin "7" (uuid 7bb29688-aeb3-47eb-be1c-3774b2f4f54c))
-    (pin "4" (uuid 19a04f68-433d-46c2-8f0a-19c8ca667543))
-    (pin "8" (uuid 00653e27-eaa3-410e-8599-0b6e51b540f4))
+    (pin "1" (uuid ae21a421-5e01-47fe-af85-23a2ce80be7a))
+    (pin "2" (uuid 69e1b87d-f8af-47bc-bada-a02af54ae213))
+    (pin "3" (uuid 30e6ce6a-1064-4735-ae39-69a783dc5b64))
+    (pin "5" (uuid 7ba77dd7-25d5-4df3-bac6-c178ba8e0bf7))
+    (pin "6" (uuid d5573120-02c9-4737-8827-e706f43a56ec))
+    (pin "7" (uuid 3871763c-04a3-4e67-9f7d-d8841b70bdd8))
+    (pin "4" (uuid daf8815f-e7ef-4e39-9a3d-870dc7dfd59c))
+    (pin "8" (uuid 83b4901d-bfc9-4205-a0b0-8404a7af1f32))
     (instances
       (project "ETH1CREF1A"
         (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/846bb202-5e4e-44fb-9116-3eb04dadebb8"
@@ -2977,7 +2724,7 @@
   (symbol (lib_id "Device:R") (at 209.55 63.5 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a2c28b20-b258-43ff-bb60-151451feb5c1)
-    (property "Reference" "R713" (at 209.55 58.42 90)
+    (property "Reference" "R715" (at 209.55 58.42 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "32k/.1%" (at 209.55 60.96 90)
@@ -2989,37 +2736,12 @@
     (property "Datasheet" "~" (at 209.55 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 470b2603-0c97-4212-af36-15fc37f8f54e))
-    (pin "2" (uuid c963298f-3bd3-4fa0-8068-7552ceccade4))
+    (pin "1" (uuid a87b72dd-694f-4d35-802d-8ace14899618))
+    (pin "2" (uuid ff4ad37d-8825-423f-8d5e-fe046f215061))
     (instances
       (project "ETH1CREF1A"
         (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/846bb202-5e4e-44fb-9116-3eb04dadebb8"
-          (reference "R713") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+10V") (at 229.235 76.2 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid a58974ee-2607-493a-9b7a-51d78530f04a)
-    (property "Reference" "#PWR0724" (at 225.425 76.2 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+10V" (at 232.41 76.2 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "" (at 229.235 76.2 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 229.235 76.2 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid b7987939-c562-4804-8d3e-650da2224543))
-    (instances
-      (project "ETH1CREF1A"
-        (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/846bb202-5e4e-44fb-9116-3eb04dadebb8"
-          (reference "#PWR0724") (unit 1)
+          (reference "R715") (unit 1)
         )
       )
     )
@@ -3040,8 +2762,8 @@
     (property "Datasheet" "~" (at 92.71 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6a086531-5573-463a-968a-e698d2337e2f))
-    (pin "2" (uuid 1a8b1774-1f1c-429d-aa06-854cd23d9b23))
+    (pin "1" (uuid e27b1e11-73d0-4022-bd76-1aca420406a1))
+    (pin "2" (uuid 27d2ba35-48e5-409c-a4db-8622e8e84caf))
     (instances
       (project "ETH1CREF1A"
         (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/846bb202-5e4e-44fb-9116-3eb04dadebb8"
@@ -3054,10 +2776,10 @@
   (symbol (lib_id "Device:C") (at 130.175 160.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b4a05d17-49cb-4fbf-9895-46090b4626e0)
-    (property "Reference" "C907" (at 133.985 158.75 0)
+    (property "Reference" "C907" (at 133.35 158.75 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "22u/35V" (at 133.985 161.29 0)
+    (property "Value" "10u/35V" (at 133.35 161.29 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (at 131.1402 163.83 0)
@@ -3066,8 +2788,8 @@
     (property "Datasheet" "~" (at 130.175 160.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 842d1691-9718-433b-957c-c608c25e6fbb))
-    (pin "2" (uuid a9c13fef-d2b5-464c-8ef2-c88cc67355b7))
+    (pin "1" (uuid 9432c9af-ceb2-4c5f-9fb5-5eb34a204bec))
+    (pin "2" (uuid 693d63cd-9860-45af-9cf5-b64f67c5e5e5))
     (instances
       (project "ETH1CREF1A"
         (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/ebac98f6-7cea-4b7b-a7eb-72e971f44089"
@@ -3086,23 +2808,23 @@
     (property "Reference" "U703" (at 149.225 167.005 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "AD8676" (at 149.225 169.545 0)
+    (property "Value" "AD8676BRZ" (at 149.225 169.545 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 146.05 164.465 0)
+    (property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (at 146.05 164.465 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 146.05 164.465 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f982e2c5-99ed-4ec6-8f59-d40e7faccec5))
-    (pin "2" (uuid e3073bcf-5812-476c-9c0d-c71aa1d2cfd1))
-    (pin "3" (uuid 8dc630ca-19ee-477b-8769-5ae4b6278138))
-    (pin "5" (uuid 0aeb7af1-27c7-4bd1-a8be-5981a23fa1bd))
-    (pin "6" (uuid e66b9ae3-713e-41c2-8024-a5ca6b7e4d7a))
-    (pin "7" (uuid 3d391eb6-8dc8-486b-a8f0-53b1612482f9))
-    (pin "4" (uuid 1afd1217-307c-4899-80e5-2ba0a32d6c55))
-    (pin "8" (uuid 6d7b865c-a4ca-48f7-b9ce-95c30c25c03e))
+    (pin "1" (uuid b16616bc-8ddc-4c5d-a694-9914dccbfa2d))
+    (pin "2" (uuid 232185d7-b22d-4c04-b0f3-a84f6aff07f6))
+    (pin "3" (uuid 6d2d742f-7de3-451d-a7bf-4593f58ee79c))
+    (pin "5" (uuid 322ebcb7-da58-47be-98cf-5e6b07cac2f4))
+    (pin "6" (uuid 1b1b2d56-35a2-43ac-bba2-c942b468d913))
+    (pin "7" (uuid faa3a432-f5ae-4b05-98ef-a635d4f3bc0e))
+    (pin "4" (uuid 94285164-8c2d-4faf-a9b6-a42fe8e3ccb0))
+    (pin "8" (uuid b3d60d42-8906-43de-a14f-45f38491efc4))
     (instances
       (project "ETH1CREF1A"
         (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/846bb202-5e4e-44fb-9116-3eb04dadebb8"
@@ -3127,7 +2849,7 @@
     (property "Datasheet" "" (at 183.515 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0312b486-b68c-41af-aeba-a7b294383e38))
+    (pin "1" (uuid de19fe21-8fbc-431c-b87a-b142471addc6))
     (instances
       (project "ADC_Test"
         (path "/700b7e2e-569c-4a15-81a0-3588750b2d07/00000000-0000-0000-0000-00005fccc067"
@@ -3139,7 +2861,7 @@
       )
       (project "ETH1CREF1A"
         (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/846bb202-5e4e-44fb-9116-3eb04dadebb8"
-          (reference "#PWR0721") (unit 1)
+          (reference "#PWR0720") (unit 1)
         )
       )
     )
@@ -3154,16 +2876,16 @@
     (property "Value" "LM399H" (at 144.8562 115.443 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "ADC_TEST:LMx99" (at 116.205 102.87 0)
+    (property "Footprint" "ETH1CREF1A:LMx99" (at 116.205 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 116.205 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 439cc48c-5621-4b05-a550-0a384a3bd101))
-    (pin "2" (uuid 52416d6a-c822-42fe-8bd7-1d432c452cb9))
-    (pin "3" (uuid 6b529803-1024-4dd4-b2f3-2d4ffe023f12))
-    (pin "4" (uuid 73642002-fe2c-47bd-a681-406996755afb))
+    (pin "1" (uuid d804a626-6b12-446d-9aca-9f7216ac5239))
+    (pin "2" (uuid 5136a049-f010-4414-8b9c-807246e27837))
+    (pin "3" (uuid 17191df8-f0e1-4695-859d-68f4890ec31f))
+    (pin "4" (uuid 642f8d1f-6f96-4d9e-8a61-4bdcd3e9e415))
     (instances
       (project "ADC_Test"
         (path "/700b7e2e-569c-4a15-81a0-3588750b2d07/00000000-0000-0000-0000-00005fccc067"
@@ -3196,7 +2918,7 @@
     (property "Datasheet" "" (at 27.94 180.975 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 49a1093f-1afe-490b-aeed-158cfbe2dca6))
+    (pin "1" (uuid ebf1f550-9004-4f2a-8588-da5232b20761))
     (instances
       (project "ETH1CREF1A"
         (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/ebac98f6-7cea-4b7b-a7eb-72e971f44089"
@@ -3224,7 +2946,7 @@
     (property "Datasheet" "" (at 70.485 123.19 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9a8e4e7b-1947-4cc4-9a3f-3e7a8aa657f2))
+    (pin "1" (uuid e353ed8b-fab0-4caf-9564-e66e6bfd72e7))
     (instances
       (project "ADC_Test"
         (path "/700b7e2e-569c-4a15-81a0-3588750b2d07/00000000-0000-0000-0000-00005fccc067"
@@ -3245,7 +2967,7 @@
   (symbol (lib_id "Device:R") (at 191.135 107.315 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d4138145-c094-46d2-89cc-62c8f5acfe19)
-    (property "Reference" "R709" (at 191.135 101.6 90)
+    (property "Reference" "R711" (at 191.135 101.6 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k/.1%" (at 191.135 104.14 90)
@@ -3257,12 +2979,12 @@
     (property "Datasheet" "~" (at 191.135 107.315 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8dbff500-7ff1-4003-a8b4-79f1efc51276))
-    (pin "2" (uuid 77b9313c-3492-4328-b276-4e1edc0647b3))
+    (pin "1" (uuid 72e94d2c-44d1-4138-bb22-3de920468b8e))
+    (pin "2" (uuid 93e172a7-8a7f-4c56-944a-8a1743b29ecb))
     (instances
       (project "ETH1CREF1A"
         (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/846bb202-5e4e-44fb-9116-3eb04dadebb8"
-          (reference "R709") (unit 1)
+          (reference "R711") (unit 1)
         )
       )
     )
@@ -3271,7 +2993,7 @@
   (symbol (lib_id "Device:R") (at 188.595 73.66 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid da265e75-d110-4c18-9bf2-fe95e368fa94)
-    (property "Reference" "R708" (at 188.595 68.58 90)
+    (property "Reference" "R710" (at 188.595 68.58 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "75k/.1%" (at 188.595 71.12 90)
@@ -3283,12 +3005,12 @@
     (property "Datasheet" "~" (at 188.595 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 32100ba9-b298-4355-a50a-7057a0000b50))
-    (pin "2" (uuid cd4f0b36-2bfe-4a92-9f0f-a766356d57c9))
+    (pin "1" (uuid ea5ec546-34d9-4298-a052-1c81999ae27e))
+    (pin "2" (uuid a47f1849-e540-41fc-94b9-cac402e6c1dd))
     (instances
       (project "ETH1CREF1A"
         (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/846bb202-5e4e-44fb-9116-3eb04dadebb8"
-          (reference "R708") (unit 1)
+          (reference "R710") (unit 1)
         )
       )
     )
@@ -3297,7 +3019,7 @@
   (symbol (lib_id "Device:R") (at 199.39 63.5 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid df00d640-5090-4fc4-a23d-f999824ac20c)
-    (property "Reference" "R710" (at 199.39 58.42 90)
+    (property "Reference" "R712" (at 199.39 58.42 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "3k11/.1%" (at 199.39 60.96 90)
@@ -3309,12 +3031,12 @@
     (property "Datasheet" "~" (at 199.39 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 22ab1666-fb3f-4ed0-b502-97694a778192))
-    (pin "2" (uuid 31c3c896-c7cd-4cfb-a89f-eda8af14f4f3))
+    (pin "1" (uuid 48a4eccf-1931-4e41-ac41-26f2232de620))
+    (pin "2" (uuid ed1f9173-9dfd-4c5f-8ae9-76164212949d))
     (instances
       (project "ETH1CREF1A"
         (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/846bb202-5e4e-44fb-9116-3eb04dadebb8"
-          (reference "R710") (unit 1)
+          (reference "R712") (unit 1)
         )
       )
     )
@@ -3335,7 +3057,7 @@
     (property "Datasheet" "" (at 53.975 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8585b890-98c4-44f9-9777-f7ff334c643b))
+    (pin "1" (uuid dceddbb2-8f4b-428d-9f79-099d71792cf6))
     (instances
       (project "ETH1CREF1A"
         (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/846bb202-5e4e-44fb-9116-3eb04dadebb8"
@@ -3354,14 +3076,14 @@
     (property "Value" "100n" (at 47.625 161.925 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 44.7802 164.465 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 44.7802 164.465 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 43.815 160.655 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f2c23a38-5292-4ecf-8ffd-5eae7bd4fe4c))
-    (pin "2" (uuid f360c239-bd05-427c-8358-37170a45fa09))
+    (pin "1" (uuid cc6cc4de-b1d6-464a-b7ff-bfac06716b82))
+    (pin "2" (uuid 7b77df7c-e3e9-4eda-9c97-52615fe8e67c))
     (instances
       (project "ETH1CREF1A"
         (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/ebac98f6-7cea-4b7b-a7eb-72e971f44089"
@@ -3380,17 +3102,17 @@
     (property "Reference" "C905" (at 133.35 184.15 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "22u/35V" (at 133.35 186.69 0)
+    (property "Value" "10u/35V" (at 133.35 186.69 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 130.5052 189.23 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 130.5052 189.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 129.54 185.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1f45c15b-d03a-47e6-98cc-3b0a93d98388))
-    (pin "2" (uuid 38a05930-6b0c-4c78-adce-ca8036ebad95))
+    (pin "1" (uuid 7684da11-8405-43de-b2d1-6b192d66fd52))
+    (pin "2" (uuid a339c731-9879-4f3a-810e-ea9ad79fa4a7))
     (instances
       (project "ETH1CREF1A"
         (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/ebac98f6-7cea-4b7b-a7eb-72e971f44089"
@@ -3412,14 +3134,14 @@
     (property "Value" "0" (at 102.235 75.7936 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (at 102.235 76.962 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 102.235 76.962 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 102.235 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8b6e2097-b0a3-458f-baef-ae970ce72faf))
-    (pin "2" (uuid 2fe027a1-f1af-46aa-8256-cfe240cbddab))
+    (pin "1" (uuid 243bd492-bcae-4b7b-93fa-3c3328686e50))
+    (pin "2" (uuid da0dece2-40dc-459c-95e5-5b380a08a098))
     (instances
       (project "ADC_Test"
         (path "/700b7e2e-569c-4a15-81a0-3588750b2d07/00000000-0000-0000-0000-00005fccc067"
@@ -3443,14 +3165,14 @@
     (property "Value" "100n" (at 47.625 186.69 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 44.7802 189.23 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 44.7802 189.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 43.815 185.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7ba6827c-7b6c-4ccc-beeb-c33a3c0456ee))
-    (pin "2" (uuid d32abb4c-238f-40f5-bc0e-e10952ce3888))
+    (pin "1" (uuid fe71f7e3-2e4d-423d-b205-67dd4f247f10))
+    (pin "2" (uuid 64454d2d-64cb-41eb-a0b3-db11f60ed5ac))
     (instances
       (project "ETH1CREF1A"
         (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/ebac98f6-7cea-4b7b-a7eb-72e971f44089"
@@ -3472,14 +3194,14 @@
     (property "Value" "100n" (at 121.285 161.29 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 118.4402 163.83 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 118.4402 163.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 117.475 160.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid be85d86f-7739-4b67-af9b-9b5940ae6110))
-    (pin "2" (uuid 1aff4987-f11c-44b4-a66c-58c52d0adfdf))
+    (pin "1" (uuid d23d6bd5-cd39-49d2-9e99-94e6ffe45869))
+    (pin "2" (uuid f07aa3ea-9287-4d27-8749-9b3afc38b44e))
     (instances
       (project "ETH1CREF1A"
         (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/ebac98f6-7cea-4b7b-a7eb-72e971f44089"
@@ -3495,7 +3217,7 @@
   (symbol (lib_id "Device:R") (at 205.105 99.06 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f28abb1f-dd6e-40f7-82d8-3ba2c0f364d7)
-    (property "Reference" "R712" (at 205.105 93.345 90)
+    (property "Reference" "R714" (at 205.105 93.345 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k/.1%" (at 205.105 95.885 90)
@@ -3507,12 +3229,12 @@
     (property "Datasheet" "~" (at 205.105 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 514e4296-9514-4551-9627-de48abb700c3))
-    (pin "2" (uuid 0114859e-1b87-4ef1-95ba-e4b058c7e42d))
+    (pin "1" (uuid 33bc78be-b9e4-472f-ad5f-576d868407d5))
+    (pin "2" (uuid f3d97b34-d64e-4c0e-b993-78a1f363a7ef))
     (instances
       (project "ETH1CREF1A"
         (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/846bb202-5e4e-44fb-9116-3eb04dadebb8"
-          (reference "R712") (unit 1)
+          (reference "R714") (unit 1)
         )
       )
     )
@@ -3524,7 +3246,7 @@
     (property "Reference" "U504" (at 86.36 71.9582 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "LT1021-7" (at 86.36 74.2696 0)
+    (property "Value" "LT1021DCS8-7#PBF" (at 86.36 74.2696 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (at 99.06 87.63 0)
@@ -3533,14 +3255,14 @@
     (property "Datasheet" "" (at 86.36 81.28 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
-    (pin "1" (uuid bfb52f08-3c97-4d83-b3e3-135c9718b391))
-    (pin "2" (uuid 2492b7ac-49df-4ff1-8dc5-7d10bb1fddd4))
-    (pin "3" (uuid 65f3cbc1-6570-40cf-b657-258241e2dc7a))
-    (pin "4" (uuid f6684a64-3f38-4ddf-89bf-90760c3f5f1f))
-    (pin "5" (uuid 632232ae-ee99-421f-b755-aea76674cf68))
-    (pin "6" (uuid 5ead5ead-cbe7-4e94-91ae-40defbb6d602))
-    (pin "7" (uuid b8f021f7-3bab-48d8-b6ed-f49cd2f4ef43))
-    (pin "8" (uuid 7ef0d74a-ff7d-44a9-aaf2-1a8169189d3d))
+    (pin "1" (uuid b614fbad-9163-4083-b09b-494b50013897))
+    (pin "2" (uuid 25865d4f-3f45-4f43-b90b-b379b3c00469))
+    (pin "3" (uuid c39ca006-ba1f-4490-934e-77c85cf86ac2))
+    (pin "4" (uuid d7da8501-5209-47ea-a169-21d9502b8391))
+    (pin "5" (uuid b86ad726-97ff-4e8d-9c8f-a0de99d50f89))
+    (pin "6" (uuid 5a632f42-de6f-4e3f-a5c3-51034d40610a))
+    (pin "7" (uuid b42dbba1-fb21-4eff-8ad9-7e6901846dc2))
+    (pin "8" (uuid 5773b441-68ed-4c95-9031-5650b1932362))
     (instances
       (project "ADC_Test"
         (path "/700b7e2e-569c-4a15-81a0-3588750b2d07/00000000-0000-0000-0000-00005fccc067"
@@ -3573,7 +3295,7 @@
     (property "Datasheet" "" (at 101.6 155.575 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4b7355a0-f964-41f8-b1c3-4e46bfa99896))
+    (pin "1" (uuid 64449209-77c0-4295-a874-f24d3d42f4fd))
     (instances
       (project "ETH1CREF1A"
         (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/ebac98f6-7cea-4b7b-a7eb-72e971f44089"

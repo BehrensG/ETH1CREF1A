@@ -1741,7 +1741,7 @@
     (property "Datasheet" "" (at 104.14 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 293cbf32-89b7-42d1-8f76-ee281a1ef425))
+    (pin "1" (uuid 35a3adbf-c1a6-4d88-9f0c-9bcab1e9c8cc))
     (instances
       (project "ETH1CSMU2"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
@@ -1771,7 +1771,7 @@
     (property "Datasheet" "" (at 53.34 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f0690ca9-e495-4a1c-87a5-90cc76eba823))
+    (pin "1" (uuid c902f3fa-9552-441e-9042-d3442128036a))
     (instances
       (project "ETH1CSMU2"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
@@ -1801,8 +1801,8 @@
     (property "Datasheet" "~" (at 64.77 31.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2c57bd62-ef50-4fc9-8e1f-537628709717))
-    (pin "2" (uuid daf59254-adaa-408f-a69e-0266683004d0))
+    (pin "1" (uuid 5193c12c-1373-4cd2-90b2-8e92320167a0))
+    (pin "2" (uuid 1f7245f6-5c81-40fc-b094-cbd2133947af))
     (instances
       (project "ETH1CSMU2"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
@@ -1826,24 +1826,24 @@
     (property "Value" "749010012A" (at 209.55 69.2404 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "ETH1CSMU2:749010012A" (at 234.95 74.93 0)
+    (property "Footprint" "ETH1CREF1A:749010012A" (at 234.95 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 234.95 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 252f8f77-6872-4d53-84da-31910ff642de))
-    (pin "10" (uuid 2ee30101-8a6c-4699-be4d-ad2daf481608))
-    (pin "11" (uuid 4af2efa8-7003-425a-b328-4a8e85096fb9))
-    (pin "14" (uuid 772d74ac-4061-4b0b-9c41-ced8566c0a30))
-    (pin "15" (uuid a2dcda61-06fc-4787-86f0-de45ee4dded3))
-    (pin "16" (uuid f260ad83-d0ee-4b09-96a6-dac681f4cc63))
-    (pin "2" (uuid 2e212470-326a-435f-b0ce-eb98104ec159))
-    (pin "3" (uuid 87419487-5f89-4ab9-86b7-a0cb7776d788))
-    (pin "6" (uuid 7e4abf20-00ae-4754-b6ba-bc18495fe571))
-    (pin "7" (uuid 669232fd-78b8-4722-93a5-2aea8411082f))
-    (pin "8" (uuid bba442ca-e024-4226-b46d-33dcf17e3105))
-    (pin "9" (uuid 283168d5-cf71-4afa-af5d-9688d49b19d1))
+    (pin "1" (uuid 8156a761-0d40-484f-a202-ff1cecbd52e1))
+    (pin "10" (uuid 4fb747b7-3612-46e6-b60f-c2994b72ff3e))
+    (pin "11" (uuid 4a87249d-af03-464d-a82f-a298dbb0fbda))
+    (pin "14" (uuid 87c1b565-441a-404c-a0c2-0058ca3d0396))
+    (pin "15" (uuid 7885d0e8-a973-4427-bb15-b800a63ed2ea))
+    (pin "16" (uuid c5cbdbe3-078a-43c9-b7fd-e3d926841051))
+    (pin "2" (uuid ef7d5aa7-c7a6-4b27-acda-fde666155d04))
+    (pin "3" (uuid feff0996-5bfb-471d-b4d1-5d37a9a9638f))
+    (pin "6" (uuid 700bbda5-2380-4d0f-9975-8a2f03e6c9b9))
+    (pin "7" (uuid 05c7353f-56ea-4846-b759-8d30c3fa4730))
+    (pin "8" (uuid dc8b86b3-8fbd-48f4-86fb-3b001c8e9daf))
+    (pin "9" (uuid d8efef7d-2aae-4d25-9349-be51eca47cb1))
     (instances
       (project "ETH1CSMU2"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
@@ -1873,8 +1873,8 @@
     (property "Datasheet" "~" (at 71.12 175.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3802658e-720d-4212-92bf-3669ca0468a3))
-    (pin "2" (uuid 7f2a3220-2789-4313-8fd6-a8c31e65cf1e))
+    (pin "1" (uuid 3eb5ee82-8280-4a05-a217-7f3235fa5530))
+    (pin "2" (uuid d7232b06-b002-44e2-9cec-4db3d900df6d))
     (instances
       (project "ETH1CSMU2"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
@@ -1904,7 +1904,7 @@
     (property "Datasheet" "" (at 203.2 129.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 559122ea-34c0-4d89-ae94-4abb574f530a))
+    (pin "1" (uuid 7e86313a-4c05-4fb8-8580-e4bd156319d9))
     (instances
       (project "ETH1CSMU2"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
@@ -1934,8 +1934,8 @@
     (property "Datasheet" "~" (at 185.42 31.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f7ddca3d-4fcd-4ad3-86f6-0d8b38db6c0a))
-    (pin "2" (uuid 73db4043-0411-495d-8cd6-a715b74566f2))
+    (pin "1" (uuid a29152ce-f751-4378-bd60-ace58b70ad4c))
+    (pin "2" (uuid de70fdf4-bf73-485b-af66-3e963c0f51d5))
     (instances
       (project "ETH1CSMU2"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
@@ -1965,8 +1965,8 @@
     (property "Datasheet" "~" (at 142.24 31.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9a91cf36-e5c0-4776-928a-60f6cd90b4c4))
-    (pin "2" (uuid 494c96d3-20f9-4842-9dfb-01995647209d))
+    (pin "1" (uuid d5d1f3fe-a91a-44d1-947a-ff4dcdf6d8a6))
+    (pin "2" (uuid 6f46a0be-3676-4ba3-8dfe-ae7d5f6e5dcc))
     (instances
       (project "ETH1CSMU2"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
@@ -1996,7 +1996,7 @@
     (property "Datasheet" "" (at 34.29 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6f828a8e-f8b2-4463-aae4-3ab2243e3f45))
+    (pin "1" (uuid b19b9466-75e3-48ec-ac35-c75addbf6d97))
     (instances
       (project "ETH1CSMU2"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
@@ -2026,8 +2026,8 @@
     (property "Datasheet" "~" (at 45.72 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 61fb716a-6129-45d0-abea-5c69daa7c0c6))
-    (pin "2" (uuid c6cb1866-a592-4836-a833-3937ea1e33d2))
+    (pin "1" (uuid ea55b30a-f1e3-46d6-b338-ce44c0b1ba20))
+    (pin "2" (uuid bd04119a-90bf-4e5e-af9f-e36b4d629c76))
     (instances
       (project "ETH1CSMU2"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
@@ -2057,7 +2057,7 @@
     (property "Datasheet" "" (at 130.81 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b5e805f7-dac1-4f58-8c20-e42d909e9f61))
+    (pin "1" (uuid 389a45a3-9e89-40a2-b4ea-f740a23315d1))
     (instances
       (project "ETH1CSMU2"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
@@ -2087,8 +2087,8 @@
     (property "Datasheet" "~" (at 222.25 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid df4b0ad9-87f9-47f8-bf62-18cd346b41c4))
-    (pin "2" (uuid 44d86db8-125c-4d66-8f9f-5ca8d3e19659))
+    (pin "1" (uuid 4015acb4-faab-43ee-b489-4f7880359477))
+    (pin "2" (uuid 8bc555e5-f068-4167-a6e3-4aa903c39c6a))
     (instances
       (project "ETH1CSMU2"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
@@ -2118,8 +2118,8 @@
     (property "Datasheet" "~" (at 209.55 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 77a44999-bb3c-44ee-b3b5-988ddafad129))
-    (pin "2" (uuid 7f8eb360-4b61-45b4-ab63-5c29a216a75b))
+    (pin "1" (uuid 160ad6fe-5564-4702-8066-c9cf392a2d64))
+    (pin "2" (uuid 39f3c559-0d9d-4a93-85cd-4ab5afc629aa))
     (instances
       (project "ETH1CSMU2"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
@@ -2149,7 +2149,7 @@
     (property "Datasheet" "" (at 59.69 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 52ab3652-08e4-4a7f-864b-f5df74518000))
+    (pin "1" (uuid c4326fd2-8984-4dd6-978f-43359106d897))
     (instances
       (project "ETH1CSMU2"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
@@ -2179,8 +2179,8 @@
     (property "Datasheet" "~" (at 45.72 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 12680424-0780-4b5f-b6d5-579079e382f4))
-    (pin "2" (uuid 3aa61338-8371-4e07-a27e-03bfe2add4bb))
+    (pin "1" (uuid f9ba1b41-9949-47c2-be18-3313c5ae1367))
+    (pin "2" (uuid 6f74d9b5-58d5-4b7e-b98b-e7b4ae4b08f9))
     (instances
       (project "ETH1CSMU2"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
@@ -2210,8 +2210,8 @@
     (property "Datasheet" "~" (at 53.34 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 56a1114d-fcf6-4b00-a7e4-4adc7acce761))
-    (pin "2" (uuid 64359d00-ae41-42b7-9d34-c755e52d1809))
+    (pin "1" (uuid 3c7e2298-9dd5-4288-ba96-6dee37959f60))
+    (pin "2" (uuid 7ae73c89-538d-412a-8c93-06aa29b735ef))
     (instances
       (project "ETH1CSMU2"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
@@ -2241,8 +2241,8 @@
     (property "Datasheet" "~" (at 109.22 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 74f8a961-a5ae-4f25-9107-4e41227e4a08))
-    (pin "2" (uuid 32dfeb17-4265-4db4-8785-7f76aae3966c))
+    (pin "1" (uuid ffd6bb31-69e0-433c-b24c-7e2fbb286859))
+    (pin "2" (uuid e58ceb03-cbc2-453e-b430-64e69dbe97c9))
     (instances
       (project "ETH1CSMU2"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
@@ -2272,7 +2272,7 @@
     (property "Datasheet" "" (at 64.77 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9bc8361f-2682-49e0-8aa8-1faacf63e65a))
+    (pin "1" (uuid 7cd4524f-1b43-48aa-acf6-82db0e45f1b5))
     (instances
       (project "ETH1CSMU2"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
@@ -2302,8 +2302,8 @@
     (property "Datasheet" "~" (at 152.4 31.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7f98871b-c773-4597-8c3d-ba8c9f6e0906))
-    (pin "2" (uuid b87bee04-edce-4512-af8c-54bde5b97cdb))
+    (pin "1" (uuid 5dea7523-d7e9-46b5-bf18-762f241fe884))
+    (pin "2" (uuid df1cb648-dad6-44c7-a46e-984a40abd1a9))
     (instances
       (project "ETH1CSMU2"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
@@ -2333,7 +2333,7 @@
     (property "Datasheet" "~" (at 228.6 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c6de3bad-f9f7-4a9d-9f7c-e7256e26b931))
+    (pin "1" (uuid eec32dcc-2724-4955-8cc9-bc1d09f48fed))
     (instances
       (project "ETH1CSMU2"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
@@ -2363,7 +2363,7 @@
     (property "Datasheet" "" (at 196.85 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c39cac4a-1f5d-45c5-92b5-1eb9b2c3ca9a))
+    (pin "1" (uuid c6461e0f-af6b-4e42-acd9-039f58e9b874))
     (instances
       (project "ETH1CSMU2"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
@@ -2393,7 +2393,7 @@
     (property "Datasheet" "~" (at 21.59 186.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1727d23e-3021-447a-8e52-f88126cdbf62))
+    (pin "1" (uuid 8198964d-6da7-4962-8bfd-a41a129c819c))
     (instances
       (project "ETH1CSMU2"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
@@ -2423,7 +2423,7 @@
     (property "Datasheet" "" (at 115.57 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2e04bced-534a-4b07-8edb-7a424e60f696))
+    (pin "1" (uuid bc255139-b2ec-4e90-b218-07fc4823871b))
     (instances
       (project "ETH1CSMU2"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
@@ -2453,8 +2453,8 @@
     (property "Datasheet" "~" (at 209.55 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d08abb2b-4b41-460a-addf-d6c383d3b23e))
-    (pin "2" (uuid 547d64fa-f179-4f53-b02a-f12674387836))
+    (pin "1" (uuid 8ce04200-2f7a-43f7-8b83-30c75c201529))
+    (pin "2" (uuid 7d09c901-5eac-47dd-a316-188ee6c33d44))
     (instances
       (project "ETH1CSMU2"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
@@ -2484,8 +2484,8 @@
     (property "Datasheet" "~" (at 115.57 31.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0af2d68c-9c48-4bcf-93aa-f7bd68a7dd6c))
-    (pin "2" (uuid 4172c2a3-ced6-41f8-a37e-e1143a82e47b))
+    (pin "1" (uuid 3488fb04-14e8-486a-aca3-8d80bc8f9fda))
+    (pin "2" (uuid 91b40b88-0628-433d-bbf8-37d0cf6a3a85))
     (instances
       (project "ETH1CSMU2"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
@@ -2515,8 +2515,8 @@
     (property "Datasheet" "~" (at 116.84 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 90e8961b-6680-4d0a-b385-a348c70f747f))
-    (pin "2" (uuid 83311812-291f-43cb-82a8-bc8f80b34eaf))
+    (pin "1" (uuid cc0e2354-a21a-4f09-95fb-f595ea3eab6a))
+    (pin "2" (uuid f982b9b2-501a-4e80-aae8-d4967d3394c0))
     (instances
       (project "ETH1CSMU2"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
@@ -2546,7 +2546,7 @@
     (property "Datasheet" "~" (at 33.02 186.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5a71f129-8bc8-4eb9-a224-e50808ff80be))
+    (pin "1" (uuid ca4d340f-4b1b-421f-8ebb-b42d1d9aed77))
     (instances
       (project "ETH1CSMU2"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
@@ -2576,8 +2576,8 @@
     (property "Datasheet" "~" (at 172.72 31.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f5020316-9d8a-4292-a846-dcf34f613210))
-    (pin "2" (uuid 9c258792-59ec-4c6b-82b5-d300025b57b5))
+    (pin "1" (uuid 3a284624-256d-4d1c-8674-af3fa015d852))
+    (pin "2" (uuid 78b4115e-494b-456e-acd4-9fec287b1e53))
     (instances
       (project "ETH1CSMU2"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
@@ -2607,7 +2607,7 @@
     (property "Datasheet" "" (at 21.59 186.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 995d26af-cb44-4dfa-b47f-d16d7c18ada2))
+    (pin "1" (uuid 9009315d-21a4-4262-8e14-89158730f8f2))
     (instances
       (project "ETH1CSMU2"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
@@ -2637,8 +2637,8 @@
     (property "Datasheet" "~" (at 116.84 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3677af75-90cd-42e8-a44d-e3725f20a0c5))
-    (pin "2" (uuid b1e366dc-8d27-4d6e-ae4c-875ab7a4d611))
+    (pin "1" (uuid 6cae7903-be26-4f59-b6b8-8adfd482550b))
+    (pin "2" (uuid 02af2475-e4a4-4c0e-a168-4e7d069a92bd))
     (instances
       (project "ETH1CSMU2"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
@@ -2668,8 +2668,8 @@
     (property "Datasheet" "~" (at 53.34 175.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b4b191af-0ed1-4129-908e-8a227c22c589))
-    (pin "2" (uuid 33bccd87-5c8c-4f63-a70f-f6c8ae249dd4))
+    (pin "1" (uuid 9a7c07c9-ebf7-4119-affd-9632b23b7042))
+    (pin "2" (uuid 781baa41-196c-4423-b245-515034835718))
     (instances
       (project "ETH1CSMU2"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
@@ -2699,7 +2699,7 @@
     (property "Datasheet" "" (at 92.71 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 10378a75-b7aa-416d-b0d2-5cb3753f60aa))
+    (pin "1" (uuid 38312f65-4c48-4a4f-97f8-41e2f588d120))
     (instances
       (project "ETH1CSMU2"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
@@ -2729,7 +2729,7 @@
     (property "Datasheet" "" (at 53.34 25.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a07d7b07-b9f7-4d1b-bdc5-fa0bcc29dfec))
+    (pin "1" (uuid 04627eb7-3e05-40ad-8558-f96eaa7aab1b))
     (instances
       (project "ETH1CSMU2"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
@@ -2759,7 +2759,7 @@
     (property "Datasheet" "" (at 185.42 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8f540189-9ff1-4324-a478-cc9731104205))
+    (pin "1" (uuid e0a82c17-f048-4929-a6b8-3ffd13b9ed6a))
     (instances
       (project "ETH1CSMU2"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
@@ -2789,8 +2789,8 @@
     (property "Datasheet" "~" (at 62.23 175.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0f5e5b02-19f1-4a5b-85b9-c14ffab88608))
-    (pin "2" (uuid c39cf63d-ee64-4c69-912f-789e2cafd44b))
+    (pin "1" (uuid 4a578936-9eec-490a-955b-40bd2a06d18a))
+    (pin "2" (uuid 21bc3622-6677-4b55-809b-0ef2c2abb9dd))
     (instances
       (project "ETH1CSMU2"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
@@ -2820,8 +2820,8 @@
     (property "Datasheet" "~" (at 104.14 31.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ab787b42-10cb-4b16-8b34-78f7254b48f7))
-    (pin "2" (uuid 40bc5742-1e1e-4369-a51c-8a55d64fd5b9))
+    (pin "1" (uuid 2eed9ae5-1f04-4ed4-9c22-5f74c233948a))
+    (pin "2" (uuid 1996632e-7c30-4fdc-8659-333f0bfc43bc))
     (instances
       (project "ETH1CSMU2"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
@@ -2851,8 +2851,8 @@
     (property "Datasheet" "~" (at 234.95 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6e874abb-279e-4bc8-9ba5-258b026ac6ad))
-    (pin "2" (uuid cdcb19df-82dd-467c-9a5d-e6e31af57e18))
+    (pin "1" (uuid f1b29608-a79b-4a9e-bba8-0c80535b3625))
+    (pin "2" (uuid 4c78ac25-d444-4980-b306-da5b3915444e))
     (instances
       (project "ETH1CSMU2"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
@@ -2882,8 +2882,8 @@
     (property "Datasheet" "~" (at 45.72 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 752a08c1-c91b-431b-8933-a26290b5cb0d))
-    (pin "2" (uuid c483a955-5ae4-4eda-a889-490a825426b7))
+    (pin "1" (uuid 230653fc-e5c9-47c1-9bbf-25e9c582fcd5))
+    (pin "2" (uuid 86e24c0f-6bcc-42b0-a96a-6d46da7b6618))
     (instances
       (project "ETH1CSMU2"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
@@ -2913,8 +2913,8 @@
     (property "Datasheet" "~" (at 92.71 31.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 251489a8-bd5a-446a-bffd-2e7480267eb5))
-    (pin "2" (uuid 4b837420-a237-4889-9bfe-1e463ecabf91))
+    (pin "1" (uuid fa7e53f1-3534-4c51-a57d-f00dae868789))
+    (pin "2" (uuid a03ded50-f56b-47f9-99a3-a621a40385d1))
     (instances
       (project "ETH1CSMU2"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
@@ -2944,8 +2944,8 @@
     (property "Datasheet" "~" (at 196.85 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e43e2637-d64f-4842-9ddc-810a02c95e8a))
-    (pin "2" (uuid 7a206a01-6893-401d-9d8b-a5b80db2b5a9))
+    (pin "1" (uuid f6ae846a-a34e-44d2-814b-d47f070b180b))
+    (pin "2" (uuid bafc97a7-d257-4889-8652-7f2632f19193))
     (instances
       (project "ETH1CSMU2"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
@@ -2975,8 +2975,8 @@
     (property "Datasheet" "~" (at 106.68 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e56a2504-1c0a-4ef4-8b88-7ae02485d336))
-    (pin "2" (uuid f529af65-cca6-4a42-a544-69aeba2b9542))
+    (pin "1" (uuid 5ebb4306-913a-4794-9391-cfb94ac84c98))
+    (pin "2" (uuid 265e1650-a6d5-48cc-8813-09f108eb6b43))
     (instances
       (project "ETH1CSMU2"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
@@ -3006,7 +3006,7 @@
     (property "Datasheet" "" (at 114.3 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 22cc0c32-98d9-4422-b40d-27f14b78121e))
+    (pin "1" (uuid e41ef654-45f9-437c-9a6a-0596143331d8))
     (instances
       (project "ETH1CSMU2"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
@@ -3036,8 +3036,8 @@
     (property "Datasheet" "~" (at 129.54 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 191db847-4f21-467e-8b2a-3b714bcf17b5))
-    (pin "2" (uuid def26d1c-c9f7-4941-b706-0d2d0c633cc7))
+    (pin "1" (uuid b20fd764-5d34-4089-a9f9-a160e6ab29c4))
+    (pin "2" (uuid 9869209e-31fa-4337-94a9-437b4230e293))
     (instances
       (project "ETH1CSMU2"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
@@ -3067,31 +3067,31 @@
     (property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/8720a.pdf" (at 81.28 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ca070de0-3cca-4fd5-b2a4-4fbf354b5391))
-    (pin "10" (uuid aa12a91b-5905-45b5-81c5-bf26b138a901))
-    (pin "11" (uuid 02f8eed2-1a87-4413-873c-5dbfe79d8c37))
-    (pin "12" (uuid 2a156ee4-8fd9-4dd4-8d98-5c81354e1409))
-    (pin "13" (uuid a775347f-39b9-4ad5-a885-433f0474aa69))
-    (pin "14" (uuid 3bfdf454-63ed-45f6-88a3-c91770c0fd3c))
-    (pin "15" (uuid 2e342d5f-d2ad-47e7-8b51-41e9b1e288cf))
-    (pin "16" (uuid 5bb7f271-6c12-4257-a6e3-d41958896b85))
-    (pin "17" (uuid 2501db54-a4ca-4127-b23b-216ceb79e45d))
-    (pin "18" (uuid 7ef928e6-6dbc-4bbb-b52e-01752ab2a7a2))
-    (pin "19" (uuid 8da659cb-bafa-43d0-a6f7-0436f19bc1a9))
-    (pin "2" (uuid f20883d3-5a34-48e3-9cfc-8672edf544ea))
-    (pin "20" (uuid 454382cf-b8be-4c60-9797-9f9fdf1ee325))
-    (pin "21" (uuid 1e6eff0e-9e46-4c39-ae25-3aaa33738d48))
-    (pin "22" (uuid 2a8c491d-eae8-4ddf-a12d-d5bd2e81e1f2))
-    (pin "23" (uuid f9057f0b-6f61-454e-9326-00b00ff27299))
-    (pin "24" (uuid 5f6a83e9-110c-43cf-989e-4edaa64e7ac4))
-    (pin "25" (uuid a4fe38d2-6045-4187-9564-7bfd8b909b2d))
-    (pin "3" (uuid 33ca6d56-5f12-4fad-a765-a0e63396c734))
-    (pin "4" (uuid a5c39968-f404-4707-8ce3-2028871c0cd5))
-    (pin "5" (uuid d7a24a4b-877e-415e-80a4-81b048fe19c1))
-    (pin "6" (uuid 3c7b9f60-afb7-4d7a-860a-dc18a54ec58a))
-    (pin "7" (uuid f75c16f3-5a91-4725-904c-976c0846b93e))
-    (pin "8" (uuid 2ebd999f-3860-4481-ac35-6207809b00d1))
-    (pin "9" (uuid d4d29598-f543-4a4e-b2e4-35449990ee32))
+    (pin "1" (uuid 0ec57719-e340-4d08-9cd2-8c495f164afb))
+    (pin "10" (uuid 8038ce3f-3031-4e6c-9964-a5fa1eed6b2a))
+    (pin "11" (uuid bd7a322e-22af-4eb8-9a70-8ce8c965c6f1))
+    (pin "12" (uuid 0ad3414f-42f4-4ced-b964-a272a1b258e8))
+    (pin "13" (uuid 6804d15d-8bec-4317-a75d-c29b3592f284))
+    (pin "14" (uuid d8e0cedb-5cf6-4a6c-a4ab-e3b039000018))
+    (pin "15" (uuid fa51d6e6-90bd-4334-8bce-5587f71902da))
+    (pin "16" (uuid 396f13bc-6bf1-436a-931b-e1081a2a032e))
+    (pin "17" (uuid e389c3f1-2042-4dae-b060-8ecc4dc85c8f))
+    (pin "18" (uuid 6cf993eb-646f-45f8-9d53-4da7fe71ae4a))
+    (pin "19" (uuid 7cc9386a-6e70-42ef-8638-bb25da692fa9))
+    (pin "2" (uuid 7821d7d1-4fb6-49c8-9fdf-2ed56d06b419))
+    (pin "20" (uuid 8c2c2e4c-3fc0-4c94-8389-719769ecfe43))
+    (pin "21" (uuid b9225aae-4690-4357-8362-1edb78b6ebd8))
+    (pin "22" (uuid 23a4b181-e611-4675-9401-d857f9cfc459))
+    (pin "23" (uuid b525822b-301e-4c8a-b968-4ee2ffdfb887))
+    (pin "24" (uuid 37085ff9-fb60-4ccb-b5e3-8a94c5261a3c))
+    (pin "25" (uuid f2ba9181-f089-4e00-b2e6-2ad677df4a1c))
+    (pin "3" (uuid e640818d-602f-4175-a4e4-429f6272b605))
+    (pin "4" (uuid f158a8e0-5e28-4daf-a0d0-bc80436046e7))
+    (pin "5" (uuid 74dfc448-2e43-4a3a-82aa-695af773a7c5))
+    (pin "6" (uuid fbcb295a-a62c-4f0e-8c1e-8c10fa1ef2ec))
+    (pin "7" (uuid 5c88f6be-2da9-4dd5-a33e-de6a939d1bf7))
+    (pin "8" (uuid 0381f19c-7398-4446-9d5a-e81d24cb4984))
+    (pin "9" (uuid 075fb1fd-19fa-473c-a74d-974ebeb72ea0))
     (instances
       (project "ETH1CSMU2"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
@@ -3121,7 +3121,7 @@
     (property "Datasheet" "~" (at 33.02 186.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ee025532-0d44-4ce3-becd-cba8b8016c00))
+    (pin "1" (uuid 0ecc4af1-9c23-4e1d-8e6f-af544b07a1b1))
     (instances
       (project "ETH1CSMU2"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
@@ -3145,20 +3145,20 @@
     (property "Value" "LC03-3.3" (at 262.89 63.9826 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Footprint" "ETH1CSMU2:SO8E" (at 262.89 72.39 0)
+    (property "Footprint" "ETH1CREF1A:SO8E" (at 262.89 72.39 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 262.89 72.39 0)
       (effects (font (size 1.524 1.524)))
     )
-    (pin "1" (uuid 44a40fcc-2abf-4619-8032-ec6e2d664a25))
-    (pin "2" (uuid 24d5c5d7-0ef1-465d-b04f-9fd5a8a5f868))
-    (pin "3" (uuid 5bd1c04d-dc74-463e-bcea-291cbaa34de5))
-    (pin "4" (uuid 163883ba-9998-4aeb-8304-86436900f3ba))
-    (pin "5" (uuid 522a9197-9d4c-430f-8186-311bf5ea0d41))
-    (pin "6" (uuid 5239b553-4dc1-4018-b28c-643df006ee10))
-    (pin "7" (uuid 517b3cd2-d24a-45ca-a669-89038b15e075))
-    (pin "8" (uuid a2bbc181-2891-48c5-a629-56a39c9bb8c9))
+    (pin "1" (uuid b7c474fe-a13e-4231-b6df-4b942d66c142))
+    (pin "2" (uuid 321a45f6-d144-41d2-a2f8-27496a57cc23))
+    (pin "3" (uuid ba5b86ca-7d96-429c-8822-c78b59b18e77))
+    (pin "4" (uuid c63aba25-8951-4a6b-856c-ca15c4eb52d6))
+    (pin "5" (uuid 2bf19a9c-5332-4ad3-b86c-d54621675cf5))
+    (pin "6" (uuid b862d993-c6e4-4a6d-8b65-09faf972e37b))
+    (pin "7" (uuid a644a3c6-517c-44c4-96d8-9aa15e4b1286))
+    (pin "8" (uuid e425f707-c888-4811-b510-94c30966239f))
     (instances
       (project "ETH1CSMU2"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
@@ -3188,8 +3188,8 @@
     (property "Datasheet" "~" (at 63.5 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e784308c-a4f5-453c-b31f-83f0cdcf9fca))
-    (pin "2" (uuid 9e323307-8b74-4ed5-8c63-fb0944ab32da))
+    (pin "1" (uuid 99031f27-608c-4000-9f1d-6a419098410c))
+    (pin "2" (uuid e6f16a56-a51b-4143-94fd-0e0be873ec7b))
     (instances
       (project "ETH1CSMU2"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
@@ -3219,8 +3219,8 @@
     (property "Datasheet" "~" (at 45.72 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 23949f26-6a7f-4a47-abf3-0ab56d444b5b))
-    (pin "2" (uuid 1dece1c7-4316-458c-886e-296ee8f48b10))
+    (pin "1" (uuid 63da89a3-0111-417e-aca9-7f828ca9781a))
+    (pin "2" (uuid 137b94d8-703e-4b18-932a-61d6996d02e6))
     (instances
       (project "ETH1CSMU2"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
@@ -3244,20 +3244,20 @@
     (property "Value" "LC03-3.3" (at 262.89 84.3026 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Footprint" "ETH1CSMU2:SO8E" (at 262.89 92.71 0)
+    (property "Footprint" "ETH1CREF1A:SO8E" (at 262.89 92.71 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 262.89 92.71 0)
       (effects (font (size 1.524 1.524)))
     )
-    (pin "1" (uuid b5d954da-ce96-4eba-a6ff-579832e57f92))
-    (pin "2" (uuid eeae137e-21b8-4d2a-814c-7a7543b610ec))
-    (pin "3" (uuid f7b07004-933d-41e9-9c48-c96bc6b254e3))
-    (pin "4" (uuid 16a06786-6489-4df6-a136-faefe059bbe4))
-    (pin "5" (uuid 265878c0-5276-4fb4-8ff5-d44ced2147d6))
-    (pin "6" (uuid 36b2b42e-7603-4903-bae5-48dda6a9659c))
-    (pin "7" (uuid 86a05def-065e-43b0-aa84-55f13d843c82))
-    (pin "8" (uuid 6afed031-208e-4eea-aecd-e95a9a345deb))
+    (pin "1" (uuid 9fc90462-7fb3-4e15-96a3-b3a7aa73e990))
+    (pin "2" (uuid d735729c-1a57-4c80-b2a9-e96630cc2082))
+    (pin "3" (uuid 06e26bde-9fcb-4cf1-8060-481acbf00271))
+    (pin "4" (uuid 658c4fe5-bcec-4257-85d0-cf1907256822))
+    (pin "5" (uuid 30dd550b-e786-45e7-9eb5-4788b0a13787))
+    (pin "6" (uuid f1debf9d-8588-41c6-8074-631de8d6aac5))
+    (pin "7" (uuid e0bc731a-c62d-41a1-983f-1d9ecceab5e6))
+    (pin "8" (uuid 88ad4943-878b-487d-9cac-a50dd1dcc8d5))
     (instances
       (project "ETH1CSMU2"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
@@ -3287,7 +3287,7 @@
     (property "Datasheet" "" (at 86.36 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 44120db5-dbc7-4d02-b857-03724fc6cf6c))
+    (pin "1" (uuid bad0617f-0b8a-4de7-b2df-82b33df53771))
     (instances
       (project "ETH1CSMU2"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
@@ -3317,8 +3317,8 @@
     (property "Datasheet" "~" (at 53.34 31.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f92ee0de-7155-4712-bb66-3c797ead877e))
-    (pin "2" (uuid 9977f305-a91d-484d-9ded-c24ab6ae195a))
+    (pin "1" (uuid a55d4d30-a9b0-4e61-80e0-f47fadb40b99))
+    (pin "2" (uuid e7b3b64f-f2e0-4907-b6b4-8aebe53b1ce6))
     (instances
       (project "ETH1CSMU2"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
@@ -3348,7 +3348,7 @@
     (property "Datasheet" "~" (at 215.9 129.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1cd5cae5-593d-49c0-b546-8bdd575dedb8))
+    (pin "1" (uuid 5eacf246-599b-435b-8266-dc0b96e2420a))
     (instances
       (project "ETH1CSMU2"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
@@ -3378,8 +3378,8 @@
     (property "Datasheet" "~" (at 25.4 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a430e1cb-8b6f-467b-be76-1e5c4169b35e))
-    (pin "2" (uuid b43da89a-b2f3-44d7-8b57-a11fcdc37851))
+    (pin "1" (uuid 8975ff4b-8b16-43e9-9963-f1718cc926cf))
+    (pin "2" (uuid b756cc2f-c958-4a8f-baf9-8db84567e76c))
     (instances
       (project "ETH1CSMU2"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
@@ -3409,8 +3409,8 @@
     (property "Datasheet" "~" (at 80.01 175.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e89ab96e-a0d0-4512-94bd-a94f3240db69))
-    (pin "2" (uuid c385b73e-c9a5-43f0-bab1-55e9a207f00f))
+    (pin "1" (uuid 5eee3d12-e279-4f30-8c95-c9c41d3b7a68))
+    (pin "2" (uuid 179a25ff-f879-44b9-b120-41126e9a35cf))
     (instances
       (project "ETH1CSMU2"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
@@ -3440,8 +3440,8 @@
     (property "Datasheet" "~" (at 129.54 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f4b68e19-940f-4905-998d-78e3b3c31476))
-    (pin "2" (uuid 911d3c28-aae4-4c00-8e54-c58061474946))
+    (pin "1" (uuid e3a2712d-db46-47a8-9f51-d706137610df))
+    (pin "2" (uuid 7604f73b-b741-4f39-982b-ffff332150e3))
     (instances
       (project "ETH1CSMU2"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
@@ -3471,8 +3471,8 @@
     (property "Datasheet" "~" (at 88.9 175.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 97ebfc7a-a98b-4924-b38b-c4c4b33305a9))
-    (pin "2" (uuid 311fc05e-bb03-4175-9453-09a99c3bd488))
+    (pin "1" (uuid 5da9339c-ee69-4027-9c52-89e139bbb2b7))
+    (pin "2" (uuid ee3af86f-8acf-4846-83e2-45496d47bc72))
     (instances
       (project "ETH1CSMU2"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
@@ -3502,8 +3502,8 @@
     (property "Datasheet" "~" (at 86.36 26.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ca6a72db-f86a-4c28-8447-196b9b24ffe7))
-    (pin "2" (uuid 7e74e11d-42c7-48df-8c86-bf63b946922f))
+    (pin "1" (uuid d033e42c-ee7d-4f4e-bac4-dd56dd1fa910))
+    (pin "2" (uuid 715f0e5a-1bd2-4333-84f8-55a268aad545))
     (instances
       (project "ETH1CSMU2"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
@@ -3533,7 +3533,7 @@
     (property "Datasheet" "~" (at 50.8 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6b99f275-00f7-437c-be3d-00d358eadb5b))
+    (pin "1" (uuid 9e43424c-e40b-4149-a3aa-3b4088cde84a))
     (instances
       (project "ETH1CSMU2"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
@@ -3563,8 +3563,8 @@
     (property "Datasheet" "~" (at 64.77 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 80dd4341-3864-49d6-af36-527b0a32f8dc))
-    (pin "2" (uuid 8f89750c-a4e9-4b47-9d4d-0872383a3845))
+    (pin "1" (uuid fae8a236-1441-488f-a40f-399005e7050c))
+    (pin "2" (uuid fbdf91d1-cef3-4895-b2e6-e2a9e440146d))
     (instances
       (project "ETH1CSMU2"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
@@ -3594,7 +3594,7 @@
     (property "Datasheet" "" (at 196.85 25.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 41db746c-8012-444c-a1ab-b9b47860bc77))
+    (pin "1" (uuid 0f5ab528-a709-4d0b-b786-191b8a6f5794))
     (instances
       (project "ETH1CSMU2"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
@@ -3624,8 +3624,8 @@
     (property "Datasheet" "~" (at 228.6 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0f47fba4-29b1-4b91-85ff-8462478d8df5))
-    (pin "2" (uuid e44b076a-e47a-4e08-ab4a-0492873eb02a))
+    (pin "1" (uuid 17e92074-76d6-460c-948b-f888eedcd429))
+    (pin "2" (uuid ea264d3b-9af7-49d4-9eb0-14906b506cf3))
     (instances
       (project "ETH1CSMU2"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
@@ -3655,8 +3655,8 @@
     (property "Datasheet" "~" (at 162.56 31.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid fca3df7c-e4f8-441b-af02-9a96718f5918))
-    (pin "2" (uuid df19be98-70a6-45a4-a4b9-78b3a8b64615))
+    (pin "1" (uuid a38ce31d-ee44-4bbf-bd56-2a06f1c7975d))
+    (pin "2" (uuid 3bd60a69-fdb5-4961-ad7c-2de7c1201e6f))
     (instances
       (project "ETH1CSMU2"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
@@ -3686,7 +3686,7 @@
     (property "Datasheet" "" (at 63.5 130.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 269941f1-b5d1-4955-abfa-c23efa854211))
+    (pin "1" (uuid 95476be6-3e27-41b4-a44d-b5b9a188657f))
     (instances
       (project "ETH1CSMU2"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
@@ -3716,8 +3716,8 @@
     (property "Datasheet" "~" (at 130.81 31.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 30f0f0d4-7134-4f33-b5d0-9645405f5f14))
-    (pin "2" (uuid ec91e50d-3376-455d-b854-5931ff0a4940))
+    (pin "1" (uuid bcf26e87-4938-41f9-9524-4bedbd396c4a))
+    (pin "2" (uuid 5f7d8920-55b4-49de-a39c-6293c53e79c3))
     (instances
       (project "ETH1CSMU2"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
@@ -3747,7 +3747,7 @@
     (property "Datasheet" "" (at 123.19 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 55a73a24-eab4-44ae-b8e7-05a36caf6cfb))
+    (pin "1" (uuid 3a3b9013-6b45-4137-8baa-fd5576eec959))
     (instances
       (project "ETH1CSMU2"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
@@ -3771,14 +3771,14 @@
     (property "Value" "NX5032GA-25.000000MHZ-LN-CD-1" (at 44.45 116.1542 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "ETH1CSMU2:NX5032GA" (at 44.45 120.65 0)
+    (property "Footprint" "ETH1CREF1A:NX5032GA" (at 44.45 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 44.45 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1be2b2a6-6ad0-4352-88a9-348a7200bdd4))
-    (pin "2" (uuid 8abf1ca1-99e1-474d-a928-6743a0a5f6cb))
+    (pin "1" (uuid 8345fd90-17d3-4968-9ab7-6abb4bd79d68))
+    (pin "2" (uuid fbf2905a-7aff-4d2f-a90b-dbb7d9204bb9))
     (instances
       (project "ETH1CSMU2"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
@@ -3808,7 +3808,7 @@
     (property "Datasheet" "" (at 25.4 130.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 43dc1b85-3970-44d9-99ab-3c0d8a5f89d9))
+    (pin "1" (uuid 7bf1793f-4582-483c-92d3-21090084d321))
     (instances
       (project "ETH1CSMU2"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
@@ -3838,8 +3838,8 @@
     (property "Datasheet" "~" (at 45.72 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 836bb9de-6fc4-4d84-b658-039bdc2bc8b5))
-    (pin "2" (uuid 5757e25c-cc25-465a-9f05-24126a786efa))
+    (pin "1" (uuid f6eaf6a0-aad7-4c09-92db-e62935dfdbcf))
+    (pin "2" (uuid 6ea1f0c9-540f-41d5-b8e0-36dccc6d07d3))
     (instances
       (project "ETH1CSMU2"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
@@ -3869,7 +3869,7 @@
     (property "Datasheet" "" (at 71.12 168.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 247b17f6-c224-45e7-a0d2-518ab1dfba9f))
+    (pin "1" (uuid c1de2887-4002-4647-a33b-fe8eff73c617))
     (instances
       (project "ETH1CSMU2"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
