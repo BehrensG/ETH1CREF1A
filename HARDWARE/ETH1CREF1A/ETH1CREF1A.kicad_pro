@@ -232,7 +232,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
@@ -348,10 +348,6 @@
       "Power"
     ],
     [
-      "a041155b-e8ef-423b-852e-7aa27332d611",
-      "Power Float"
-    ],
-    [
       "846bb202-5e4e-44fb-9116-3eb04dadebb8",
       "Reference Voltage"
     ],
@@ -360,12 +356,16 @@
       "DAC"
     ],
     [
-      "2dec562b-bf90-4748-bf0c-0c9213a8713f",
-      "Isolation"
+      "44a9fe84-01d1-4735-b537-e57319b39949",
+      "Relays"
     ],
     [
       "33714a51-881b-4b10-9a64-bf80408073c4",
       "Current Source"
+    ],
+    [
+      "480dccee-21e0-4e1b-a4b7-7a66648dd9b9",
+      "GPIO"
     ]
   ],
   "text_variables": {}
