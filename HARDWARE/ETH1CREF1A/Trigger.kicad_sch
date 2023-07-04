@@ -373,7 +373,7 @@
         )
       )
     )
-    (symbol "ETH1CSMU2:+5V_TRIG" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (symbol "ETH1CREF1A:+5V_TRIG" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)) hide)
       )
@@ -419,7 +419,7 @@
         )
       )
     )
-    (symbol "ETH1CSMU2:74AC125" (pin_names (offset 0.762)) (in_bom yes) (on_board yes)
+    (symbol "ETH1CREF1A:74AC125" (pin_names (offset 0.762)) (in_bom yes) (on_board yes)
       (property "Reference" "U" (at 8.89 6.35 0)
         (effects (font (size 1.27 1.27)) (justify left bottom))
       )
@@ -513,7 +513,7 @@
         )
       )
     )
-    (symbol "ETH1CSMU2:GND_TRIG" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (symbol "ETH1CREF1A:GND_TRIG" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -6.35 0)
         (effects (font (size 1.27 1.27)) hide)
       )
@@ -1814,7 +1814,7 @@
     (pin "1" (uuid cff3aaf6-7326-4972-a9db-59c024514d77))
     (pin "2" (uuid 418d7824-3204-4e56-9b3f-f950973597f5))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/e18d2576-cacb-49ee-98d9-d91c481fdd25"
           (reference "C708") (unit 1)
         )
@@ -1827,7 +1827,7 @@
     )
   )
 
-  (symbol (lib_id "ETH1CSMU2:GND_TRIG") (at 213.36 124.46 0) (unit 1)
+  (symbol (lib_id "ETH1CREF1A:GND_TRIG") (at 213.36 124.46 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0f78a828-22ed-43f4-a84c-610f81acfc28)
     (property "Reference" "#PWR0729" (at 213.36 130.81 0)
@@ -1844,7 +1844,7 @@
     )
     (pin "1" (uuid 3c166f4f-3b05-46cf-a78d-efae76dcb405))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/e18d2576-cacb-49ee-98d9-d91c481fdd25"
           (reference "#PWR0729") (unit 1)
         )
@@ -1857,7 +1857,7 @@
     )
   )
 
-  (symbol (lib_id "ETH1CSMU2:+5V_TRIG") (at 142.24 21.59 0) (mirror y) (unit 1)
+  (symbol (lib_id "ETH1CREF1A:+5V_TRIG") (at 142.24 21.59 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1002f4dd-3d3d-4200-bf16-9fcb9aef72ee)
     (property "Reference" "#PWR0722" (at 142.24 25.4 0)
@@ -1874,7 +1874,7 @@
     )
     (pin "1" (uuid 5a1ff39e-26ce-42d8-a4b2-4023b8f18a5b))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/e18d2576-cacb-49ee-98d9-d91c481fdd25"
           (reference "#PWR0722") (unit 1)
         )
@@ -1887,7 +1887,7 @@
     )
   )
 
-  (symbol (lib_id "ETH1CSMU2:GND_TRIG") (at 246.38 153.67 0) (unit 1)
+  (symbol (lib_id "ETH1CREF1A:GND_TRIG") (at 246.38 153.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 100ca46f-3b37-4cd9-a0ae-ec5e4f05c63c)
     (property "Reference" "#PWR0731" (at 246.38 160.02 0)
@@ -1904,7 +1904,7 @@
     )
     (pin "1" (uuid c091745e-6355-41af-8055-e08c95ff3e93))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/e18d2576-cacb-49ee-98d9-d91c481fdd25"
           (reference "#PWR0731") (unit 1)
         )
@@ -1934,7 +1934,7 @@
     )
     (pin "1" (uuid 86bef0b9-5291-4034-841d-77dccd353c0f))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/e18d2576-cacb-49ee-98d9-d91c481fdd25"
           (reference "#PWR0709") (unit 1)
         )
@@ -1965,7 +1965,7 @@
     (pin "1" (uuid b056b845-24f9-4e20-91e6-41794ee756f7))
     (pin "2" (uuid 790d3e54-9213-4e19-bf87-c90b5cb907bb))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/e18d2576-cacb-49ee-98d9-d91c481fdd25"
           (reference "R703") (unit 1)
         )
@@ -1996,7 +1996,7 @@
     (pin "1" (uuid f700fd71-d982-4a62-82bf-c8c09133539a))
     (pin "2" (uuid 7c87a3a7-67f4-4081-b103-30e8c2de3feb))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/e18d2576-cacb-49ee-98d9-d91c481fdd25"
           (reference "D702") (unit 1)
         )
@@ -2009,7 +2009,7 @@
     )
   )
 
-  (symbol (lib_id "ETH1CSMU2:GND_TRIG") (at 227.33 153.67 0) (unit 1)
+  (symbol (lib_id "ETH1CREF1A:GND_TRIG") (at 227.33 153.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1d49d9f7-1883-4581-918b-6d30d29281c0)
     (property "Reference" "#PWR0730" (at 227.33 160.02 0)
@@ -2026,7 +2026,7 @@
     )
     (pin "1" (uuid a2d1a61a-57cd-4bdc-aaa8-dfdb4b6726e6))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/e18d2576-cacb-49ee-98d9-d91c481fdd25"
           (reference "#PWR0730") (unit 1)
         )
@@ -2056,7 +2056,7 @@
     )
     (pin "1" (uuid d1aa39fa-b2f7-45bf-9044-72350b764989))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/e18d2576-cacb-49ee-98d9-d91c481fdd25"
           (reference "#FLG0702") (unit 1)
         )
@@ -2087,7 +2087,7 @@
     (pin "1" (uuid 92c83238-c4de-44e7-b185-7481005dddc9))
     (pin "2" (uuid 24a9e023-b376-47d5-8497-85d3d946516b))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/e18d2576-cacb-49ee-98d9-d91c481fdd25"
           (reference "C707") (unit 1)
         )
@@ -2100,7 +2100,7 @@
     )
   )
 
-  (symbol (lib_id "ETH1CSMU2:GND_TRIG") (at 142.24 34.29 0) (mirror y) (unit 1)
+  (symbol (lib_id "ETH1CREF1A:GND_TRIG") (at 142.24 34.29 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2873f893-e519-4e1e-b160-c04faed0fa4a)
     (property "Reference" "#PWR0723" (at 142.24 40.64 0)
@@ -2117,7 +2117,7 @@
     )
     (pin "1" (uuid 2a730e16-c77d-40aa-acef-0fd4b5e28568))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/e18d2576-cacb-49ee-98d9-d91c481fdd25"
           (reference "#PWR0723") (unit 1)
         )
@@ -2130,7 +2130,7 @@
     )
   )
 
-  (symbol (lib_id "ETH1CSMU2:74AC125") (at 127 179.07 0) (mirror y) (unit 5)
+  (symbol (lib_id "ETH1CREF1A:74AC125") (at 127 179.07 0) (mirror y) (unit 5)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2945153c-b3d0-46f5-87a7-1bcf94f7de4f)
     (property "Reference" "U703" (at 137.16 177.8 0)
@@ -2160,7 +2160,7 @@
     (pin "14" (uuid 102d6d30-4756-4cbc-944d-a6fce1e8c098))
     (pin "7" (uuid 0bc5bd10-a2e1-408f-a441-badf96086a5f))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/e18d2576-cacb-49ee-98d9-d91c481fdd25"
           (reference "U703") (unit 5)
         )
@@ -2190,7 +2190,7 @@
     )
     (pin "1" (uuid c8d77084-c1ce-4b67-bdd6-43b5779644de))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/e18d2576-cacb-49ee-98d9-d91c481fdd25"
           (reference "#PWR0714") (unit 1)
         )
@@ -2220,7 +2220,7 @@
     )
     (pin "1" (uuid 7d8ed421-cd39-4ea7-a68d-a942194e1f31))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/e18d2576-cacb-49ee-98d9-d91c481fdd25"
           (reference "#PWR0702") (unit 1)
         )
@@ -2250,7 +2250,7 @@
     )
     (pin "1" (uuid b3a3bd79-a835-4bc5-8ab4-0bf02f8a5321))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/e18d2576-cacb-49ee-98d9-d91c481fdd25"
           (reference "#PWR0705") (unit 1)
         )
@@ -2280,7 +2280,7 @@
     )
     (pin "1" (uuid 6a49b9fb-1007-4b2c-9d97-48ece3516773))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/e18d2576-cacb-49ee-98d9-d91c481fdd25"
           (reference "#PWR0707") (unit 1)
         )
@@ -2311,7 +2311,7 @@
     (pin "1" (uuid e3fc680e-6e61-4899-acbc-c3148878d559))
     (pin "2" (uuid b73e661c-5824-4977-90f7-c934dbe1748e))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/e18d2576-cacb-49ee-98d9-d91c481fdd25"
           (reference "R702") (unit 1)
         )
@@ -2324,7 +2324,7 @@
     )
   )
 
-  (symbol (lib_id "ETH1CSMU2:GND_TRIG") (at 127 187.96 0) (unit 1)
+  (symbol (lib_id "ETH1CREF1A:GND_TRIG") (at 127 187.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 444ffce5-52fb-4d9d-b6af-0e8cfb984adf)
     (property "Reference" "#PWR0720" (at 127 194.31 0)
@@ -2341,7 +2341,7 @@
     )
     (pin "1" (uuid 39ba1c63-6bec-418a-8ecd-d7675abc1622))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/e18d2576-cacb-49ee-98d9-d91c481fdd25"
           (reference "#PWR0720") (unit 1)
         )
@@ -2354,7 +2354,7 @@
     )
   )
 
-  (symbol (lib_id "ETH1CSMU2:+5V_TRIG") (at 129.54 86.36 270) (unit 1)
+  (symbol (lib_id "ETH1CREF1A:+5V_TRIG") (at 129.54 86.36 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 49672098-a768-443b-b249-2b6d4d6ed002)
     (property "Reference" "#PWR0721" (at 125.73 86.36 0)
@@ -2371,7 +2371,7 @@
     )
     (pin "1" (uuid 08cc2cca-4327-4c11-85fd-8a41c9284f5d))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/e18d2576-cacb-49ee-98d9-d91c481fdd25"
           (reference "#PWR0721") (unit 1)
         )
@@ -2402,7 +2402,7 @@
     (pin "1" (uuid ff2f142e-2a06-4f2f-b60f-94e876e690cc))
     (pin "2" (uuid 42401aa8-b3f9-4cee-8384-114a58ccad57))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/e18d2576-cacb-49ee-98d9-d91c481fdd25"
           (reference "C703") (unit 1)
         )
@@ -2432,7 +2432,7 @@
     )
     (pin "1" (uuid a48232c7-08c6-447e-820e-39ca96fcd98f))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/e18d2576-cacb-49ee-98d9-d91c481fdd25"
           (reference "#PWR0708") (unit 1)
         )
@@ -2445,7 +2445,7 @@
     )
   )
 
-  (symbol (lib_id "ETH1CSMU2:GND_TRIG") (at 123.19 34.29 0) (mirror y) (unit 1)
+  (symbol (lib_id "ETH1CREF1A:GND_TRIG") (at 123.19 34.29 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4c9c1ffe-4e1b-4794-b37b-59c720088d10)
     (property "Reference" "#PWR0716" (at 123.19 40.64 0)
@@ -2462,7 +2462,7 @@
     )
     (pin "1" (uuid 50011b2a-1372-4842-872a-d93102bf41df))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/e18d2576-cacb-49ee-98d9-d91c481fdd25"
           (reference "#PWR0716") (unit 1)
         )
@@ -2492,7 +2492,7 @@
     )
     (pin "1" (uuid 34cea5b3-b83d-456f-826a-6d3d2fdd58d8))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/e18d2576-cacb-49ee-98d9-d91c481fdd25"
           (reference "#PWR0703") (unit 1)
         )
@@ -2505,7 +2505,7 @@
     )
   )
 
-  (symbol (lib_id "ETH1CSMU2:+5V_TRIG") (at 123.19 21.59 0) (mirror y) (unit 1)
+  (symbol (lib_id "ETH1CREF1A:+5V_TRIG") (at 123.19 21.59 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 52760faf-b665-45d6-8db7-b60bfa720b5f)
     (property "Reference" "#PWR0715" (at 123.19 25.4 0)
@@ -2522,7 +2522,7 @@
     )
     (pin "1" (uuid 6025e3dd-3bf8-4c55-97dc-a4c10a27dda8))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/e18d2576-cacb-49ee-98d9-d91c481fdd25"
           (reference "#PWR0715") (unit 1)
         )
@@ -2535,7 +2535,7 @@
     )
   )
 
-  (symbol (lib_id "ETH1CSMU2:74AC125") (at 196.85 59.69 0) (mirror y) (unit 3)
+  (symbol (lib_id "ETH1CREF1A:74AC125") (at 196.85 59.69 0) (mirror y) (unit 3)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 59f0103e-9c40-4f0e-8a45-561656a0c9e9)
     (property "Reference" "U703" (at 196.85 49.53 0)
@@ -2565,7 +2565,7 @@
     (pin "14" (uuid dd2d9c59-d3d3-4263-a0dd-027f08eb335e))
     (pin "7" (uuid d81392fb-006e-49ba-91b7-b7b05b73bc0d))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/e18d2576-cacb-49ee-98d9-d91c481fdd25"
           (reference "U703") (unit 3)
         )
@@ -2596,7 +2596,7 @@
     (pin "1" (uuid ddd6bb47-7f24-4bb5-9354-0c0e8484b4f4))
     (pin "2" (uuid d0ba1a13-af14-4f48-9816-83b83b335769))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/e18d2576-cacb-49ee-98d9-d91c481fdd25"
           (reference "L701") (unit 1)
         )
@@ -2609,7 +2609,7 @@
     )
   )
 
-  (symbol (lib_id "ETH1CSMU2:+5V_TRIG") (at 161.29 187.96 0) (unit 1)
+  (symbol (lib_id "ETH1CREF1A:+5V_TRIG") (at 161.29 187.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5d6947bb-69e0-4cd2-8e06-5345fd998648)
     (property "Reference" "#PWR0725" (at 161.29 191.77 0)
@@ -2626,7 +2626,7 @@
     )
     (pin "1" (uuid 800c94a3-9957-4255-ade3-4688a9761f0c))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/e18d2576-cacb-49ee-98d9-d91c481fdd25"
           (reference "#PWR0725") (unit 1)
         )
@@ -2656,7 +2656,7 @@
     )
     (pin "1" (uuid b0c301cb-84ad-4e6b-9ec7-ac93201888db))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/e18d2576-cacb-49ee-98d9-d91c481fdd25"
           (reference "#PWR0706") (unit 1)
         )
@@ -2687,7 +2687,7 @@
     (pin "1" (uuid 79895c98-b455-4d46-a714-3f94a2fbc4b3))
     (pin "2" (uuid 2f3bf490-21e1-4114-b9b7-9ba29cbd7da3))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/e18d2576-cacb-49ee-98d9-d91c481fdd25"
           (reference "R704") (unit 1)
         )
@@ -2732,7 +2732,7 @@
     (pin "8" (uuid b143d31e-de9c-4969-b00e-f9b17c5669d0))
     (pin "9" (uuid d2fd7efe-ed41-47e5-baca-546608eccaba))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/e18d2576-cacb-49ee-98d9-d91c481fdd25"
           (reference "U702") (unit 1)
         )
@@ -2762,7 +2762,7 @@
     )
     (pin "1" (uuid b9bb5f6b-a6af-4bf0-9201-5eb97cd76d01))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/e18d2576-cacb-49ee-98d9-d91c481fdd25"
           (reference "#PWR0712") (unit 1)
         )
@@ -2775,7 +2775,7 @@
     )
   )
 
-  (symbol (lib_id "ETH1CSMU2:+5V_TRIG") (at 198.12 105.41 0) (unit 1)
+  (symbol (lib_id "ETH1CREF1A:+5V_TRIG") (at 198.12 105.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 84d32fcd-f2c2-4cdf-a9cd-df13b46a10e9)
     (property "Reference" "#PWR0727" (at 198.12 109.22 0)
@@ -2792,7 +2792,7 @@
     )
     (pin "1" (uuid 4c9cbf44-d741-4230-922c-989eabf9041c))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/e18d2576-cacb-49ee-98d9-d91c481fdd25"
           (reference "#PWR0727") (unit 1)
         )
@@ -2823,7 +2823,7 @@
     (pin "1" (uuid 9a4103e7-9da0-455d-a035-88ccc05bc852))
     (pin "2" (uuid f09b9d24-aacc-4baf-beb7-3357ff6f7c6e))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/e18d2576-cacb-49ee-98d9-d91c481fdd25"
           (reference "R701") (unit 1)
         )
@@ -2854,7 +2854,7 @@
     (pin "1" (uuid 9efc96e5-a21c-450f-a4aa-e12b640b8a84))
     (pin "2" (uuid 00246d88-b271-4926-8e41-f0b3e1f607a8))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/e18d2576-cacb-49ee-98d9-d91c481fdd25"
           (reference "C701") (unit 1)
         )
@@ -2884,7 +2884,7 @@
     )
     (pin "1" (uuid 3da9fd7e-7b02-4233-9eb8-0452c07bc93d))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/e18d2576-cacb-49ee-98d9-d91c481fdd25"
           (reference "#FLG0701") (unit 1)
         )
@@ -2915,7 +2915,7 @@
     (pin "1" (uuid 7bb27e9e-823a-454b-ad6d-9989c64317b4))
     (pin "2" (uuid 8a62e6ae-9fd9-41f8-a794-89bb1c5980fc))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/e18d2576-cacb-49ee-98d9-d91c481fdd25"
           (reference "C704") (unit 1)
         )
@@ -2945,7 +2945,7 @@
     )
     (pin "1" (uuid 964d7857-66ea-4674-a613-8aa0c08b35d0))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/e18d2576-cacb-49ee-98d9-d91c481fdd25"
           (reference "#PWR0704") (unit 1)
         )
@@ -2976,7 +2976,7 @@
     (pin "1" (uuid d9bb866a-5f94-4d70-9d6e-b64ddbe0a2b0))
     (pin "2" (uuid 536a8792-5b49-4aa5-b102-5b60b59a3bbe))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/e18d2576-cacb-49ee-98d9-d91c481fdd25"
           (reference "C702") (unit 1)
         )
@@ -3007,7 +3007,7 @@
     (pin "1" (uuid 1cfecb42-32e0-40e2-987d-0bc895c13eb6))
     (pin "2" (uuid d68b555f-ae78-427f-a0d1-3c25e0258d0d))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/e18d2576-cacb-49ee-98d9-d91c481fdd25"
           (reference "C706") (unit 1)
         )
@@ -3037,7 +3037,7 @@
     )
     (pin "1" (uuid 14510cdc-959d-4823-ad4e-47dfa4ba077e))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/e18d2576-cacb-49ee-98d9-d91c481fdd25"
           (reference "#PWR0713") (unit 1)
         )
@@ -3067,7 +3067,7 @@
     )
     (pin "1" (uuid 7d278685-7817-472b-9b41-41884bc551c7))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/e18d2576-cacb-49ee-98d9-d91c481fdd25"
           (reference "#PWR0711") (unit 1)
         )
@@ -3099,7 +3099,7 @@
     (pin "2" (uuid 0aeb2936-eeea-43b1-a307-ed58470173ca))
     (pin "3" (uuid 94f57430-a09d-4210-915d-16cde9ecd17b))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/e18d2576-cacb-49ee-98d9-d91c481fdd25"
           (reference "D701") (unit 1)
         )
@@ -3112,7 +3112,7 @@
     )
   )
 
-  (symbol (lib_id "ETH1CSMU2:GND_TRIG") (at 198.12 153.67 0) (unit 1)
+  (symbol (lib_id "ETH1CREF1A:GND_TRIG") (at 198.12 153.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c7559a42-b22f-4094-89ad-98636c7750a0)
     (property "Reference" "#PWR0728" (at 198.12 160.02 0)
@@ -3129,7 +3129,7 @@
     )
     (pin "1" (uuid c0aac144-ef91-403d-9652-aa98ad1c3e49))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/e18d2576-cacb-49ee-98d9-d91c481fdd25"
           (reference "#PWR0728") (unit 1)
         )
@@ -3142,7 +3142,7 @@
     )
   )
 
-  (symbol (lib_id "ETH1CSMU2:+5V_TRIG") (at 123.19 66.04 0) (unit 1)
+  (symbol (lib_id "ETH1CREF1A:+5V_TRIG") (at 123.19 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cde63249-0649-4677-9eb8-d2e1a832ea16)
     (property "Reference" "#PWR0717" (at 123.19 69.85 0)
@@ -3159,7 +3159,7 @@
     )
     (pin "1" (uuid 4e16c3cf-8ade-40e4-89c9-1097b3687d0e))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/e18d2576-cacb-49ee-98d9-d91c481fdd25"
           (reference "#PWR0717") (unit 1)
         )
@@ -3172,7 +3172,7 @@
     )
   )
 
-  (symbol (lib_id "ETH1CSMU2:+5V_TRIG") (at 127 170.18 0) (unit 1)
+  (symbol (lib_id "ETH1CREF1A:+5V_TRIG") (at 127 170.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d2db8abb-7a2c-4b75-b2de-121b8938d73e)
     (property "Reference" "#PWR0719" (at 127 173.99 0)
@@ -3189,7 +3189,7 @@
     )
     (pin "1" (uuid e9850172-2848-48fa-b390-e2aadf186d2f))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/e18d2576-cacb-49ee-98d9-d91c481fdd25"
           (reference "#PWR0719") (unit 1)
         )
@@ -3219,7 +3219,7 @@
     )
     (pin "1" (uuid 675f45bd-971a-4126-9d67-b44ef847eef2))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/e18d2576-cacb-49ee-98d9-d91c481fdd25"
           (reference "#PWR0701") (unit 1)
         )
@@ -3250,7 +3250,7 @@
     (pin "1" (uuid 71fce74e-f7d2-4adb-8e22-8c6df56917a2))
     (pin "2" (uuid eae326f5-9153-42a8-8aac-791ef7718711))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/e18d2576-cacb-49ee-98d9-d91c481fdd25"
           (reference "C705") (unit 1)
         )
@@ -3281,7 +3281,7 @@
     (pin "1" (uuid 94935ec7-26ba-4d3f-8735-4ac92098daec))
     (pin "2" (uuid d34713e0-d803-48b3-bcd4-7c0a24c314aa))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/e18d2576-cacb-49ee-98d9-d91c481fdd25"
           (reference "D703") (unit 1)
         )
@@ -3311,7 +3311,7 @@
     )
     (pin "1" (uuid ee4b5203-3f69-42fa-84dc-768e865c78d8))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/e18d2576-cacb-49ee-98d9-d91c481fdd25"
           (reference "#PWR0710") (unit 1)
         )
@@ -3354,7 +3354,7 @@
     (pin "8" (uuid 14880891-1a28-47f1-a86b-8de87411d118))
     (pin "9" (uuid b71e2307-beb4-49bd-b6f1-d6e0b202d4be))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/e18d2576-cacb-49ee-98d9-d91c481fdd25"
           (reference "U701") (unit 1)
         )
@@ -3385,7 +3385,7 @@
     (pin "1" (uuid dbbb9208-7e61-4389-8fcb-9b94089e2ebd))
     (pin "2" (uuid 57fd64e4-9c5a-4159-94e9-37b1806ad9f2))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/e18d2576-cacb-49ee-98d9-d91c481fdd25"
           (reference "C709") (unit 1)
         )
@@ -3416,7 +3416,7 @@
     (pin "1" (uuid a1b89adb-56bd-4593-b9d8-fc00900f1377))
     (pin "2" (uuid 1d2c5e2c-31ac-4b3f-a2ff-5a91cf8d7618))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/e18d2576-cacb-49ee-98d9-d91c481fdd25"
           (reference "R705") (unit 1)
         )
@@ -3429,7 +3429,7 @@
     )
   )
 
-  (symbol (lib_id "ETH1CSMU2:74AC125") (at 196.85 81.28 0) (mirror y) (unit 4)
+  (symbol (lib_id "ETH1CREF1A:74AC125") (at 196.85 81.28 0) (mirror y) (unit 4)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e54ffadb-dfb6-4444-8449-0d9ceaf21039)
     (property "Reference" "U703" (at 196.85 71.12 0)
@@ -3459,7 +3459,7 @@
     (pin "14" (uuid 7aef6032-e30d-47cc-934f-4c0bda926d6a))
     (pin "7" (uuid c1ff752f-72dd-4b47-9a4a-faefe11bf147))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/e18d2576-cacb-49ee-98d9-d91c481fdd25"
           (reference "U703") (unit 4)
         )
@@ -3472,7 +3472,7 @@
     )
   )
 
-  (symbol (lib_id "ETH1CSMU2:74AC125") (at 151.13 115.57 0) (mirror y) (unit 1)
+  (symbol (lib_id "ETH1CREF1A:74AC125") (at 151.13 115.57 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ec4035e3-bbe8-4112-b717-db75ad958665)
     (property "Reference" "U703" (at 151.13 105.41 0)
@@ -3502,7 +3502,7 @@
     (pin "14" (uuid e939f7c9-cd61-402e-8628-6b13ff4d2c5b))
     (pin "7" (uuid edb4c8e5-d0ad-4fcc-8384-bc054daa09e7))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/e18d2576-cacb-49ee-98d9-d91c481fdd25"
           (reference "U703") (unit 1)
         )
@@ -3515,7 +3515,7 @@
     )
   )
 
-  (symbol (lib_id "ETH1CSMU2:74AC125") (at 196.85 38.1 0) (mirror y) (unit 2)
+  (symbol (lib_id "ETH1CREF1A:74AC125") (at 196.85 38.1 0) (mirror y) (unit 2)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f19cb00d-db5d-4638-a10f-ae58923f4bc6)
     (property "Reference" "U703" (at 196.85 27.94 0)
@@ -3545,7 +3545,7 @@
     (pin "14" (uuid 84823125-9b8a-4787-985b-1cd9b7adf6cb))
     (pin "7" (uuid a5de6eb4-3ac4-4822-82af-7106f2570ce4))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/e18d2576-cacb-49ee-98d9-d91c481fdd25"
           (reference "U703") (unit 2)
         )
@@ -3558,7 +3558,7 @@
     )
   )
 
-  (symbol (lib_id "ETH1CSMU2:GND_TRIG") (at 149.86 187.96 180) (unit 1)
+  (symbol (lib_id "ETH1CREF1A:GND_TRIG") (at 149.86 187.96 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f2080c20-7f3d-46f2-a0ca-5731fcd7d1c1)
     (property "Reference" "#PWR0724" (at 149.86 181.61 0)
@@ -3575,7 +3575,7 @@
     )
     (pin "1" (uuid 5bdd89ae-9ddb-49ce-8d39-15b238d6d1c6))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/e18d2576-cacb-49ee-98d9-d91c481fdd25"
           (reference "#PWR0724") (unit 1)
         )
@@ -3588,7 +3588,7 @@
     )
   )
 
-  (symbol (lib_id "ETH1CSMU2:GND_TRIG") (at 123.19 101.6 0) (unit 1)
+  (symbol (lib_id "ETH1CREF1A:GND_TRIG") (at 123.19 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f96d63e2-c1f1-44ad-97e1-8ba26abcdae0)
     (property "Reference" "#PWR0718" (at 123.19 107.95 0)
@@ -3605,7 +3605,7 @@
     )
     (pin "1" (uuid bec8c4a9-aacb-461e-a6ed-d17cda8f3929))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/e18d2576-cacb-49ee-98d9-d91c481fdd25"
           (reference "#PWR0718") (unit 1)
         )
@@ -3618,7 +3618,7 @@
     )
   )
 
-  (symbol (lib_id "ETH1CSMU2:GND_TRIG") (at 163.83 113.03 90) (unit 1)
+  (symbol (lib_id "ETH1CREF1A:GND_TRIG") (at 163.83 113.03 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fcb84383-d071-4a9a-ae46-3bceba16d6c5)
     (property "Reference" "#PWR0726" (at 170.18 113.03 0)
@@ -3635,7 +3635,7 @@
     )
     (pin "1" (uuid df53bb03-4a89-4147-a20c-462fbab94655))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/e18d2576-cacb-49ee-98d9-d91c481fdd25"
           (reference "#PWR0726") (unit 1)
         )
@@ -3666,7 +3666,7 @@
     (pin "1" (uuid 26b8782e-fec8-40c7-90cd-878abba4cd26))
     (pin "2" (uuid 7f08e736-79c5-4699-bb63-2d53ac607685))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/e18d2576-cacb-49ee-98d9-d91c481fdd25"
           (reference "R706") (unit 1)
         )

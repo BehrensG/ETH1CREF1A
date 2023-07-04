@@ -127,34 +127,40 @@
         )
       )
     )
-    (symbol "Device:Ferrite_Bead" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "FB" (at -3.81 0.635 90)
-        (effects (font (size 1.27 1.27)))
+    (symbol "Device:FerriteBead_Small" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "FB" (at 1.905 1.27 0)
+        (effects (font (size 1.27 1.27)) (justify left))
       )
-      (property "Value" "Device_Ferrite_Bead" (at 3.81 0 90)
-        (effects (font (size 1.27 1.27)))
+      (property "Value" "FerriteBead_Small" (at 1.905 -1.27 0)
+        (effects (font (size 1.27 1.27)) (justify left))
       )
       (property "Footprint" "" (at -1.778 0 90)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Datasheet" "" (at 0 0 0)
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "L ferrite bead inductor filter" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Ferrite bead, small symbol" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "ki_fp_filters" "Inductor_* L_* *Ferrite*" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "Ferrite_Bead_0_1"
+      (symbol "FerriteBead_Small_0_1"
         (polyline
           (pts
             (xy 0 -1.27)
-            (xy 0 -1.2192)
+            (xy 0 -0.7874)
           )
           (stroke (width 0) (type default))
           (fill (type none))
         )
         (polyline
           (pts
-            (xy 0 1.27)
+            (xy 0 0.889)
             (xy 0 1.2954)
           )
           (stroke (width 0) (type default))
@@ -162,22 +168,22 @@
         )
         (polyline
           (pts
-            (xy -2.7686 0.4064)
-            (xy -1.7018 2.2606)
-            (xy 2.7686 -0.3048)
-            (xy 1.6764 -2.159)
-            (xy -2.7686 0.4064)
+            (xy -1.8288 0.2794)
+            (xy -1.1176 1.4986)
+            (xy 1.8288 -0.2032)
+            (xy 1.1176 -1.4224)
+            (xy -1.8288 0.2794)
           )
           (stroke (width 0) (type default))
           (fill (type none))
         )
       )
-      (symbol "Ferrite_Bead_1_1"
-        (pin passive line (at 0 3.81 270) (length 2.54)
+      (symbol "FerriteBead_Small_1_1"
+        (pin passive line (at 0 2.54 270) (length 1.27)
           (name "~" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -3.81 90) (length 2.54)
+        (pin passive line (at 0 -2.54 90) (length 1.27)
           (name "~" (effects (font (size 1.27 1.27))))
           (number "2" (effects (font (size 1.27 1.27))))
         )
@@ -305,7 +311,7 @@
         )
       )
     )
-    (symbol "ETH1CSMU2:749010012A" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (symbol "ETH1CREF1A:749010012A" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
       (property "Reference" "L" (at 0 13.97 0)
         (effects (font (size 1.27 1.27)))
       )
@@ -375,7 +381,7 @@
         )
       )
     )
-    (symbol "ETH1CSMU2:LAN8742" (in_bom yes) (on_board yes)
+    (symbol "ETH1CREF1A:LAN8742" (in_bom yes) (on_board yes)
       (property "Reference" "U" (at -13.97 29.21 0)
         (effects (font (size 1.27 1.27)) (justify right))
       )
@@ -509,7 +515,7 @@
         )
       )
     )
-    (symbol "ETH1CSMU2:LC03-3.3" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (symbol "ETH1CREF1A:LC03-3.3" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
       (property "Reference" "U" (at -2.54 7.62 0)
         (effects (font (size 1.524 1.524)))
       )
@@ -1322,7 +1328,7 @@
     (stroke (width 0) (type default))
     (uuid 9be24eb0-b573-4046-b4f3-75a987fcdd87)
   )
-  (wire (pts (xy 81.28 26.67) (xy 82.55 26.67))
+  (wire (pts (xy 81.28 26.67) (xy 83.82 26.67))
     (stroke (width 0) (type default))
     (uuid 9d807775-22da-40b9-be9b-e367c941151c)
   )
@@ -1386,7 +1392,7 @@
     (stroke (width 0) (type default))
     (uuid b151d391-e75a-4910-8aa2-716fea2a154e)
   )
-  (wire (pts (xy 92.71 26.67) (xy 90.17 26.67))
+  (wire (pts (xy 88.9 26.67) (xy 92.71 26.67))
     (stroke (width 0) (type default))
     (uuid b6be494c-423f-4e51-8d37-243b5a238d6b)
   )
@@ -1743,7 +1749,7 @@
     )
     (pin "1" (uuid 35a3adbf-c1a6-4d88-9f0c-9bcab1e9c8cc))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
           (reference "#PWR0213") (unit 1)
         )
@@ -1773,7 +1779,7 @@
     )
     (pin "1" (uuid c902f3fa-9552-441e-9042-d3442128036a))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
           (reference "#PWR0206") (unit 1)
         )
@@ -1804,7 +1810,7 @@
     (pin "1" (uuid 5193c12c-1373-4cd2-90b2-8e92320167a0))
     (pin "2" (uuid 1f7245f6-5c81-40fc-b094-cbd2133947af))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
           (reference "C205") (unit 1)
         )
@@ -1817,7 +1823,7 @@
     )
   )
 
-  (symbol (lib_id "ETH1CSMU2:749010012A") (at 209.55 81.28 0) (unit 1)
+  (symbol (lib_id "ETH1CREF1A:749010012A") (at 209.55 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0e167941-e65c-4e2e-9fbc-36b4061a187d)
     (property "Reference" "L201" (at 209.55 66.929 0)
@@ -1845,7 +1851,7 @@
     (pin "8" (uuid dc8b86b3-8fbd-48f4-86fb-3b001c8e9daf))
     (pin "9" (uuid d8efef7d-2aae-4d25-9349-be51eca47cb1))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
           (reference "L201") (unit 1)
         )
@@ -1876,7 +1882,7 @@
     (pin "1" (uuid 3eb5ee82-8280-4a05-a217-7f3235fa5530))
     (pin "2" (uuid d7232b06-b002-44e2-9cec-4db3d900df6d))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
           (reference "R208") (unit 1)
         )
@@ -1906,7 +1912,7 @@
     )
     (pin "1" (uuid 7e86313a-4c05-4fb8-8580-e4bd156319d9))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
           (reference "#PWR0221") (unit 1)
         )
@@ -1937,7 +1943,7 @@
     (pin "1" (uuid a29152ce-f751-4378-bd60-ace58b70ad4c))
     (pin "2" (uuid de70fdf4-bf73-485b-af66-3e963c0f51d5))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
           (reference "C211") (unit 1)
         )
@@ -1968,7 +1974,7 @@
     (pin "1" (uuid d5d1f3fe-a91a-44d1-947a-ff4dcdf6d8a6))
     (pin "2" (uuid 6f46a0be-3676-4ba3-8dfe-ae7d5f6e5dcc))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
           (reference "R215") (unit 1)
         )
@@ -1998,7 +2004,7 @@
     )
     (pin "1" (uuid b19b9466-75e3-48ec-ac35-c75addbf6d97))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
           (reference "#PWR0204") (unit 1)
         )
@@ -2029,7 +2035,7 @@
     (pin "1" (uuid ea55b30a-f1e3-46d6-b338-ce44c0b1ba20))
     (pin "2" (uuid bd04119a-90bf-4e5e-af9f-e36b4d629c76))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
           (reference "R201") (unit 1)
         )
@@ -2059,7 +2065,7 @@
     )
     (pin "1" (uuid 389a45a3-9e89-40a2-b4ea-f740a23315d1))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
           (reference "#PWR0217") (unit 1)
         )
@@ -2090,7 +2096,7 @@
     (pin "1" (uuid 4015acb4-faab-43ee-b489-4f7880359477))
     (pin "2" (uuid 8bc555e5-f068-4167-a6e3-4aa903c39c6a))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
           (reference "R220") (unit 1)
         )
@@ -2121,7 +2127,7 @@
     (pin "1" (uuid 160ad6fe-5564-4702-8066-c9cf392a2d64))
     (pin "2" (uuid 39f3c559-0d9d-4a93-85cd-4ab5afc629aa))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
           (reference "R219") (unit 1)
         )
@@ -2151,7 +2157,7 @@
     )
     (pin "1" (uuid c4326fd2-8984-4dd6-978f-43359106d897))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
           (reference "#PWR0207") (unit 1)
         )
@@ -2182,7 +2188,7 @@
     (pin "1" (uuid f9ba1b41-9949-47c2-be18-3313c5ae1367))
     (pin "2" (uuid 6f74d9b5-58d5-4b7e-b98b-e7b4ae4b08f9))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
           (reference "R205") (unit 1)
         )
@@ -2213,7 +2219,7 @@
     (pin "1" (uuid 3c7e2298-9dd5-4288-ba96-6dee37959f60))
     (pin "2" (uuid 7ae73c89-538d-412a-8c93-06aa29b735ef))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
           (reference "C203") (unit 1)
         )
@@ -2244,7 +2250,7 @@
     (pin "1" (uuid ffd6bb31-69e0-433c-b24c-7e2fbb286859))
     (pin "2" (uuid e58ceb03-cbc2-453e-b430-64e69dbe97c9))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
           (reference "R212") (unit 1)
         )
@@ -2274,7 +2280,7 @@
     )
     (pin "1" (uuid 7cd4524f-1b43-48aa-acf6-82db0e45f1b5))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
           (reference "#PWR0209") (unit 1)
         )
@@ -2305,7 +2311,7 @@
     (pin "1" (uuid 5dea7523-d7e9-46b5-bf18-762f241fe884))
     (pin "2" (uuid df1cb648-dad6-44c7-a46e-984a40abd1a9))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
           (reference "R216") (unit 1)
         )
@@ -2335,7 +2341,7 @@
     )
     (pin "1" (uuid eec32dcc-2724-4955-8cc9-bc1d09f48fed))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
           (reference "#PWR0223") (unit 1)
         )
@@ -2365,7 +2371,7 @@
     )
     (pin "1" (uuid c6461e0f-af6b-4e42-acd9-039f58e9b874))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
           (reference "#PWR0220") (unit 1)
         )
@@ -2395,7 +2401,7 @@
     )
     (pin "1" (uuid 8198964d-6da7-4962-8bfd-a41a129c819c))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
           (reference "#FLG0201") (unit 1)
         )
@@ -2425,7 +2431,7 @@
     )
     (pin "1" (uuid bc255139-b2ec-4e90-b218-07fc4823871b))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
           (reference "#PWR0215") (unit 1)
         )
@@ -2456,7 +2462,7 @@
     (pin "1" (uuid 8ce04200-2f7a-43f7-8b83-30c75c201529))
     (pin "2" (uuid 7d09c901-5eac-47dd-a316-188ee6c33d44))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
           (reference "C213") (unit 1)
         )
@@ -2487,7 +2493,7 @@
     (pin "1" (uuid 3488fb04-14e8-486a-aca3-8d80bc8f9fda))
     (pin "2" (uuid 91b40b88-0628-433d-bbf8-37d0cf6a3a85))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
           (reference "C209") (unit 1)
         )
@@ -2495,6 +2501,32 @@
       (project "ETH1CREF1A"
         (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/d80dc5f9-b46c-4acb-9545-44aed4815fe8"
           (reference "C309") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:FerriteBead_Small") (at 86.36 26.67 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 5c3bc0a9-e8b7-4dfa-a36b-3f424fa6f5b6)
+    (property "Reference" "FB301" (at 86.3219 20.32 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "600" (at 86.3219 22.86 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (at 86.36 28.448 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 86.36 26.67 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid b74fad58-e30e-4f55-814b-2349d0c6a51e))
+    (pin "2" (uuid 55a375cf-f93f-4490-9d80-46c80dbb5676))
+    (instances
+      (project "ETH1CREF1A"
+        (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/d80dc5f9-b46c-4acb-9545-44aed4815fe8"
+          (reference "FB301") (unit 1)
         )
       )
     )
@@ -2518,7 +2550,7 @@
     (pin "1" (uuid cc0e2354-a21a-4f09-95fb-f595ea3eab6a))
     (pin "2" (uuid f982b9b2-501a-4e80-aae8-d4967d3394c0))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
           (reference "D201") (unit 1)
         )
@@ -2548,7 +2580,7 @@
     )
     (pin "1" (uuid ca4d340f-4b1b-421f-8ebb-b42d1d9aed77))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
           (reference "#FLG0202") (unit 1)
         )
@@ -2579,7 +2611,7 @@
     (pin "1" (uuid 3a284624-256d-4d1c-8674-af3fa015d852))
     (pin "2" (uuid 78b4115e-494b-456e-acd4-9fec287b1e53))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
           (reference "R218") (unit 1)
         )
@@ -2609,7 +2641,7 @@
     )
     (pin "1" (uuid 9009315d-21a4-4262-8e14-89158730f8f2))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
           (reference "#PWR0201") (unit 1)
         )
@@ -2640,7 +2672,7 @@
     (pin "1" (uuid 6cae7903-be26-4f59-b6b8-8adfd482550b))
     (pin "2" (uuid 02af2475-e4a4-4c0e-a168-4e7d069a92bd))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
           (reference "R213") (unit 1)
         )
@@ -2671,7 +2703,7 @@
     (pin "1" (uuid 9a7c07c9-ebf7-4119-affd-9632b23b7042))
     (pin "2" (uuid 781baa41-196c-4423-b245-515034835718))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
           (reference "R206") (unit 1)
         )
@@ -2701,7 +2733,7 @@
     )
     (pin "1" (uuid 38312f65-4c48-4a4f-97f8-41e2f588d120))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
           (reference "#PWR0212") (unit 1)
         )
@@ -2731,7 +2763,7 @@
     )
     (pin "1" (uuid 04627eb7-3e05-40ad-8558-f96eaa7aab1b))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
           (reference "#PWR0205") (unit 1)
         )
@@ -2761,7 +2793,7 @@
     )
     (pin "1" (uuid e0a82c17-f048-4929-a6b8-3ffd13b9ed6a))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
           (reference "#PWR0218") (unit 1)
         )
@@ -2792,7 +2824,7 @@
     (pin "1" (uuid 4a578936-9eec-490a-955b-40bd2a06d18a))
     (pin "2" (uuid 21bc3622-6677-4b55-809b-0ef2c2abb9dd))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
           (reference "R207") (unit 1)
         )
@@ -2823,7 +2855,7 @@
     (pin "1" (uuid 2eed9ae5-1f04-4ed4-9c22-5f74c233948a))
     (pin "2" (uuid 1996632e-7c30-4fdc-8659-333f0bfc43bc))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
           (reference "C208") (unit 1)
         )
@@ -2854,7 +2886,7 @@
     (pin "1" (uuid f1b29608-a79b-4a9e-bba8-0c80535b3625))
     (pin "2" (uuid 4c78ac25-d444-4980-b306-da5b3915444e))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
           (reference "R221") (unit 1)
         )
@@ -2885,7 +2917,7 @@
     (pin "1" (uuid 230653fc-e5c9-47c1-9bbf-25e9c582fcd5))
     (pin "2" (uuid 86e24c0f-6bcc-42b0-a96a-6d46da7b6618))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
           (reference "R204") (unit 1)
         )
@@ -2916,7 +2948,7 @@
     (pin "1" (uuid fa7e53f1-3534-4c51-a57d-f00dae868789))
     (pin "2" (uuid a03ded50-f56b-47f9-99a3-a621a40385d1))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
           (reference "C207") (unit 1)
         )
@@ -2947,7 +2979,7 @@
     (pin "1" (uuid f6ae846a-a34e-44d2-814b-d47f070b180b))
     (pin "2" (uuid bafc97a7-d257-4889-8652-7f2632f19193))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
           (reference "C212") (unit 1)
         )
@@ -2978,7 +3010,7 @@
     (pin "1" (uuid 5ebb4306-913a-4794-9391-cfb94ac84c98))
     (pin "2" (uuid 265e1650-a6d5-48cc-8813-09f108eb6b43))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
           (reference "R211") (unit 1)
         )
@@ -3008,7 +3040,7 @@
     )
     (pin "1" (uuid e41ef654-45f9-437c-9a6a-0596143331d8))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
           (reference "#PWR0214") (unit 1)
         )
@@ -3039,7 +3071,7 @@
     (pin "1" (uuid b20fd764-5d34-4089-a9f9-a160e6ab29c4))
     (pin "2" (uuid 9869209e-31fa-4337-94a9-437b4230e293))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
           (reference "R214") (unit 1)
         )
@@ -3052,7 +3084,7 @@
     )
   )
 
-  (symbol (lib_id "ETH1CSMU2:LAN8742") (at 86.36 86.36 0) (unit 1)
+  (symbol (lib_id "ETH1CREF1A:LAN8742") (at 86.36 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a07e3065-2141-45aa-83bd-403aed0078c3)
     (property "Reference" "U201" (at 69.85 57.15 0)
@@ -3093,7 +3125,7 @@
     (pin "8" (uuid 0381f19c-7398-4446-9d5a-e81d24cb4984))
     (pin "9" (uuid 075fb1fd-19fa-473c-a74d-974ebeb72ea0))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
           (reference "U201") (unit 1)
         )
@@ -3123,7 +3155,7 @@
     )
     (pin "1" (uuid 0ecc4af1-9c23-4e1d-8e6f-af544b07a1b1))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
           (reference "#PWR0203") (unit 1)
         )
@@ -3136,7 +3168,7 @@
     )
   )
 
-  (symbol (lib_id "ETH1CSMU2:LC03-3.3") (at 262.89 72.39 0) (unit 1)
+  (symbol (lib_id "ETH1CREF1A:LC03-3.3") (at 262.89 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a4a31534-81cd-46ab-964e-a88f76a01e53)
     (property "Reference" "U202" (at 262.89 61.2902 0)
@@ -3160,7 +3192,7 @@
     (pin "7" (uuid a644a3c6-517c-44c4-96d8-9aa15e4b1286))
     (pin "8" (uuid e425f707-c888-4811-b510-94c30966239f))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
           (reference "U202") (unit 1)
         )
@@ -3191,7 +3223,7 @@
     (pin "1" (uuid 99031f27-608c-4000-9f1d-6a419098410c))
     (pin "2" (uuid e6f16a56-a51b-4143-94fd-0e0be873ec7b))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
           (reference "C204") (unit 1)
         )
@@ -3222,7 +3254,7 @@
     (pin "1" (uuid 63da89a3-0111-417e-aca9-7f828ca9781a))
     (pin "2" (uuid 137b94d8-703e-4b18-932a-61d6996d02e6))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
           (reference "R202") (unit 1)
         )
@@ -3235,7 +3267,7 @@
     )
   )
 
-  (symbol (lib_id "ETH1CSMU2:LC03-3.3") (at 262.89 92.71 0) (unit 1)
+  (symbol (lib_id "ETH1CREF1A:LC03-3.3") (at 262.89 92.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid abe2c55e-3746-4725-b8a6-5f3c7fd7e16d)
     (property "Reference" "U203" (at 262.89 81.6102 0)
@@ -3259,7 +3291,7 @@
     (pin "7" (uuid e0bc731a-c62d-41a1-983f-1d9ecceab5e6))
     (pin "8" (uuid 88ad4943-878b-487d-9cac-a50dd1dcc8d5))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
           (reference "U203") (unit 1)
         )
@@ -3289,7 +3321,7 @@
     )
     (pin "1" (uuid bad0617f-0b8a-4de7-b2df-82b33df53771))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
           (reference "#PWR0211") (unit 1)
         )
@@ -3320,7 +3352,7 @@
     (pin "1" (uuid a55d4d30-a9b0-4e61-80e0-f47fadb40b99))
     (pin "2" (uuid e7b3b64f-f2e0-4907-b6b4-8aebe53b1ce6))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
           (reference "C202") (unit 1)
         )
@@ -3350,7 +3382,7 @@
     )
     (pin "1" (uuid 5eacf246-599b-435b-8266-dc0b96e2420a))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
           (reference "#PWR0222") (unit 1)
         )
@@ -3381,7 +3413,7 @@
     (pin "1" (uuid 8975ff4b-8b16-43e9-9963-f1718cc926cf))
     (pin "2" (uuid b756cc2f-c958-4a8f-baf9-8db84567e76c))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
           (reference "C201") (unit 1)
         )
@@ -3412,7 +3444,7 @@
     (pin "1" (uuid 5eee3d12-e279-4f30-8c95-c9c41d3b7a68))
     (pin "2" (uuid 179a25ff-f879-44b9-b120-41126e9a35cf))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
           (reference "R209") (unit 1)
         )
@@ -3443,7 +3475,7 @@
     (pin "1" (uuid e3a2712d-db46-47a8-9f51-d706137610df))
     (pin "2" (uuid 7604f73b-b741-4f39-982b-ffff332150e3))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
           (reference "D202") (unit 1)
         )
@@ -3474,7 +3506,7 @@
     (pin "1" (uuid 5da9339c-ee69-4027-9c52-89e139bbb2b7))
     (pin "2" (uuid ee3af86f-8acf-4846-83e2-45496d47bc72))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
           (reference "R210") (unit 1)
         )
@@ -3482,37 +3514,6 @@
       (project "ETH1CREF1A"
         (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/d80dc5f9-b46c-4acb-9545-44aed4815fe8"
           (reference "R310") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:Ferrite_Bead") (at 86.36 26.67 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid b8f3a1ae-9daa-4dc9-bd85-aa4100b539f8)
-    (property "Reference" "FB201" (at 86.36 19.7104 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "742792031" (at 86.36 22.0218 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder" (at 86.36 24.892 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 86.36 26.67 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid d033e42c-ee7d-4f4e-bac4-dd56dd1fa910))
-    (pin "2" (uuid 715f0e5a-1bd2-4333-84f8-55a268aad545))
-    (instances
-      (project "ETH1CSMU2"
-        (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
-          (reference "FB201") (unit 1)
-        )
-      )
-      (project "ETH1CREF1A"
-        (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/d80dc5f9-b46c-4acb-9545-44aed4815fe8"
-          (reference "FB301") (unit 1)
         )
       )
     )
@@ -3535,7 +3536,7 @@
     )
     (pin "1" (uuid 9e43424c-e40b-4149-a3aa-3b4088cde84a))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
           (reference "#FLG0203") (unit 1)
         )
@@ -3566,7 +3567,7 @@
     (pin "1" (uuid fae8a236-1441-488f-a40f-399005e7050c))
     (pin "2" (uuid fbdf91d1-cef3-4895-b2e6-e2a9e440146d))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
           (reference "C206") (unit 1)
         )
@@ -3596,7 +3597,7 @@
     )
     (pin "1" (uuid 0f5ab528-a709-4d0b-b786-191b8a6f5794))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
           (reference "#PWR0219") (unit 1)
         )
@@ -3627,7 +3628,7 @@
     (pin "1" (uuid 17e92074-76d6-460c-948b-f888eedcd429))
     (pin "2" (uuid ea264d3b-9af7-49d4-9eb0-14906b506cf3))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
           (reference "C214") (unit 1)
         )
@@ -3658,7 +3659,7 @@
     (pin "1" (uuid a38ce31d-ee44-4bbf-bd56-2a06f1c7975d))
     (pin "2" (uuid 3bd60a69-fdb5-4961-ad7c-2de7c1201e6f))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
           (reference "R217") (unit 1)
         )
@@ -3688,7 +3689,7 @@
     )
     (pin "1" (uuid 95476be6-3e27-41b4-a44d-b5b9a188657f))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
           (reference "#PWR0208") (unit 1)
         )
@@ -3719,7 +3720,7 @@
     (pin "1" (uuid bcf26e87-4938-41f9-9524-4bedbd396c4a))
     (pin "2" (uuid 5f7d8920-55b4-49de-a39c-6293c53e79c3))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
           (reference "C210") (unit 1)
         )
@@ -3749,7 +3750,7 @@
     )
     (pin "1" (uuid 3a3b9013-6b45-4137-8baa-fd5576eec959))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
           (reference "#PWR0216") (unit 1)
         )
@@ -3780,7 +3781,7 @@
     (pin "1" (uuid 8345fd90-17d3-4968-9ab7-6abb4bd79d68))
     (pin "2" (uuid fbf2905a-7aff-4d2f-a90b-dbb7d9204bb9))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
           (reference "Y201") (unit 1)
         )
@@ -3810,7 +3811,7 @@
     )
     (pin "1" (uuid 7bf1793f-4582-483c-92d3-21090084d321))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
           (reference "#PWR0202") (unit 1)
         )
@@ -3841,7 +3842,7 @@
     (pin "1" (uuid f6eaf6a0-aad7-4c09-92db-e62935dfdbcf))
     (pin "2" (uuid 6ea1f0c9-540f-41d5-b8e0-36dccc6d07d3))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
           (reference "R203") (unit 1)
         )
@@ -3871,7 +3872,7 @@
     )
     (pin "1" (uuid c1de2887-4002-4647-a33b-fe8eff73c617))
     (instances
-      (project "ETH1CSMU2"
+      (project "ETH1CREF1A"
         (path "/1fc6a863-b4aa-4691-87d2-d385f614c99b/75c7e2ad-23cf-4375-93c8-1f422fbb9e74"
           (reference "#PWR0210") (unit 1)
         )

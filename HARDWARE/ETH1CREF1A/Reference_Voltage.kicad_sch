@@ -5,193 +5,6 @@
   (paper "A4")
 
   (lib_symbols
-    (symbol "ADC_TEST:AGNDF" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (at 0 -6.35 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "AGNDF" (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "AGNDF_0_1"
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 -1.27)
-            (xy 1.27 -1.27)
-            (xy 0 -2.54)
-            (xy -1.27 -1.27)
-            (xy 0 -1.27)
-          )
-          (stroke (width 0) (type solid))
-          (fill (type none))
-        )
-      )
-      (symbol "AGNDF_1_1"
-        (pin power_in line (at 0 0 270) (length 0) hide
-          (name "AGNDF" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "ADC_TEST:LM399H" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-      (property "Reference" "U" (at -22.86 11.43 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "LM399H" (at -22.86 11.43 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at -22.86 11.43 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at -22.86 11.43 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "LM399H_0_0"
-        (rectangle (start -5.08 2.54) (end 5.08 -2.54)
-          (stroke (width 0) (type solid))
-          (fill (type background))
-        )
-        (rectangle (start -3.81 1.27) (end -1.27 -1.27)
-          (stroke (width 0) (type solid))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -2.54 -2.54)
-            (xy -2.54 -1.27)
-          )
-          (stroke (width 0) (type solid))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -2.54 1.27)
-            (xy -2.54 2.54)
-          )
-          (stroke (width 0) (type solid))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 2.54 -2.54)
-            (xy 2.54 -1.27)
-          )
-          (stroke (width 0) (type solid))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 2.54 1.27)
-            (xy 2.54 2.54)
-          )
-          (stroke (width 0) (type solid))
-          (fill (type none))
-        )
-        (text "H" (at -2.54 0 0)
-          (effects (font (size 1.27 1.27)))
-        )
-      )
-      (symbol "LM399H_1_1"
-        (polyline
-          (pts
-            (xy 1.27 1.27)
-            (xy 3.81 1.27)
-            (xy 3.81 0.762)
-          )
-          (stroke (width 0.2032) (type solid))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.27 -1.27)
-            (xy 3.81 -1.27)
-            (xy 2.54 1.27)
-            (xy 1.27 -1.27)
-          )
-          (stroke (width 0.2032) (type solid))
-          (fill (type none))
-        )
-        (pin passive line (at 2.54 5.08 270) (length 2.54)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 2.54 -5.08 90) (length 2.54)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -2.54 5.08 270) (length 2.54)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -2.54 -5.08 90) (length 2.54)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "ADC_TEST:LT1021-7" (in_bom yes) (on_board yes)
-      (property "Reference" "U" (at 0 8.89 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "LT1021-7" (at -5.08 6.35 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Footprint" "" (at 12.7 -6.35 0)
-        (effects (font (size 1.27 1.27) italic) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27) italic) hide)
-      )
-      (property "ki_fp_filters" "SOT?23*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "LT1021-7_0_1"
-        (rectangle (start -5.08 5.08) (end 5.08 -5.08)
-          (stroke (width 0.254) (type solid))
-          (fill (type background))
-        )
-      )
-      (symbol "LT1021-7_1_1"
-        (pin no_connect non_logic (at 0 5.08 90) (length 0) hide
-          (name "DNC" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -7.62 2.54 0) (length 2.54)
-          (name "Vin" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin no_connect non_logic (at 2.54 -5.08 270) (length 0) hide
-          (name "DNC" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -7.62 90) (length 2.54)
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 1.27 1.27))))
-        )
-        (pin no_connect non_logic (at 3.81 -5.08 270) (length 0) hide
-          (name "DNC" (effects (font (size 1.27 1.27))))
-          (number "5" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 7.62 2.54 180) (length 2.54)
-          (name "Vout" (effects (font (size 1.27 1.27))))
-          (number "6" (effects (font (size 1.27 1.27))))
-        )
-        (pin no_connect non_logic (at -3.81 -5.08 270) (length 0) hide
-          (name "DNC" (effects (font (size 1.27 1.27))))
-          (number "7" (effects (font (size 1.27 1.27))))
-        )
-        (pin no_connect non_logic (at -2.54 -5.08 270) (length 0) hide
-          (name "DNC" (effects (font (size 1.27 1.27))))
-          (number "8" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
     (symbol "Device:C" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.27 1.27)) (justify left))
@@ -543,6 +356,159 @@
         (pin power_in line (at 0 0 270) (length 0) hide
           (name "AGNDF" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "ETH1CREF1A:LM399H" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+      (property "Reference" "U" (at -22.86 11.43 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "LM399H" (at -22.86 11.43 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at -22.86 11.43 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at -22.86 11.43 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "LM399H_0_0"
+        (rectangle (start -5.08 2.54) (end 5.08 -2.54)
+          (stroke (width 0) (type default))
+          (fill (type background))
+        )
+        (rectangle (start -3.81 1.27) (end -1.27 -1.27)
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -2.54 -2.54)
+            (xy -2.54 -1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -2.54 1.27)
+            (xy -2.54 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 2.54 -2.54)
+            (xy 2.54 -1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 2.54 1.27)
+            (xy 2.54 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (text "H" (at -2.54 0 0)
+          (effects (font (size 1.27 1.27)))
+        )
+      )
+      (symbol "LM399H_1_1"
+        (polyline
+          (pts
+            (xy 1.27 1.27)
+            (xy 3.81 1.27)
+            (xy 3.81 0.762)
+          )
+          (stroke (width 0.2032) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.27 -1.27)
+            (xy 3.81 -1.27)
+            (xy 2.54 1.27)
+            (xy 1.27 -1.27)
+          )
+          (stroke (width 0.2032) (type default))
+          (fill (type none))
+        )
+        (pin passive line (at 2.54 5.08 270) (length 2.54)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 2.54 -5.08 90) (length 2.54)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at -2.54 5.08 270) (length 2.54)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "3" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at -2.54 -5.08 90) (length 2.54)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "4" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "ETH1CREF1A:LT1021-7" (in_bom yes) (on_board yes)
+      (property "Reference" "U" (at 0 8.89 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "LT1021-7" (at -5.08 6.35 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Footprint" "" (at 12.7 -6.35 0)
+        (effects (font (size 1.27 1.27) italic) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27) italic) hide)
+      )
+      (property "ki_fp_filters" "SOT?23*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "LT1021-7_0_1"
+        (rectangle (start -5.08 5.08) (end 5.08 -5.08)
+          (stroke (width 0.254) (type default))
+          (fill (type background))
+        )
+      )
+      (symbol "LT1021-7_1_1"
+        (pin no_connect non_logic (at 0 5.08 90) (length 0) hide
+          (name "DNC" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at -7.62 2.54 0) (length 2.54)
+          (name "Vin" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+        (pin no_connect non_logic (at 2.54 -5.08 270) (length 0) hide
+          (name "DNC" (effects (font (size 1.27 1.27))))
+          (number "3" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 0 -7.62 90) (length 2.54)
+          (name "GND" (effects (font (size 1.27 1.27))))
+          (number "4" (effects (font (size 1.27 1.27))))
+        )
+        (pin no_connect non_logic (at 3.81 -5.08 270) (length 0) hide
+          (name "DNC" (effects (font (size 1.27 1.27))))
+          (number "5" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 7.62 2.54 180) (length 2.54)
+          (name "Vout" (effects (font (size 1.27 1.27))))
+          (number "6" (effects (font (size 1.27 1.27))))
+        )
+        (pin no_connect non_logic (at -3.81 -5.08 270) (length 0) hide
+          (name "DNC" (effects (font (size 1.27 1.27))))
+          (number "7" (effects (font (size 1.27 1.27))))
+        )
+        (pin no_connect non_logic (at -2.54 -5.08 270) (length 0) hide
+          (name "DNC" (effects (font (size 1.27 1.27))))
+          (number "8" (effects (font (size 1.27 1.27))))
         )
       )
     )
@@ -1697,7 +1663,7 @@
     (property "Value" "2u2" (at 56.515 41.91 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder" (at 53.6702 44.45 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 53.6702 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 52.705 40.64 0)
@@ -1761,7 +1727,7 @@
     (pin "1" (uuid 599148b4-d8c5-4e64-8484-fc9a95522ae2))
     (pin "2" (uuid 29b5601b-0cb1-4439-8175-41d812503da6))
     (instances
-      (project "ADC_Test"
+      (project "ETH1CREF1A"
         (path "/700b7e2e-569c-4a15-81a0-3588750b2d07/00000000-0000-0000-0000-00005fccc067"
           (reference "R508") (unit 1)
         )
@@ -1774,7 +1740,7 @@
     )
   )
 
-  (symbol (lib_id "ADC_TEST:AGNDF") (at 104.775 55.245 270) (unit 1)
+  (symbol (lib_id "ETH1CREF1A:AGNDF") (at 104.775 55.245 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 18a48517-f648-4eae-84c9-2e2f350b9f83)
     (property "Reference" "#PWR0523" (at 98.425 55.245 0)
@@ -1791,7 +1757,7 @@
     )
     (pin "1" (uuid eb3ec2de-b8e4-4797-89c3-3b0f66f3e38f))
     (instances
-      (project "ADC_Test"
+      (project "ETH1CREF1A"
         (path "/700b7e2e-569c-4a15-81a0-3588750b2d07/00000000-0000-0000-0000-00005fccc067"
           (reference "#PWR0523") (unit 1)
         )
@@ -1838,7 +1804,7 @@
   (symbol (lib_id "ETH1CREF1A:AD8676") (at 203.835 109.855 0) (mirror x) (unit 2)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1a38a873-a2b6-40a2-a107-4c209d93f64b)
-    (property "Reference" "U701" (at 208.28 102.235 0)
+    (property "Reference" "U705" (at 208.28 102.235 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "AD8676BRZ" (at 208.28 104.775 0)
@@ -1861,7 +1827,7 @@
     (instances
       (project "ETH1CREF1A"
         (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/846bb202-5e4e-44fb-9116-3eb04dadebb8"
-          (reference "U701") (unit 2)
+          (reference "U705") (unit 2)
         )
       )
     )
@@ -1925,7 +1891,7 @@
     )
   )
 
-  (symbol (lib_id "ADC_TEST:AGNDF") (at 76.2 57.15 0) (unit 1)
+  (symbol (lib_id "ETH1CREF1A:AGNDF") (at 76.2 57.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 20805b8f-7fe6-4680-839f-651780e0831d)
     (property "Reference" "#PWR0523" (at 76.2 63.5 0)
@@ -1942,7 +1908,7 @@
     )
     (pin "1" (uuid d246a075-e14a-481b-9b97-109b9cfce923))
     (instances
-      (project "ADC_Test"
+      (project "ETH1CREF1A"
         (path "/700b7e2e-569c-4a15-81a0-3588750b2d07/00000000-0000-0000-0000-00005fccc067"
           (reference "#PWR0523") (unit 1)
         )
@@ -1961,7 +1927,7 @@
   (symbol (lib_id "ETH1CREF1A:AD8676") (at 121.92 40.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 25296fe9-b06f-4aa4-8ccd-80281e5e05b7)
-    (property "Reference" "U703" (at 123.19 30.48 0)
+    (property "Reference" "U701" (at 123.19 30.48 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "AD8676BRZ" (at 123.19 33.02 0)
@@ -1984,13 +1950,13 @@
     (instances
       (project "ETH1CREF1A"
         (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/846bb202-5e4e-44fb-9116-3eb04dadebb8"
-          (reference "U703") (unit 1)
+          (reference "U701") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "ADC_TEST:AGNDF") (at 53.975 88.9 0) (unit 1)
+  (symbol (lib_id "ETH1CREF1A:AGNDF") (at 53.975 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 295bc25c-4d5a-48d1-b45a-6fad778aa1d4)
     (property "Reference" "#PWR0523" (at 53.975 95.25 0)
@@ -2007,7 +1973,7 @@
     )
     (pin "1" (uuid 6df73ebe-347c-4b95-b6de-6684ad502984))
     (instances
-      (project "ADC_Test"
+      (project "ETH1CREF1A"
         (path "/700b7e2e-569c-4a15-81a0-3588750b2d07/00000000-0000-0000-0000-00005fccc067"
           (reference "#PWR0523") (unit 1)
         )
@@ -2055,7 +2021,7 @@
   (symbol (lib_id "ETH1CREF1A:AD8676") (at 202.565 76.2 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2bc817c8-b3e1-4a11-b160-b91cd77c8790)
-    (property "Reference" "U701" (at 208.28 69.215 0)
+    (property "Reference" "U705" (at 208.28 69.215 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "AD8676BRZ" (at 208.28 71.755 0)
@@ -2078,7 +2044,7 @@
     (instances
       (project "ETH1CREF1A"
         (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/846bb202-5e4e-44fb-9116-3eb04dadebb8"
-          (reference "U701") (unit 1)
+          (reference "U705") (unit 1)
         )
       )
     )
@@ -2110,7 +2076,7 @@
     )
   )
 
-  (symbol (lib_id "ADC_TEST:AGNDF") (at 149.225 121.92 0) (unit 1)
+  (symbol (lib_id "ETH1CREF1A:AGNDF") (at 149.225 121.92 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3e2133e8-3606-44bc-b8ff-5a4b345ef355)
     (property "Reference" "#PWR0523" (at 149.225 128.27 0)
@@ -2127,7 +2093,7 @@
     )
     (pin "1" (uuid d005cacd-4baa-4cb8-b36e-f5a994e812b1))
     (instances
-      (project "ADC_Test"
+      (project "ETH1CREF1A"
         (path "/700b7e2e-569c-4a15-81a0-3588750b2d07/00000000-0000-0000-0000-00005fccc067"
           (reference "#PWR0523") (unit 1)
         )
@@ -2361,7 +2327,7 @@
     )
   )
 
-  (symbol (lib_id "ADC_TEST:AGNDF") (at 86.36 88.9 0) (unit 1)
+  (symbol (lib_id "ETH1CREF1A:AGNDF") (at 86.36 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7ab959cc-8f87-4585-b67e-eb912e6f7877)
     (property "Reference" "#PWR0523" (at 86.36 95.25 0)
@@ -2378,7 +2344,7 @@
     )
     (pin "1" (uuid c8ce0725-24a1-44f3-9e51-8557935b54c0))
     (instances
-      (project "ADC_Test"
+      (project "ETH1CREF1A"
         (path "/700b7e2e-569c-4a15-81a0-3588750b2d07/00000000-0000-0000-0000-00005fccc067"
           (reference "#PWR0523") (unit 1)
         )
@@ -2394,7 +2360,7 @@
     )
   )
 
-  (symbol (lib_id "ADC_TEST:AGNDF") (at 196.215 112.395 270) (unit 1)
+  (symbol (lib_id "ETH1CREF1A:AGNDF") (at 196.215 112.395 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8186537c-cffe-4985-80f7-286593653c0b)
     (property "Reference" "#PWR0519" (at 189.865 112.395 0)
@@ -2411,7 +2377,7 @@
     )
     (pin "1" (uuid 3546a781-b0d9-4275-af9d-4cddd6801091))
     (instances
-      (project "ADC_Test"
+      (project "ETH1CREF1A"
         (path "/700b7e2e-569c-4a15-81a0-3588750b2d07/00000000-0000-0000-0000-00005fccc067"
           (reference "#PWR0519") (unit 1)
         )
@@ -2506,7 +2472,7 @@
     (pin "1" (uuid 0a6f8464-a3e6-4351-9d6e-883ba8245fdd))
     (pin "2" (uuid 3474d57b-f908-49df-8859-fbca0ad87b2e))
     (instances
-      (project "ADC_Test"
+      (project "ETH1CREF1A"
         (path "/700b7e2e-569c-4a15-81a0-3588750b2d07/00000000-0000-0000-0000-00005fccc067"
           (reference "C511") (unit 1)
         )
@@ -2688,7 +2654,7 @@
   (symbol (lib_id "ETH1CREF1A:AD8676") (at 76.835 125.73 0) (unit 2)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a27efc11-1641-43ca-a760-f27a0435abc1)
-    (property "Reference" "U703" (at 78.105 115.57 0)
+    (property "Reference" "U701" (at 78.105 115.57 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "AD8676BRZ" (at 78.105 118.11 0)
@@ -2711,7 +2677,7 @@
     (instances
       (project "ETH1CREF1A"
         (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/846bb202-5e4e-44fb-9116-3eb04dadebb8"
-          (reference "U703") (unit 2)
+          (reference "U701") (unit 2)
         )
       )
     )
@@ -2801,7 +2767,7 @@
   (symbol (lib_id "ETH1CREF1A:AD8676") (at 146.05 168.275 0) (unit 3)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b527ec5d-223f-4d4b-b954-93101a4a1210)
-    (property "Reference" "U703" (at 149.225 167.005 0)
+    (property "Reference" "U705" (at 149.225 167.005 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "AD8676BRZ" (at 149.225 169.545 0)
@@ -2824,13 +2790,13 @@
     (instances
       (project "ETH1CREF1A"
         (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/846bb202-5e4e-44fb-9116-3eb04dadebb8"
-          (reference "U703") (unit 3)
+          (reference "U705") (unit 3)
         )
       )
     )
   )
 
-  (symbol (lib_id "ADC_TEST:AGNDF") (at 183.515 73.66 270) (unit 1)
+  (symbol (lib_id "ETH1CREF1A:AGNDF") (at 183.515 73.66 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bd245d7c-0214-4c87-9fd5-a59367e8574a)
     (property "Reference" "#PWR0519" (at 177.165 73.66 0)
@@ -2847,7 +2813,7 @@
     )
     (pin "1" (uuid de19fe21-8fbc-431c-b87a-b142471addc6))
     (instances
-      (project "ADC_Test"
+      (project "ETH1CREF1A"
         (path "/700b7e2e-569c-4a15-81a0-3588750b2d07/00000000-0000-0000-0000-00005fccc067"
           (reference "#PWR0519") (unit 1)
         )
@@ -2863,7 +2829,7 @@
     )
   )
 
-  (symbol (lib_id "ADC_TEST:LM399H") (at 139.065 114.3 0) (unit 1)
+  (symbol (lib_id "ETH1CREF1A:LM399H") (at 139.065 114.3 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d0b46040-2e7f-4f5b-bdfa-23a889b07a3c)
     (property "Reference" "U506" (at 144.8562 113.1316 0)
@@ -2883,7 +2849,7 @@
     (pin "3" (uuid 17191df8-f0e1-4695-859d-68f4890ec31f))
     (pin "4" (uuid 642f8d1f-6f96-4d9e-8a61-4bdcd3e9e415))
     (instances
-      (project "ADC_Test"
+      (project "ETH1CREF1A"
         (path "/700b7e2e-569c-4a15-81a0-3588750b2d07/00000000-0000-0000-0000-00005fccc067"
           (reference "U506") (unit 1)
         )
@@ -2893,7 +2859,7 @@
       )
       (project "ETH1CREF1A"
         (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/846bb202-5e4e-44fb-9116-3eb04dadebb8"
-          (reference "U705") (unit 1)
+          (reference "U704") (unit 1)
         )
       )
     )
@@ -2927,7 +2893,7 @@
     )
   )
 
-  (symbol (lib_id "ADC_TEST:AGNDF") (at 70.485 123.19 270) (unit 1)
+  (symbol (lib_id "ETH1CREF1A:AGNDF") (at 70.485 123.19 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d3301355-2c05-424f-9feb-56662e6f1a92)
     (property "Reference" "#PWR0519" (at 64.135 123.19 0)
@@ -2944,7 +2910,7 @@
     )
     (pin "1" (uuid e353ed8b-fab0-4caf-9564-e66e6bfd72e7))
     (instances
-      (project "ADC_Test"
+      (project "ETH1CREF1A"
         (path "/700b7e2e-569c-4a15-81a0-3588750b2d07/00000000-0000-0000-0000-00005fccc067"
           (reference "#PWR0519") (unit 1)
         )
@@ -3113,7 +3079,7 @@
     (pin "1" (uuid 243bd492-bcae-4b7b-93fa-3c3328686e50))
     (pin "2" (uuid da0dece2-40dc-459c-95e5-5b380a08a098))
     (instances
-      (project "ADC_Test"
+      (project "ETH1CREF1A"
         (path "/700b7e2e-569c-4a15-81a0-3588750b2d07/00000000-0000-0000-0000-00005fccc067"
           (reference "R508") (unit 1)
         )
@@ -3210,7 +3176,7 @@
     )
   )
 
-  (symbol (lib_id "ADC_TEST:LT1021-7") (at 86.36 81.28 0) (unit 1)
+  (symbol (lib_id "ETH1CREF1A:LT1021-7") (at 86.36 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f776bff3-749c-440e-a122-9d1158cc9e7e)
     (property "Reference" "U504" (at 86.36 71.9582 0)
@@ -3234,7 +3200,7 @@
     (pin "7" (uuid b42dbba1-fb21-4eff-8ad9-7e6901846dc2))
     (pin "8" (uuid 5773b441-68ed-4c95-9031-5650b1932362))
     (instances
-      (project "ADC_Test"
+      (project "ETH1CREF1A"
         (path "/700b7e2e-569c-4a15-81a0-3588750b2d07/00000000-0000-0000-0000-00005fccc067"
           (reference "U504") (unit 1)
         )
@@ -3244,7 +3210,7 @@
       )
       (project "ETH1CREF1A"
         (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/846bb202-5e4e-44fb-9116-3eb04dadebb8"
-          (reference "U704") (unit 1)
+          (reference "U703") (unit 1)
         )
       )
     )
