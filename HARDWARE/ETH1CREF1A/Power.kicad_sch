@@ -149,6 +149,65 @@
         )
       )
     )
+    (symbol "Device:C_Polarized" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+      (property "Reference" "C" (at 0.635 2.54 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Value" "C_Polarized" (at 0.635 -2.54 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Footprint" "" (at 0.9652 -3.81 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "cap capacitor" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Polarized capacitor" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "CP_*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "C_Polarized_0_1"
+        (rectangle (start -2.286 0.508) (end 2.286 1.016)
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.778 2.286)
+            (xy -0.762 2.286)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.27 2.794)
+            (xy -1.27 1.778)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (rectangle (start 2.286 -0.508) (end -2.286 -1.016)
+          (stroke (width 0) (type default))
+          (fill (type outline))
+        )
+      )
+      (symbol "C_Polarized_1_1"
+        (pin passive line (at 0 3.81 270) (length 2.794)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 0 -3.81 90) (length 2.794)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "Device:D_Schottky" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "D" (at 0 2.54 0)
         (effects (font (size 1.27 1.27)))
@@ -3296,37 +3355,6 @@
     )
   )
 
-  (symbol (lib_id "Device:C") (at 168.275 158.75 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 0bacebcc-1a68-4aa5-8d75-3e2b2e338ea0)
-    (property "Reference" "C429" (at 171.196 157.5816 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "4u7/50V" (at 171.196 159.893 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" (at 169.2402 162.56 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 168.275 158.75 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid b9cf4efc-8e08-475e-a58b-974b0e3a4b41))
-    (pin "2" (uuid 65ff373a-ee19-42d3-b7b9-376b131c4b6e))
-    (instances
-      (project "ETH1CREF1A"
-        (path "/a4468fce-770b-419b-b8ef-3da450c0aad6/00000000-0000-0000-0000-00005e3dec4f"
-          (reference "C429") (unit 1)
-        )
-      )
-      (project "ETH1CREF1A"
-        (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/62654dcd-3414-4e70-b8e6-16734596bf10"
-          (reference "C620") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:C") (at 139.065 158.75 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1143fc79-e054-4fec-a2c3-e534674b6b7d)
@@ -3423,7 +3451,7 @@
   (symbol (lib_id "ETH1CREF1A:AGNDF") (at 249.555 42.545 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1b216ae2-2a1e-4c23-bd2e-eb7ee3f7d4d4)
-    (property "Reference" "#PWR0631" (at 243.205 42.545 0)
+    (property "Reference" "#PWR0621" (at 243.205 42.545 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "AGNDF" (at 246.38 42.545 90)
@@ -3439,7 +3467,7 @@
     (instances
       (project "ETH1CREF1A"
         (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/62654dcd-3414-4e70-b8e6-16734596bf10"
-          (reference "#PWR0631") (unit 1)
+          (reference "#PWR0621") (unit 1)
         )
       )
     )
@@ -3448,7 +3476,7 @@
   (symbol (lib_id "ETH1CREF1A:AGNDF") (at 264.795 42.545 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1c2bdc91-682f-4406-a487-20d785847f4b)
-    (property "Reference" "#PWR0628" (at 271.145 42.545 0)
+    (property "Reference" "#PWR0629" (at 271.145 42.545 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "AGNDF" (at 267.97 42.545 90)
@@ -3464,7 +3492,33 @@
     (instances
       (project "ETH1CREF1A"
         (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/62654dcd-3414-4e70-b8e6-16734596bf10"
-          (reference "#PWR0628") (unit 1)
+          (reference "#PWR0629") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:C_Polarized") (at 168.275 158.75 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 1c91aa8d-b243-433f-bb60-4e0a54a15bb7)
+    (property "Reference" "C620" (at 171.45 158.369 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "10u/35V" (at 171.45 160.909 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-6032-28_Kemet-C_Pad2.25x2.35mm_HandSolder" (at 167.3098 154.94 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 168.275 158.75 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid a363677c-3930-4bb5-ad2a-0c55f0b4b719))
+    (pin "2" (uuid c6c21237-375a-4db0-abff-914a2fdf3610))
+    (instances
+      (project "ETH1CREF1A"
+        (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/62654dcd-3414-4e70-b8e6-16734596bf10"
+          (reference "C620") (unit 1)
         )
       )
     )
@@ -3965,7 +4019,7 @@
   (symbol (lib_id "ETH1CREF1A:-15VF") (at 250.825 37.465 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3af67af7-d6d6-49a8-8bd0-39e191b6ba16)
-    (property "Reference" "#PWR0622" (at 254.635 37.465 0)
+    (property "Reference" "#PWR0623" (at 254.635 37.465 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "-15VF" (at 247.015 37.465 90)
@@ -3981,7 +4035,7 @@
     (instances
       (project "ETH1CREF1A"
         (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/62654dcd-3414-4e70-b8e6-16734596bf10"
-          (reference "#PWR0622") (unit 1)
+          (reference "#PWR0623") (unit 1)
         )
       )
     )
@@ -4046,7 +4100,7 @@
   (symbol (lib_id "power:+5V") (at 263.525 34.925 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4189d5f2-27e0-4202-ae66-2c0032b6b795)
-    (property "Reference" "#PWR0623" (at 259.715 34.925 0)
+    (property "Reference" "#PWR0627" (at 259.715 34.925 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 267.335 34.925 90)
@@ -4062,7 +4116,7 @@
     (instances
       (project "ETH1CREF1A"
         (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/62654dcd-3414-4e70-b8e6-16734596bf10"
-          (reference "#PWR0623") (unit 1)
+          (reference "#PWR0627") (unit 1)
         )
       )
     )
@@ -4373,6 +4427,32 @@
     )
   )
 
+  (symbol (lib_id "Device:C_Polarized") (at 168.275 102.235 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 5ba03eb8-a412-4d8a-97cb-3e08f033aad0)
+    (property "Reference" "C619" (at 171.45 100.076 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "10u/35V" (at 171.45 102.616 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-6032-28_Kemet-C_Pad2.25x2.35mm_HandSolder" (at 169.2402 106.045 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 168.275 102.235 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 1a91500d-6ee3-4b31-94de-21c01d586019))
+    (pin "2" (uuid 9a7d61c7-1014-417d-865e-0dae4babd2f3))
+    (instances
+      (project "ETH1CREF1A"
+        (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/62654dcd-3414-4e70-b8e6-16734596bf10"
+          (reference "C619") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:C") (at 123.825 158.75 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5c549b78-26f5-4229-a904-41937c903322)
@@ -4544,7 +4624,7 @@
   (symbol (lib_id "ETH1CREF1A:AGNDF") (at 260.985 154.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6735ca05-c94c-492c-8dae-9e6561704cd0)
-    (property "Reference" "#PWR0627" (at 260.985 161.29 0)
+    (property "Reference" "#PWR0626" (at 260.985 161.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "AGNDF" (at 260.985 159.385 0)
@@ -4560,7 +4640,7 @@
     (instances
       (project "ETH1CREF1A"
         (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/62654dcd-3414-4e70-b8e6-16734596bf10"
-          (reference "#PWR0627") (unit 1)
+          (reference "#PWR0626") (unit 1)
         )
         (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/ebac98f6-7cea-4b7b-a7eb-72e971f44089"
           (reference "#PWR0803") (unit 1)
@@ -4867,7 +4947,7 @@
   (symbol (lib_id "ETH1CREF1A:DGNDF") (at 253.365 154.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7de67eb2-4285-4907-96fe-3dbda7f7f0fc)
-    (property "Reference" "#PWR0625" (at 253.365 161.29 0)
+    (property "Reference" "#PWR0624" (at 253.365 161.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "DGNDF" (at 253.365 159.385 0)
@@ -4883,7 +4963,7 @@
     (instances
       (project "ETH1CREF1A"
         (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/62654dcd-3414-4e70-b8e6-16734596bf10"
-          (reference "#PWR0625") (unit 1)
+          (reference "#PWR0624") (unit 1)
         )
       )
     )
@@ -4945,37 +5025,6 @@
       (project "ETH1CREF1A"
         (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/62654dcd-3414-4e70-b8e6-16734596bf10"
           (reference "#PWR0610") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C") (at 269.875 118.11 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 815375d4-3005-4d1d-ad30-06f6ee63dbf3)
-    (property "Reference" "C437" (at 272.796 116.9416 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "47u/16V" (at 272.796 119.253 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" (at 270.8402 121.92 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 269.875 118.11 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid e1387d37-0b68-4f24-868e-6fae0588f105))
-    (pin "2" (uuid 2a99facb-f2e9-4a43-9a29-8bab13dbf0d5))
-    (instances
-      (project "ETH1CREF1A"
-        (path "/a4468fce-770b-419b-b8ef-3da450c0aad6/00000000-0000-0000-0000-00005e3dec4f"
-          (reference "C437") (unit 1)
-        )
-      )
-      (project "ETH1CREF1A"
-        (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/62654dcd-3414-4e70-b8e6-16734596bf10"
-          (reference "C628") (unit 1)
         )
       )
     )
@@ -5219,6 +5268,32 @@
     )
   )
 
+  (symbol (lib_id "Device:C_Polarized") (at 269.875 118.11 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 9be385c3-01b6-46c5-ad45-0701d831ded2)
+    (property "Reference" "C628" (at 273.05 115.951 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "10u/35V" (at 273.05 118.491 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-6032-28_Kemet-C_Pad2.25x2.35mm_HandSolder" (at 270.8402 121.92 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 269.875 118.11 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 31ca1dcb-0f57-4d2b-877f-439956f26ea5))
+    (pin "2" (uuid 92dd9b64-25f8-4398-812e-47a87e8457f9))
+    (instances
+      (project "ETH1CREF1A"
+        (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/62654dcd-3414-4e70-b8e6-16734596bf10"
+          (reference "C628") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:C") (at 166.37 66.04 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9c1cf0b1-3742-4b4d-b2e2-eb26812b01a4)
@@ -5250,10 +5325,36 @@
     )
   )
 
+  (symbol (lib_id "Device:C_Polarized") (at 269.875 81.915 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid a787e659-34b2-4a80-9f20-b12b0543cab4)
+    (property "Reference" "C627" (at 273.05 79.756 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "10u/35V" (at 273.05 82.296 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-6032-28_Kemet-C_Pad2.25x2.35mm_HandSolder" (at 270.8402 85.725 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 269.875 81.915 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid e001a231-089b-4547-aba7-ef436d31d5aa))
+    (pin "2" (uuid 8c3b044c-86c1-4dc0-afa6-9ccf80e05d37))
+    (instances
+      (project "ETH1CREF1A"
+        (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/62654dcd-3414-4e70-b8e6-16734596bf10"
+          (reference "C627") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "ETH1CREF1A:+15VF") (at 250.825 34.925 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ae754184-8f58-4d62-bd0b-a87beb48105c)
-    (property "Reference" "#PWR0621" (at 254.635 34.925 0)
+    (property "Reference" "#PWR0622" (at 254.635 34.925 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+15VF" (at 247.015 34.925 90)
@@ -5269,7 +5370,7 @@
     (instances
       (project "ETH1CREF1A"
         (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/62654dcd-3414-4e70-b8e6-16734596bf10"
-          (reference "#PWR0621") (unit 1)
+          (reference "#PWR0622") (unit 1)
         )
       )
     )
@@ -5301,37 +5402,6 @@
       (project "ETH1CREF1A"
         (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/62654dcd-3414-4e70-b8e6-16734596bf10"
           (reference "R601") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C") (at 168.275 102.235 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid b1f343aa-2247-4f9b-85bc-84ea2035e1b0)
-    (property "Reference" "C428" (at 171.196 101.0666 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "4u7/50V" (at 171.196 103.378 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" (at 169.2402 106.045 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 168.275 102.235 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid fe90b7b2-67f2-4f00-8620-da3577b88550))
-    (pin "2" (uuid 2d824b14-5a81-4e1c-bcdb-fe9647642fe7))
-    (instances
-      (project "ETH1CREF1A"
-        (path "/a4468fce-770b-419b-b8ef-3da450c0aad6/00000000-0000-0000-0000-00005e3dec4f"
-          (reference "C428") (unit 1)
-        )
-      )
-      (project "ETH1CREF1A"
-        (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/62654dcd-3414-4e70-b8e6-16734596bf10"
-          (reference "C619") (unit 1)
         )
       )
     )
@@ -5424,7 +5494,7 @@
       )
       (project "ETH1CREF1A"
         (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/62654dcd-3414-4e70-b8e6-16734596bf10"
-          (reference "#PWR0630") (unit 1)
+          (reference "#PWR0631") (unit 1)
         )
       )
     )
@@ -5574,7 +5644,7 @@
   (symbol (lib_id "ETH1CREF1A:AGNDF") (at 257.175 127 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c60b0f61-e1e2-4532-a2d8-74e189cb20d1)
-    (property "Reference" "#PWR0626" (at 257.175 133.35 0)
+    (property "Reference" "#PWR0625" (at 257.175 133.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "AGNDF" (at 257.175 132.08 0)
@@ -5590,7 +5660,7 @@
     (instances
       (project "ETH1CREF1A"
         (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/62654dcd-3414-4e70-b8e6-16734596bf10"
-          (reference "#PWR0626") (unit 1)
+          (reference "#PWR0625") (unit 1)
         )
       )
     )
@@ -5654,37 +5724,6 @@
       (project "ETH1CREF1A"
         (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/62654dcd-3414-4e70-b8e6-16734596bf10"
           (reference "U607") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C") (at 269.875 81.915 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid cc1a758c-e2c6-4626-9d53-e73ad46578de)
-    (property "Reference" "C437" (at 272.796 80.7466 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "47u/16V" (at 272.796 83.058 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" (at 270.8402 85.725 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 269.875 81.915 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 4398f5d0-9cb9-4d2f-8028-04c4691255b6))
-    (pin "2" (uuid 40545087-3a11-4c64-83ba-cbb841de1444))
-    (instances
-      (project "ETH1CREF1A"
-        (path "/a4468fce-770b-419b-b8ef-3da450c0aad6/00000000-0000-0000-0000-00005e3dec4f"
-          (reference "C437") (unit 1)
-        )
-      )
-      (project "ETH1CREF1A"
-        (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/62654dcd-3414-4e70-b8e6-16734596bf10"
-          (reference "C627") (unit 1)
         )
       )
     )
@@ -5785,7 +5824,7 @@
   (symbol (lib_id "power:+5V") (at 269.875 70.485 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid da01eb78-5f3f-4dfc-ba84-78a224dfcfff)
-    (property "Reference" "#PWR0629" (at 269.875 74.295 0)
+    (property "Reference" "#PWR0630" (at 269.875 74.295 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 269.875 66.675 0)
@@ -5801,7 +5840,7 @@
     (instances
       (project "ETH1CREF1A"
         (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/62654dcd-3414-4e70-b8e6-16734596bf10"
-          (reference "#PWR0629") (unit 1)
+          (reference "#PWR0630") (unit 1)
         )
       )
     )
@@ -6118,7 +6157,7 @@
   (symbol (lib_id "power:+3.3V") (at 263.525 37.465 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fd043bd9-4cc1-4d10-8a18-15a2a36cfded)
-    (property "Reference" "#PWR0624" (at 259.715 37.465 0)
+    (property "Reference" "#PWR0628" (at 259.715 37.465 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 267.335 37.465 90)
@@ -6134,7 +6173,7 @@
     (instances
       (project "ETH1CREF1A"
         (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/62654dcd-3414-4e70-b8e6-16734596bf10"
-          (reference "#PWR0624") (unit 1)
+          (reference "#PWR0628") (unit 1)
         )
       )
     )
