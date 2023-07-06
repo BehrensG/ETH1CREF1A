@@ -937,6 +937,9 @@
   (junction (at 153.67 50.8) (diameter 0) (color 0 0 0 0)
     (uuid a5c45d14-207c-45de-a75c-510feafa5cf0)
   )
+  (junction (at 22.86 134.62) (diameter 0) (color 0 0 0 0)
+    (uuid b816e047-c690-4cdc-b0e8-c8e65bf8d105)
+  )
   (junction (at 123.19 88.9) (diameter 0) (color 0 0 0 0)
     (uuid b8920207-73f0-4dca-ab98-dd661c694759)
   )
@@ -945,6 +948,9 @@
   )
   (junction (at 100.33 57.15) (diameter 0) (color 0 0 0 0)
     (uuid c62120c0-8e5d-405a-a225-39939319fdfc)
+  )
+  (junction (at 22.86 143.51) (diameter 0) (color 0 0 0 0)
+    (uuid c7d87458-8b35-46bc-98e9-01d07a8620d0)
   )
   (junction (at 201.295 128.27) (diameter 0) (color 0 0 0 0)
     (uuid cd7949c8-e75f-427c-94b1-dba6ae487165)
@@ -957,6 +963,9 @@
   )
   (junction (at 146.685 68.58) (diameter 0) (color 0 0 0 0)
     (uuid e01a5996-a6ce-402b-b731-c7380c37da7b)
+  )
+  (junction (at 52.705 143.51) (diameter 0) (color 0 0 0 0)
+    (uuid e05a854b-2706-41f7-9f5a-a34a058f5d85)
   )
   (junction (at 227.965 128.27) (diameter 0) (color 0 0 0 0)
     (uuid e277ba2f-8954-4e07-b72a-18c1b005b819)
@@ -975,6 +984,9 @@
   )
   (junction (at 120.65 137.16) (diameter 0) (color 0 0 0 0)
     (uuid fe2e2df8-def1-42cf-98d5-647f86420bc6)
+  )
+  (junction (at 52.705 134.62) (diameter 0) (color 0 0 0 0)
+    (uuid fec7a66d-3e43-462a-a784-a3caf75cd922)
   )
 
   (wire (pts (xy 52.705 180.975) (xy 59.69 180.975))
@@ -1057,6 +1069,10 @@
     (stroke (width 0) (type default))
     (uuid 17bb1661-25aa-4eaf-9602-780fdf56a160)
   )
+  (wire (pts (xy 22.86 143.51) (xy 29.845 143.51))
+    (stroke (width 0) (type default))
+    (uuid 2035fa75-f072-493f-9727-a80f6995448a)
+  )
   (wire (pts (xy 159.385 137.16) (xy 147.955 137.16))
     (stroke (width 0) (type default))
     (uuid 2224a6ad-59d3-458e-ae09-cebf513b61eb)
@@ -1113,6 +1129,10 @@
     (stroke (width 0) (type default))
     (uuid 302c2838-8809-4ead-9f35-8e2b95cdd40e)
   )
+  (wire (pts (xy 22.86 143.51) (xy 22.86 144.145))
+    (stroke (width 0) (type default))
+    (uuid 309430f4-c236-4935-b7b0-c825493f69bd)
+  )
   (wire (pts (xy 193.04 59.69) (xy 207.645 59.69))
     (stroke (width 0) (type default))
     (uuid 334469fd-9ec5-47fc-8299-0fa52ea8f49b)
@@ -1124,6 +1144,10 @@
   (wire (pts (xy 207.645 98.425) (xy 207.645 68.58))
     (stroke (width 0) (type default))
     (uuid 33ca8bd2-fc7b-40cb-b80b-47ed56bc279e)
+  )
+  (wire (pts (xy 46.355 142.875) (xy 46.355 143.51))
+    (stroke (width 0) (type default))
+    (uuid 3405649a-6293-4a29-8869-e91ed0e53a22)
   )
   (wire (pts (xy 127.635 83.82) (xy 126.365 83.82))
     (stroke (width 0) (type default))
@@ -1169,6 +1193,10 @@
     (stroke (width 0) (type default))
     (uuid 49c8dee6-f6f9-420e-ac6b-a8208de2554a)
   )
+  (wire (pts (xy 46.355 135.255) (xy 46.355 134.62))
+    (stroke (width 0) (type default))
+    (uuid 49cec98d-516f-4246-8f3f-9203c4e2e9f4)
+  )
   (wire (pts (xy 126.365 68.58) (xy 133.35 68.58))
     (stroke (width 0) (type default))
     (uuid 4c057997-d913-40bb-904b-5be355c10bac)
@@ -1188,6 +1216,10 @@
   (wire (pts (xy 59.69 157.48) (xy 59.69 158.115))
     (stroke (width 0) (type default))
     (uuid 4fccb0b9-f802-43d7-ab2a-aa21e5c98951)
+  )
+  (wire (pts (xy 52.705 143.51) (xy 52.705 144.145))
+    (stroke (width 0) (type default))
+    (uuid 5054ea0d-a757-47d6-ae69-695386d0e6e6)
   )
   (wire (pts (xy 147.955 136.525) (xy 147.955 137.16))
     (stroke (width 0) (type default))
@@ -1269,6 +1301,10 @@
     (stroke (width 0) (type default))
     (uuid 696a44de-8254-4693-8343-c34e45cf4781)
   )
+  (wire (pts (xy 16.51 142.875) (xy 16.51 143.51))
+    (stroke (width 0) (type default))
+    (uuid 6aaac6cd-4b24-4eb8-8b1c-abcd2dd1e4ee)
+  )
   (wire (pts (xy 153.67 33.655) (xy 153.67 41.91))
     (stroke (width 0) (type default))
     (uuid 6aeaf1d7-8a2a-429e-84ea-fed55396f6cc)
@@ -1281,9 +1317,21 @@
     (stroke (width 0) (type default))
     (uuid 6bea184f-ff70-41be-8e03-6c94d6d38b9c)
   )
+  (wire (pts (xy 59.69 143.51) (xy 59.69 142.875))
+    (stroke (width 0) (type default))
+    (uuid 6d9c2fcd-1ab5-4f10-b243-529d9f661190)
+  )
+  (wire (pts (xy 29.845 143.51) (xy 29.845 142.875))
+    (stroke (width 0) (type default))
+    (uuid 6feeee26-e4ae-401a-bbe7-5171ad6d1227)
+  )
   (wire (pts (xy 172.72 59.69) (xy 185.42 59.69))
     (stroke (width 0) (type default))
     (uuid 7084acf5-5281-4207-87ac-223f16499a88)
+  )
+  (wire (pts (xy 22.86 134.62) (xy 29.845 134.62))
+    (stroke (width 0) (type default))
+    (uuid 70906c6d-af6f-4e75-a03f-0a18f60cd70e)
   )
   (wire (pts (xy 193.04 24.765) (xy 207.645 24.765))
     (stroke (width 0) (type default))
@@ -1292,6 +1340,10 @@
   (wire (pts (xy 227.965 137.16) (xy 227.965 137.795))
     (stroke (width 0) (type default))
     (uuid 73e55e36-c778-4ec8-8c84-1b308feecdda)
+  )
+  (wire (pts (xy 16.51 135.255) (xy 16.51 134.62))
+    (stroke (width 0) (type default))
+    (uuid 757e726c-d67b-4914-b86b-90ce0a69182a)
   )
   (wire (pts (xy 193.04 50.8) (xy 207.645 50.8))
     (stroke (width 0) (type default))
@@ -1325,6 +1377,10 @@
     (stroke (width 0) (type default))
     (uuid 7c025544-07c7-4817-a661-7bed0c08daf9)
   )
+  (wire (pts (xy 16.51 143.51) (xy 22.86 143.51))
+    (stroke (width 0) (type default))
+    (uuid 7e03b42c-c20e-414a-b823-d35269e220cf)
+  )
   (wire (pts (xy 146.685 86.36) (xy 142.875 86.36))
     (stroke (width 0) (type default))
     (uuid 7f21e51f-eba8-464c-b4cd-c4fd8c7ad964)
@@ -1349,9 +1405,17 @@
     (stroke (width 0) (type default))
     (uuid 85d6c875-6d78-49da-8a5a-2c62d4681e97)
   )
+  (wire (pts (xy 52.705 143.51) (xy 59.69 143.51))
+    (stroke (width 0) (type default))
+    (uuid 85f9401b-38cc-4cc5-a94d-d7f2f8bb625f)
+  )
   (wire (pts (xy 147.955 127.635) (xy 147.955 128.27))
     (stroke (width 0) (type default))
     (uuid 85fec5e4-9490-441a-9989-6930334cc925)
+  )
+  (wire (pts (xy 59.69 134.62) (xy 59.69 135.255))
+    (stroke (width 0) (type default))
+    (uuid 881e7820-12ae-451d-9c20-46dc4ab01ff7)
   )
   (wire (pts (xy 100.33 68.58) (xy 109.22 68.58))
     (stroke (width 0) (type default))
@@ -1465,6 +1529,10 @@
     (stroke (width 0) (type default))
     (uuid ab934ff6-b637-4099-a9a3-9996f623dd16)
   )
+  (wire (pts (xy 52.705 133.985) (xy 52.705 134.62))
+    (stroke (width 0) (type default))
+    (uuid abbe31f4-b3ed-4995-b025-43e527d55184)
+  )
   (wire (pts (xy 16.51 180.975) (xy 22.86 180.975))
     (stroke (width 0) (type default))
     (uuid ac421158-6d3c-4da1-ad69-5e274b3c90b2)
@@ -1508,6 +1576,10 @@
   (wire (pts (xy 100.33 86.36) (xy 100.33 68.58))
     (stroke (width 0) (type default))
     (uuid bc3253c2-53cf-4594-a8e6-bc1d1f734a04)
+  )
+  (wire (pts (xy 29.845 134.62) (xy 29.845 135.255))
+    (stroke (width 0) (type default))
+    (uuid bcfc368e-53b4-40e1-b216-318f5156f8aa)
   )
   (wire (pts (xy 212.725 128.27) (xy 212.725 128.905))
     (stroke (width 0) (type default))
@@ -1573,9 +1645,17 @@
     (stroke (width 0) (type default))
     (uuid d1a907a5-d4e7-4c3f-b2f1-5c41542ca81c)
   )
+  (wire (pts (xy 46.355 134.62) (xy 52.705 134.62))
+    (stroke (width 0) (type default))
+    (uuid d2f96d67-e510-4980-9e20-0f043b9579ab)
+  )
   (wire (pts (xy 146.685 68.58) (xy 146.685 57.15))
     (stroke (width 0) (type default))
     (uuid d4b4a487-a4c9-41a2-a7cc-ed8142c1e1aa)
+  )
+  (wire (pts (xy 52.705 134.62) (xy 59.69 134.62))
+    (stroke (width 0) (type default))
+    (uuid d7da992b-6d14-4872-a128-5e75033f88f6)
   )
   (wire (pts (xy 201.295 128.27) (xy 212.725 128.27))
     (stroke (width 0) (type default))
@@ -1613,6 +1693,14 @@
     (stroke (width 0) (type default))
     (uuid e73da63b-4365-4f98-a1f3-eed4151098f7)
   )
+  (wire (pts (xy 46.355 143.51) (xy 52.705 143.51))
+    (stroke (width 0) (type default))
+    (uuid e7a950fc-65cb-404e-9d83-9afd584118dd)
+  )
+  (wire (pts (xy 22.86 133.985) (xy 22.86 134.62))
+    (stroke (width 0) (type default))
+    (uuid e95ed593-d37c-4d45-bf79-f3302bf54740)
+  )
   (wire (pts (xy 239.395 128.27) (xy 239.395 128.905))
     (stroke (width 0) (type default))
     (uuid eab2cb5a-c8b3-46b5-a0d8-a0fc0cc5a7f5)
@@ -1644,6 +1732,10 @@
   (wire (pts (xy 59.69 189.865) (xy 59.69 189.23))
     (stroke (width 0) (type default))
     (uuid f667d503-76fc-476e-8c1d-0dea84726412)
+  )
+  (wire (pts (xy 16.51 134.62) (xy 22.86 134.62))
+    (stroke (width 0) (type default))
+    (uuid f676f0f6-b46e-466d-83df-a5997483a506)
   )
   (wire (pts (xy 153.67 33.655) (xy 165.1 33.655))
     (stroke (width 0) (type default))
@@ -1699,10 +1791,36 @@
     (uuid e69bbb10-89b0-47b4-9f97-cf29bf85d095)
   )
 
+  (symbol (lib_id "Device:C") (at 29.845 139.065 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 040d1d90-555f-4d37-a9fc-4b7ad6f5b44a)
+    (property "Reference" "C1004" (at 33.02 137.795 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "1u" (at 33.02 140.335 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 30.8102 142.875 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 29.845 139.065 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid f98c4837-5c98-467f-93a6-ba7aa643119f))
+    (pin "2" (uuid 164add4e-b869-42a4-a67f-045d3a3c3e30))
+    (instances
+      (project "ETH1CREF1A"
+        (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/33714a51-881b-4b10-9a64-bf80408073c4"
+          (reference "C1004") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:C") (at 29.845 161.925 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 08910232-ac04-41a4-9e06-94b334ead30d)
-    (property "Reference" "C1003" (at 33.02 160.655 0)
+    (property "Reference" "C1005" (at 33.02 160.655 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1u" (at 33.02 163.195 0)
@@ -1719,7 +1837,7 @@
     (instances
       (project "ETH1CREF1A"
         (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/33714a51-881b-4b10-9a64-bf80408073c4"
-          (reference "C1003") (unit 1)
+          (reference "C1005") (unit 1)
         )
       )
     )
@@ -1782,6 +1900,31 @@
       (project "ETH1CREF1A"
         (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/33714a51-881b-4b10-9a64-bf80408073c4"
           (reference "#PWR01020") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "ETH1CREF1A:+15VF") (at 52.705 133.985 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 096d5375-d50a-4a32-ab60-6ca807286265)
+    (property "Reference" "#PWR01007" (at 52.705 137.795 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+15VF" (at 52.705 129.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 52.705 133.985 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 52.705 133.985 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid bafb7165-4c99-4cb6-a7f3-d6fd73b5e14a))
+    (instances
+      (project "ETH1CREF1A"
+        (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/33714a51-881b-4b10-9a64-bf80408073c4"
+          (reference "#PWR01007") (unit 1)
         )
       )
     )
@@ -1911,7 +2054,7 @@
   (symbol (lib_id "ETH1CREF1A:AGNDF") (at 121.92 180.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 15218bd4-6987-40bf-9a29-bc065abe9e73)
-    (property "Reference" "#PWR01025" (at 121.92 186.69 0)
+    (property "Reference" "#PWR01022" (at 121.92 186.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "AGNDF" (at 121.92 184.785 0)
@@ -1927,7 +2070,7 @@
     (instances
       (project "ETH1CREF1A"
         (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/33714a51-881b-4b10-9a64-bf80408073c4"
-          (reference "#PWR01025") (unit 1)
+          (reference "#PWR01022") (unit 1)
         )
       )
     )
@@ -2100,7 +2243,7 @@
   (symbol (lib_id "Device:C") (at 59.69 161.925 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3495a4cb-1a24-44f1-af26-ba3c3d9e94c0)
-    (property "Reference" "C1007" (at 62.865 160.655 0)
+    (property "Reference" "C1011" (at 62.865 160.655 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1u" (at 62.865 163.195 0)
@@ -2117,7 +2260,7 @@
     (instances
       (project "ETH1CREF1A"
         (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/33714a51-881b-4b10-9a64-bf80408073c4"
-          (reference "C1007") (unit 1)
+          (reference "C1011") (unit 1)
         )
       )
     )
@@ -2154,7 +2297,7 @@
   (symbol (lib_id "Device:C") (at 113.03 68.58 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 36d5d491-7670-4a44-b28b-6c0ce528da21)
-    (property "Reference" "C1009" (at 113.03 61.595 90)
+    (property "Reference" "C1013" (at 113.03 61.595 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "200p" (at 113.03 64.135 90)
@@ -2171,7 +2314,7 @@
     (instances
       (project "ETH1CREF1A"
         (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/33714a51-881b-4b10-9a64-bf80408073c4"
-          (reference "C1009") (unit 1)
+          (reference "C1013") (unit 1)
         )
       )
     )
@@ -2180,7 +2323,7 @@
   (symbol (lib_id "Device:C") (at 29.845 185.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 39c45447-6fdb-4222-9116-32b9eb08ae5e)
-    (property "Reference" "C1004" (at 33.02 184.15 0)
+    (property "Reference" "C1006" (at 33.02 184.15 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1u" (at 33.02 186.69 0)
@@ -2197,7 +2340,7 @@
     (instances
       (project "ETH1CREF1A"
         (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/33714a51-881b-4b10-9a64-bf80408073c4"
-          (reference "C1004") (unit 1)
+          (reference "C1006") (unit 1)
         )
       )
     )
@@ -2206,7 +2349,7 @@
   (symbol (lib_id "ETH1CREF1A:-15VF") (at 132.715 93.98 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 410cb57f-cd0f-45e0-a8de-dfdef6c764d0)
-    (property "Reference" "#PWR01004" (at 132.715 90.17 0)
+    (property "Reference" "#PWR01024" (at 132.715 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "-15VF" (at 132.715 98.425 0)
@@ -2222,7 +2365,7 @@
     (instances
       (project "ETH1CREF1A"
         (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/33714a51-881b-4b10-9a64-bf80408073c4"
-          (reference "#PWR01004") (unit 1)
+          (reference "#PWR01024") (unit 1)
         )
       )
     )
@@ -2231,7 +2374,7 @@
   (symbol (lib_id "power:+5V") (at 147.955 127.635 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 50cf35cb-f530-4371-b64a-0d0851ee2f92)
-    (property "Reference" "#PWR01006" (at 147.955 131.445 0)
+    (property "Reference" "#PWR01025" (at 147.955 131.445 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 147.955 123.19 0)
@@ -2247,7 +2390,7 @@
     (instances
       (project "ETH1CREF1A"
         (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/33714a51-881b-4b10-9a64-bf80408073c4"
-          (reference "#PWR01006") (unit 1)
+          (reference "#PWR01025") (unit 1)
         )
       )
     )
@@ -2316,10 +2459,36 @@
     )
   )
 
+  (symbol (lib_id "Device:C") (at 59.69 139.065 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 694d2c0c-77db-4234-99b0-f37ff0f4f308)
+    (property "Reference" "C1010" (at 62.865 137.795 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "1u" (at 62.865 140.335 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 60.6552 142.875 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 59.69 139.065 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 59038d41-a9eb-4db5-af01-ab17e35c4570))
+    (pin "2" (uuid 88d9c15b-e5d7-49ff-b26a-a3cfc2722fa9))
+    (instances
+      (project "ETH1CREF1A"
+        (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/33714a51-881b-4b10-9a64-bf80408073c4"
+          (reference "C1010") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "ETH1CREF1A:-15VF") (at 22.86 180.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6e4d547f-63f8-4176-ab16-931c63561d19)
-    (property "Reference" "#PWR01017" (at 22.86 184.15 0)
+    (property "Reference" "#PWR01005" (at 22.86 184.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "-15VF" (at 22.86 175.895 0)
@@ -2335,7 +2504,7 @@
     (instances
       (project "ETH1CREF1A"
         (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/33714a51-881b-4b10-9a64-bf80408073c4"
-          (reference "#PWR01017") (unit 1)
+          (reference "#PWR01005") (unit 1)
         )
       )
     )
@@ -2344,7 +2513,7 @@
   (symbol (lib_id "power:+5V") (at 255.27 127.635 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6ed6f387-d494-4c08-a570-47e6eba6dcca)
-    (property "Reference" "#PWR01010" (at 255.27 131.445 0)
+    (property "Reference" "#PWR01029" (at 255.27 131.445 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 255.27 123.19 0)
@@ -2360,7 +2529,7 @@
     (instances
       (project "ETH1CREF1A"
         (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/33714a51-881b-4b10-9a64-bf80408073c4"
-          (reference "#PWR01010") (unit 1)
+          (reference "#PWR01029") (unit 1)
         )
       )
     )
@@ -2395,7 +2564,7 @@
   (symbol (lib_id "ETH1CREF1A:-15VF") (at 75.565 189.23 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 709619ab-b38c-4075-b03e-4ab4fef4f125)
-    (property "Reference" "#PWR01012" (at 75.565 185.42 0)
+    (property "Reference" "#PWR01015" (at 75.565 185.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "-15VF" (at 75.565 194.31 0)
@@ -2411,7 +2580,33 @@
     (instances
       (project "ETH1CREF1A"
         (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/33714a51-881b-4b10-9a64-bf80408073c4"
-          (reference "#PWR01012") (unit 1)
+          (reference "#PWR01015") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:C") (at 16.51 139.065 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 71cb4d44-051c-4508-845b-635168c03be7)
+    (property "Reference" "C1001" (at 20.32 137.795 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "100n" (at 20.32 140.335 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 17.4752 142.875 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 16.51 139.065 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 37c33534-0f6b-4446-bf54-c6541f71b1c0))
+    (pin "2" (uuid 60a7f94e-c01f-4674-96b8-14eba83756f9))
+    (instances
+      (project "ETH1CREF1A"
+        (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/33714a51-881b-4b10-9a64-bf80408073c4"
+          (reference "C1001") (unit 1)
         )
       )
     )
@@ -2420,7 +2615,7 @@
   (symbol (lib_id "power:+5V") (at 174.625 127.635 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7580bc5b-09a1-4a30-a92f-2342a5332ba8)
-    (property "Reference" "#PWR01007" (at 174.625 131.445 0)
+    (property "Reference" "#PWR01026" (at 174.625 131.445 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 174.625 123.19 0)
@@ -2436,7 +2631,7 @@
     (instances
       (project "ETH1CREF1A"
         (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/33714a51-881b-4b10-9a64-bf80408073c4"
-          (reference "#PWR01007") (unit 1)
+          (reference "#PWR01026") (unit 1)
         )
       )
     )
@@ -2445,7 +2640,7 @@
   (symbol (lib_id "power:+5V") (at 227.965 127.635 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 76379e6a-8daf-487e-a66a-79c6013eee0a)
-    (property "Reference" "#PWR01009" (at 227.965 131.445 0)
+    (property "Reference" "#PWR01028" (at 227.965 131.445 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 227.965 123.19 0)
@@ -2461,7 +2656,7 @@
     (instances
       (project "ETH1CREF1A"
         (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/33714a51-881b-4b10-9a64-bf80408073c4"
-          (reference "#PWR01009") (unit 1)
+          (reference "#PWR01028") (unit 1)
         )
       )
     )
@@ -2470,7 +2665,7 @@
   (symbol (lib_id "Device:C") (at 59.69 185.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7d51ccd5-f80b-4d66-b4e4-a9c27b1a4652)
-    (property "Reference" "C1008" (at 62.865 184.15 0)
+    (property "Reference" "C1012" (at 62.865 184.15 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1u" (at 62.865 186.69 0)
@@ -2487,7 +2682,7 @@
     (instances
       (project "ETH1CREF1A"
         (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/33714a51-881b-4b10-9a64-bf80408073c4"
-          (reference "C1008") (unit 1)
+          (reference "C1012") (unit 1)
         )
       )
     )
@@ -2529,7 +2724,7 @@
   (symbol (lib_id "ETH1CREF1A:AGNDF") (at 52.705 190.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 832d792a-2fce-49df-8692-dd4a8dea83a4)
-    (property "Reference" "#PWR01024" (at 52.705 196.85 0)
+    (property "Reference" "#PWR01012" (at 52.705 196.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "AGNDF" (at 52.705 194.945 0)
@@ -2545,7 +2740,7 @@
     (instances
       (project "ETH1CREF1A"
         (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/33714a51-881b-4b10-9a64-bf80408073c4"
-          (reference "#PWR01024") (unit 1)
+          (reference "#PWR01012") (unit 1)
         )
       )
     )
@@ -2572,6 +2767,31 @@
       (project "ETH1CREF1A"
         (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/33714a51-881b-4b10-9a64-bf80408073c4"
           (reference "R1003") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "ETH1CREF1A:-15VF") (at 22.86 133.985 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 862bd58c-a51b-438c-934a-02fb9b8158b3)
+    (property "Reference" "#PWR01001" (at 22.86 137.795 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "-15VF" (at 22.86 129.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 22.86 133.985 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 22.86 133.985 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid b9384405-a9e3-466d-a0ed-f8086f73ab8c))
+    (instances
+      (project "ETH1CREF1A"
+        (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/33714a51-881b-4b10-9a64-bf80408073c4"
+          (reference "#PWR01001") (unit 1)
         )
       )
     )
@@ -2704,7 +2924,7 @@
   (symbol (lib_id "ETH1CREF1A:AGNDF") (at 22.86 190.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8d29ef6a-896e-43af-bf34-738119fa7c65)
-    (property "Reference" "#PWR01018" (at 22.86 196.85 0)
+    (property "Reference" "#PWR01006" (at 22.86 196.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "AGNDF" (at 22.86 194.945 0)
@@ -2720,7 +2940,7 @@
     (instances
       (project "ETH1CREF1A"
         (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/33714a51-881b-4b10-9a64-bf80408073c4"
-          (reference "#PWR01018") (unit 1)
+          (reference "#PWR01006") (unit 1)
         )
       )
     )
@@ -2754,6 +2974,31 @@
       (project "ETH1CREF1A"
         (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/33714a51-881b-4b10-9a64-bf80408073c4"
           (reference "U1002") (unit 2)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "ETH1CREF1A:AGNDF") (at 52.705 144.145 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 8e8f2beb-d64d-4e0c-a045-5015bc8424ff)
+    (property "Reference" "#PWR01008" (at 52.705 150.495 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "AGNDF" (at 52.705 148.59 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 52.705 144.145 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 52.705 144.145 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 53711543-3dcb-4ec0-aae3-d4d567a48c66))
+    (instances
+      (project "ETH1CREF1A"
+        (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/33714a51-881b-4b10-9a64-bf80408073c4"
+          (reference "#PWR01008") (unit 1)
         )
       )
     )
@@ -2849,7 +3094,7 @@
   (symbol (lib_id "Device:C") (at 16.51 161.925 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9add13df-3680-440a-a14c-7a1c5612883b)
-    (property "Reference" "C1001" (at 20.32 160.655 0)
+    (property "Reference" "C1002" (at 20.32 160.655 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 20.32 163.195 0)
@@ -2866,7 +3111,7 @@
     (instances
       (project "ETH1CREF1A"
         (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/33714a51-881b-4b10-9a64-bf80408073c4"
-          (reference "C1001") (unit 1)
+          (reference "C1002") (unit 1)
         )
       )
     )
@@ -2875,7 +3120,7 @@
   (symbol (lib_id "ETH1CREF1A:-15VF") (at 22.86 156.845 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a754978b-1c66-449a-a980-571af4035aa0)
-    (property "Reference" "#PWR01015" (at 22.86 160.655 0)
+    (property "Reference" "#PWR01003" (at 22.86 160.655 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "-15VF" (at 22.86 152.4 0)
@@ -2891,7 +3136,7 @@
     (instances
       (project "ETH1CREF1A"
         (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/33714a51-881b-4b10-9a64-bf80408073c4"
-          (reference "#PWR01015") (unit 1)
+          (reference "#PWR01003") (unit 1)
         )
       )
     )
@@ -2933,7 +3178,7 @@
   (symbol (lib_id "power:+5V") (at 201.295 127.635 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b490d63a-02bf-4641-9adc-18b2a8294f64)
-    (property "Reference" "#PWR01008" (at 201.295 131.445 0)
+    (property "Reference" "#PWR01027" (at 201.295 131.445 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 201.295 123.19 0)
@@ -2949,7 +3194,7 @@
     (instances
       (project "ETH1CREF1A"
         (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/33714a51-881b-4b10-9a64-bf80408073c4"
-          (reference "#PWR01008") (unit 1)
+          (reference "#PWR01027") (unit 1)
         )
       )
     )
@@ -2958,7 +3203,7 @@
   (symbol (lib_id "Device:C") (at 16.51 185.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b72d76e8-dd22-466d-8113-ef39e815b4b2)
-    (property "Reference" "C1002" (at 20.32 184.15 0)
+    (property "Reference" "C1003" (at 20.32 184.15 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 20.32 186.69 0)
@@ -2975,7 +3220,7 @@
     (instances
       (project "ETH1CREF1A"
         (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/33714a51-881b-4b10-9a64-bf80408073c4"
-          (reference "C1002") (unit 1)
+          (reference "C1003") (unit 1)
         )
       )
     )
@@ -2984,7 +3229,7 @@
   (symbol (lib_id "ETH1CREF1A:AGNDF") (at 85.725 57.15 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b7c784c1-410c-483a-92aa-0062e9f11501)
-    (property "Reference" "#PWR01002" (at 79.375 57.15 0)
+    (property "Reference" "#PWR01016" (at 79.375 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "AGNDF" (at 81.915 57.15 90)
@@ -3000,7 +3245,7 @@
     (instances
       (project "ETH1CREF1A"
         (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/33714a51-881b-4b10-9a64-bf80408073c4"
-          (reference "#PWR01002") (unit 1)
+          (reference "#PWR01016") (unit 1)
         )
       )
     )
@@ -3066,10 +3311,36 @@
     )
   )
 
+  (symbol (lib_id "Device:C") (at 46.355 139.065 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid be559d6d-1b28-4e17-a2b3-e8dfb4f8e262)
+    (property "Reference" "C1007" (at 50.165 137.795 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "100n" (at 50.165 140.335 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 47.3202 142.875 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 46.355 139.065 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid e804adb1-0a44-44e1-9dce-f62c8a4259f8))
+    (pin "2" (uuid 8862664e-98f3-4705-90b9-bbe5328644e3))
+    (instances
+      (project "ETH1CREF1A"
+        (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/33714a51-881b-4b10-9a64-bf80408073c4"
+          (reference "C1007") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "ETH1CREF1A:+15VF") (at 52.705 156.845 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bebdcae1-981d-408f-ae28-eb46a4170075)
-    (property "Reference" "#PWR01021" (at 52.705 160.655 0)
+    (property "Reference" "#PWR01009" (at 52.705 160.655 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+15VF" (at 52.705 152.4 0)
@@ -3085,7 +3356,7 @@
     (instances
       (project "ETH1CREF1A"
         (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/33714a51-881b-4b10-9a64-bf80408073c4"
-          (reference "#PWR01021") (unit 1)
+          (reference "#PWR01009") (unit 1)
         )
       )
     )
@@ -3157,7 +3428,7 @@
   (symbol (lib_id "ETH1CREF1A:AGNDF") (at 52.705 167.005 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cba08484-8533-4228-8c6c-5ad98c89888a)
-    (property "Reference" "#PWR01022" (at 52.705 173.355 0)
+    (property "Reference" "#PWR01010" (at 52.705 173.355 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "AGNDF" (at 52.705 171.45 0)
@@ -3173,7 +3444,7 @@
     (instances
       (project "ETH1CREF1A"
         (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/33714a51-881b-4b10-9a64-bf80408073c4"
-          (reference "#PWR01022") (unit 1)
+          (reference "#PWR01010") (unit 1)
         )
       )
     )
@@ -3182,7 +3453,7 @@
   (symbol (lib_id "power:+5V") (at 120.65 127.635 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cce95a0f-3bae-451d-ac2e-7b6ab2b0044a)
-    (property "Reference" "#PWR01005" (at 120.65 131.445 0)
+    (property "Reference" "#PWR01021" (at 120.65 131.445 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 120.65 123.19 0)
@@ -3198,7 +3469,7 @@
     (instances
       (project "ETH1CREF1A"
         (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/33714a51-881b-4b10-9a64-bf80408073c4"
-          (reference "#PWR01005") (unit 1)
+          (reference "#PWR01021") (unit 1)
         )
       )
     )
@@ -3207,7 +3478,7 @@
   (symbol (lib_id "Device:C") (at 46.355 185.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d1b73d46-3a75-4fab-9f7b-097cf2e8bd82)
-    (property "Reference" "C1006" (at 50.165 184.15 0)
+    (property "Reference" "C1009" (at 50.165 184.15 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 50.165 186.69 0)
@@ -3224,7 +3495,7 @@
     (instances
       (project "ETH1CREF1A"
         (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/33714a51-881b-4b10-9a64-bf80408073c4"
-          (reference "C1006") (unit 1)
+          (reference "C1009") (unit 1)
         )
       )
     )
@@ -3287,7 +3558,7 @@
   (symbol (lib_id "ETH1CREF1A:+15VF") (at 132.715 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid da968751-0619-4b12-8516-0da8df63b445)
-    (property "Reference" "#PWR01003" (at 132.715 82.55 0)
+    (property "Reference" "#PWR01023" (at 132.715 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+15VF" (at 132.715 74.93 0)
@@ -3303,7 +3574,7 @@
     (instances
       (project "ETH1CREF1A"
         (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/33714a51-881b-4b10-9a64-bf80408073c4"
-          (reference "#PWR01003") (unit 1)
+          (reference "#PWR01023") (unit 1)
         )
       )
     )
@@ -3312,7 +3583,7 @@
   (symbol (lib_id "ETH1CREF1A:+15VF") (at 85.725 161.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid db71f00e-df33-44e5-9765-4a31e0bd81fa)
-    (property "Reference" "#PWR01013" (at 85.725 165.1 0)
+    (property "Reference" "#PWR01017" (at 85.725 165.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+15VF" (at 85.725 156.845 0)
@@ -3328,7 +3599,7 @@
     (instances
       (project "ETH1CREF1A"
         (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/33714a51-881b-4b10-9a64-bf80408073c4"
-          (reference "#PWR01013") (unit 1)
+          (reference "#PWR01017") (unit 1)
         )
       )
     )
@@ -3337,7 +3608,7 @@
   (symbol (lib_id "ETH1CREF1A:AGNDF") (at 22.86 167.005 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ddf5d828-00f3-478a-a9e8-02ce1d75beb6)
-    (property "Reference" "#PWR01016" (at 22.86 173.355 0)
+    (property "Reference" "#PWR01004" (at 22.86 173.355 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "AGNDF" (at 22.86 171.45 0)
@@ -3353,7 +3624,7 @@
     (instances
       (project "ETH1CREF1A"
         (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/33714a51-881b-4b10-9a64-bf80408073c4"
-          (reference "#PWR01016") (unit 1)
+          (reference "#PWR01004") (unit 1)
         )
       )
     )
@@ -3390,7 +3661,7 @@
   (symbol (lib_id "ETH1CREF1A:AGNDF") (at 85.725 189.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid df156086-fa82-4e2c-b794-0f5d0aa4c94d)
-    (property "Reference" "#PWR01014" (at 85.725 195.58 0)
+    (property "Reference" "#PWR01018" (at 85.725 195.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "AGNDF" (at 85.725 193.675 0)
@@ -3406,7 +3677,32 @@
     (instances
       (project "ETH1CREF1A"
         (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/33714a51-881b-4b10-9a64-bf80408073c4"
-          (reference "#PWR01014") (unit 1)
+          (reference "#PWR01018") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "ETH1CREF1A:AGNDF") (at 22.86 144.145 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid e08f3e88-c4ba-4da7-a0ee-1782b32814ee)
+    (property "Reference" "#PWR01002" (at 22.86 150.495 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "AGNDF" (at 22.86 148.59 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 22.86 144.145 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 22.86 144.145 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 5d7e5786-c280-4eee-92f6-63dd8327629d))
+    (instances
+      (project "ETH1CREF1A"
+        (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/33714a51-881b-4b10-9a64-bf80408073c4"
+          (reference "#PWR01002") (unit 1)
         )
       )
     )
@@ -3450,7 +3746,7 @@
   (symbol (lib_id "ETH1CREF1A:+15VF") (at 52.705 180.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e4bcb11e-b60e-4128-a15d-2934c3ff0eb6)
-    (property "Reference" "#PWR01023" (at 52.705 184.15 0)
+    (property "Reference" "#PWR01011" (at 52.705 184.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+15VF" (at 52.705 175.895 0)
@@ -3466,7 +3762,7 @@
     (instances
       (project "ETH1CREF1A"
         (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/33714a51-881b-4b10-9a64-bf80408073c4"
-          (reference "#PWR01023") (unit 1)
+          (reference "#PWR01011") (unit 1)
         )
       )
     )
@@ -3531,7 +3827,7 @@
   (symbol (lib_id "ETH1CREF1A:AGNDF") (at 67.945 98.425 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ec57fbc7-5141-4111-87a3-e7ba78fc2c13)
-    (property "Reference" "#PWR01001" (at 61.595 98.425 0)
+    (property "Reference" "#PWR01013" (at 61.595 98.425 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "AGNDF" (at 64.135 98.425 90)
@@ -3547,7 +3843,7 @@
     (instances
       (project "ETH1CREF1A"
         (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/33714a51-881b-4b10-9a64-bf80408073c4"
-          (reference "#PWR01001") (unit 1)
+          (reference "#PWR01013") (unit 1)
         )
       )
     )
@@ -3556,7 +3852,7 @@
   (symbol (lib_id "Device:C") (at 46.355 161.925 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ec5ae536-0009-4b45-b0c9-18bb28d91b18)
-    (property "Reference" "C1005" (at 50.165 160.655 0)
+    (property "Reference" "C1008" (at 50.165 160.655 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 50.165 163.195 0)
@@ -3573,7 +3869,7 @@
     (instances
       (project "ETH1CREF1A"
         (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/33714a51-881b-4b10-9a64-bf80408073c4"
-          (reference "C1005") (unit 1)
+          (reference "C1008") (unit 1)
         )
       )
     )
@@ -3582,7 +3878,7 @@
   (symbol (lib_id "power:+5V") (at 74.93 161.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f5db618e-ddd1-4933-89d4-28076d3dd830)
-    (property "Reference" "#PWR01011" (at 74.93 165.1 0)
+    (property "Reference" "#PWR01014" (at 74.93 165.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 74.93 156.845 0)
@@ -3598,7 +3894,7 @@
     (instances
       (project "ETH1CREF1A"
         (path "/f534bde3-7724-4aa2-8c73-8f0531e01e95/33714a51-881b-4b10-9a64-bf80408073c4"
-          (reference "#PWR01011") (unit 1)
+          (reference "#PWR01014") (unit 1)
         )
       )
     )
