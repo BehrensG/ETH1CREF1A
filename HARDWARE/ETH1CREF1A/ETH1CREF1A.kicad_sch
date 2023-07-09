@@ -540,11 +540,6 @@
     (uuid fe23fcf1-609d-4b23-b91e-ba64978c25b8)
   )
 
-  (text "3670384\n3670548" (at 64.77 160.655 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 491a78bc-c98d-461a-8dc6-9564ada50f36)
-  )
-
   (symbol (lib_id "Device:RFShield_OnePiece") (at 121.92 171.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 072670ef-c111-48b8-96e0-d7d7521134a9)
